@@ -2,8 +2,6 @@
 
 **考试时间 Exam Date：** 2026年5月11日 14:30
 
-> 以下链接均需 LSE Moodle 登录。运行 `download_materials.py` 可一键下载所有 PDF 到本地。
-
 ---
 
 ## 课程结构 Course Structure
@@ -13,71 +11,77 @@
 | 1–2 | 货币时间价值 Time Value of Money、永续年金 Perpetuities |
 | 3 | 资产估值 Valuation、尽职调查 Due Diligence、加权平均资本成本 WACC |
 | 4 | 杠杆与风险 Leverage and Risk |
-| 5+ | 房地产基金 Real Estate Funds、案例研究 Case Studies |
+| 5 | 房地产基金 Real Estate Funds |
+| 6–7 | 商业地产 Commercial Real Estate、债务融资 Debt Financing |
+| 9 | 房地产周期 Real Estate Cycles |
+| 10 | ESG 与可持续发展 ESG Considerations |
 
 ---
 
-## 核心资料 Key Resources
+## 讲义 Lectures
 
-### 课程大纲 Syllabus
-- [GY462 Syllabus WT2026](https://moodle.lse.ac.uk/pluginfile.php/4378205/mod_resource/content/3/GY462%20Syllabus%20WT2026%20Final.pdf)
+> 文件均在 [`lectures/`](lectures/) 目录下，可直接下载。
 
-### 讲义 Lectures
-| 讲次 | 讲义 Handout (PDF) | 完整幻灯片 Full Slides (PDF) |
-|------|-------------------|---------------------------|
-| Lecture 3 | [Handout](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649320) | [Full Page PDF](https://moodle.lse.ac.uk/pluginfile.php/5762813/mod_resource/content/2/GY462_Lec03_2026_lec_full_page.pdf) |
-| Lecture 4 | [Handout](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649325) | [Full Page PDF](https://moodle.lse.ac.uk/pluginfile.php/5766352/mod_resource/content/1/GY462_Lec04_2026_lec_full_page.pdf) |
+| 讲次 | 文件 |
+|------|------|
+| Lecture 1 | [GY462_Lec01_2026_lec.pdf](lectures/GY462_Lec01_2026_lec.pdf) |
+| Lecture 2 | [GY462_Lec02_2026_lec.pdf](lectures/GY462_Lec02_2026_lec.pdf) |
+| Lecture 3 | [GY462_Lec03_2026_lec.pdf](lectures/GY462_Lec03_2026_lec.pdf) |
+| Lecture 4 | [GY462_Lec04_2026_lec_new.pdf](lectures/GY462_Lec04_2026_lec_new.pdf) |
+| Lecture 5 | [GY462_Lec05_2026_lec.pdf](lectures/GY462_Lec05_2026_lec.pdf) |
+| Lecture 6 | [GY462_Lec06_2026_lec.pdf](lectures/GY462_Lec06_2026_lec.pdf) |
+| Lecture 7 | [GY462_Lec07_2026_lec.pdf](lectures/GY462_Lec07_2026_lec.pdf) |
+| Lecture 9 | [GY462_Lec09_2026_lec.pdf](lectures/GY462_Lec09_2026_lec.pdf) |
 
-补充材料 Supplementary：
-- [Lecture 2 - 固定倍数与增长型永续年金样例 Constant Multiple & Growth Perpetuity Sample](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649300)
-- [Lecture 3 - 尽职调查样例 Due Diligence Sample](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649322)
-- [Lecture 3 - WACC 公式推导 Deriving WACC Formulas](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649323)
-- [Lecture 4 - 杠杆与风险计算 Leverage and Risk Calculations](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649329)
-- [房地产基金幻灯片 Real Estate Funds - Slides (Damian Perry)](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649339)
+---
 
-### 习题集 Problem Sets
-| 习题集 | 题目 Questions | 解答 Solutions | Excel |
-|--------|--------------|---------------|-------|
-| Problem Set 1 | [PDF](https://moodle.lse.ac.uk/pluginfile.php/5759562/mod_resource/content/0/Problem%20Set%201_2026.pdf) | [Solutions](https://moodle.lse.ac.uk/pluginfile.php/5767386/mod_resource/content/0/Problem%20Set%201%20Solutions_2026.pdf) | [Excel](https://moodle.lse.ac.uk/pluginfile.php/5767389/mod_resource/content/0/Prob%20Set%201_2026_FV.xlsx) |
-| Problem Set 2 | [PDF](https://moodle.lse.ac.uk/pluginfile.php/5770242/mod_resource/content/0/Problem%20Set%202_2026.pdf) | [Solutions](https://moodle.lse.ac.uk/pluginfile.php/5771643/mod_resource/content/0/Problem%20Set%202%20Solutions%202026.pdf) | [Excel](https://moodle.lse.ac.uk/pluginfile.php/5771644/mod_resource/content/0/Prob%20Set%202_2026.xlsx) |
+## 习题集 Problem Sets
+
+> 需 LSE Moodle 登录访问
+
+| 习题集 | 题目 | 解答 Solutions | Excel |
+|--------|------|---------------|-------|
+| Problem Set 1 | [题目 PDF](https://moodle.lse.ac.uk/pluginfile.php/5759562/mod_resource/content/0/Problem%20Set%201_2026.pdf) | [Solutions](https://moodle.lse.ac.uk/pluginfile.php/5767386/mod_resource/content/0/Problem%20Set%201%20Solutions_2026.pdf) | [Excel](https://moodle.lse.ac.uk/pluginfile.php/5767389/mod_resource/content/0/Prob%20Set%201_2026_FV.xlsx) |
+| Problem Set 2 | [题目 PDF](https://moodle.lse.ac.uk/pluginfile.php/5770242/mod_resource/content/0/Problem%20Set%202_2026.pdf) | [Solutions](https://moodle.lse.ac.uk/pluginfile.php/5771643/mod_resource/content/0/Problem%20Set%202%20Solutions%202026.pdf) | [Excel](https://moodle.lse.ac.uk/pluginfile.php/5771644/mod_resource/content/0/Prob%20Set%202_2026.xlsx) |
 
 - [金融计算器使用指南 Financial Calculator Guide](https://moodle.lse.ac.uk/pluginfile.php/5767387/mod_resource/content/0/Problem%20Set%201%20-%20Financial%20calculator.pdf)
 
-### 研讨课 Seminars
-| 研讨课 | 幻灯片 Slides |
-|--------|-------------|
-| Seminar 1 | [Slides PDF](https://moodle.lse.ac.uk/pluginfile.php/5767388/mod_resource/content/0/Seminar%201%20Slides_2026.pdf) |
-| Seminar 1 | [永续年金演示 Perpetuity Demonstration](https://moodle.lse.ac.uk/pluginfile.php/4378251/mod_resource/content/0/Seminar%201%20Slides%20-%20Perpetuity%20demonstration.pdf) |
-
 ---
 
-## 历年真题（含解答）Past Exam Papers (with Solutions) ⭐
+## 历年真题（含解答）Past Exam Papers ⭐
+
+> 文件均在 [`past-exams/`](past-exams/) 目录下，可直接下载。
 
 | 年份 Year | 文件 File |
 |-----------|----------|
-| 2025 | [GY462 2025 Exam with Solutions](https://moodle.lse.ac.uk/pluginfile.php/5787017/mod_resource/content/1/GY462%202025%20Exam%20with%20Solutions.pdf) |
-| 2024 | [GY462 2024](https://moodle.lse.ac.uk/pluginfile.php/4378222/mod_resource/content/1/GY462%202024.pdf) |
-| 2023 | [GY462 Exam 2023 Solutions](https://moodle.lse.ac.uk/pluginfile.php/4378223/mod_resource/content/1/GY462%20Exam%202023%20Solutions.pdf) |
-| 2022 | [GY462 Exam 2021-22](https://moodle.lse.ac.uk/pluginfile.php/4378224/mod_resource/content/1/GY462%20Exam%202021-22.pdf) |
-| 2021 | [GY462 Questions and Solutions 2021](https://moodle.lse.ac.uk/pluginfile.php/4378225/mod_resource/content/1/GY462%20Quetions%20and%20Solutions%202021%20Draft.pdf) |
-| 2020 | [GY462 Questions and Solutions 2020](https://moodle.lse.ac.uk/pluginfile.php/4378226/mod_resource/content/1/GY462%20Questions%20and%20Solutions%202020%20Final.pdf) |
-| 2019 | [Amended 2019 Solutions](https://moodle.lse.ac.uk/pluginfile.php/4378227/mod_resource/content/5/amended%202019%20solutions.pdf) |
-| 2018 | [GY462 Questions 2018](https://moodle.lse.ac.uk/pluginfile.php/4378228/mod_resource/content/1/GY462Questions2018_Checked.pdf) |
+| 2025 | [GY462 2025 Exam with Solutions.pdf](past-exams/GY462%202025%20Exam%20with%20Solutions.pdf) |
+| 2024 | [GY462 2024.pdf](past-exams/GY462%202024.pdf) |
+| 2023 | [GY462 Exam 2023 Solutions.pdf](past-exams/GY462%20Exam%202023%20Solutions.pdf) |
+| 2022 | [GY462 Exam 2021-22.pdf](past-exams/GY462%20Exam%202021-22.pdf) |
+| 2021 | [GY462 Quetions and Solutions 2021 Draft.pdf](past-exams/GY462%20Quetions%20and%20Solutions%202021%20Draft.pdf) |
+| 2020 | [GY462 Questions and Solutions 2020 Final.pdf](past-exams/GY462%20Questions%20and%20Solutions%202020%20Final.pdf) |
+| 2019 | [amended 2019 solutions.pdf](past-exams/amended%202019%20solutions.pdf) |
+| 2018 | [GY462Questions2018_Checked.pdf](past-exams/GY462Questions2018_Checked.pdf) |
+| 2017 | [GY462Questions2017_Checked.pdf](past-exams/GY462Questions2017_Checked.pdf) |
+| 2016 | [2016_GY462 solutions_Checked.pdf](past-exams/2016_GY462%20solutions_Checked.pdf) |
+| 2015 | [GY462Questions2015_Checked.pdf](past-exams/GY462Questions2015_Checked.pdf) |
+| 2014 | [GY462Questions2014_Checked.pdf](past-exams/GY462Questions2014_Checked.pdf) |
+| 2013 | [GY462Questions2013_Checked (1).pdf](<past-exams/GY462Questions2013_Checked (1).pdf>) |
 
 ---
 
 ## 备考计划 Study Plan
 
-**距考试还有13天（5月11日 14:30）**
+**距考试 13 天（5月11日 14:30）**
 
-| 天数 | 任务 Focus |
-|------|-----------|
-| 第1–2天 | 复习所有讲义 + 核心公式 Review lecture handouts + key formulas |
-| 第3–4天 | 独立完成习题集 1 & 2（不看答案）Problem Sets 1 & 2 (redo without solutions) |
-| 第5–7天 | 限时做 2025、2024、2023 真题 Past exams timed |
-| 第8–10天 | 限时做 2022、2021、2020 真题 Past exams timed |
-| 第11–12天 | 针对薄弱点专项复习 Review weak areas |
-| 第13天 | 轻度回顾 + 公式速查 Light review + formula sheet |
+| 天数 | 任务 |
+|------|------|
+| 第1–2天 | 通读 Lecture 1–9 讲义，整理核心概念 |
+| 第3–4天 | 独立做 Problem Set 1 & 2（不看答案），对照解答找薄弱点 |
+| 第5–7天 | 限时做 2025、2024、2023 真题（每套约2小时） |
+| 第8–10天 | 限时做 2022、2021、2020 真题 |
+| 第11–12天 | 针对高频考点专项复习，公式熟练度检验 |
+| 第13天 | 轻度回顾 + 公式速查，不做新题 |
 
 ---
 
