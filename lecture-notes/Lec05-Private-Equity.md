@@ -111,8 +111,27 @@
 ---
 
 ## 考试高频考点 Exam Focus Points
-1. LP/GP 结构、角色和责任划分
-2. Pref、Promote、Waterfall 概念
-3. Option 1 vs Option 2 瀑布计算
-4. IRR Preference vs IRR Lookback 区别
-5. 累积 vs 非累积优先回报的区别
+
+> **历年真题分析 Based on Past Exams 2013–2025**
+
+1. **LP/GP 结构、角色与风险分配** ★★★★ — 2019, 2020, 2022, 2025
+   - LP（有限合伙人）：被动出资，优先获得固定回报（Pref），损失有限
+   - GP（普通合伙人）：主动管理，承担更高风险，换取 Promote 超额收益
+   - 2022、2025 均考理论题讨论 LP/GP 风险如何分配
+
+2. **Waterfall 瀑布分配计算** ★★★★ — 2020（完整计算题含 Lookback）
+   - 顺序：①LP 获 Pref → ②GP 获 Pref → ③按比例（如 50/50）分超额
+   - 出售时：先还 LP 本金 → 还 GP 本金 → 再按目标 IRR 分 → 剩余再分
+
+3. **Promote 激励机制** ★★★★ — 2025（理论题重点）
+   - Promote = GP 超过 Pref 后获得的超额利润分成（如 20%）
+   - 核心逻辑：GP 只有在创造超额回报后才获得额外收益 → 激励努力管理
+
+4. **Deal-by-Deal vs Whole Fund 结算方式** ★★★ — 2025（新考点）
+   - Deal-by-deal：每笔交易独立结算 Promote（美国常见）→ GP 早期受益，LP 风险高
+   - Whole Fund：所有交易合并计算 Promote（英国常见）→ LP 更有保障
+
+5. **IRR Lookback（回溯条款）计算** ★★★ — 2020（完整计算）
+   - 从售价中先补足 LP 达到目标 IRR（如 10%）所需金额
+   - 方法：用 PV 公式反算 x，使得 LP 现金流 IRR 恰好等于目标；剩余全给 GP
+   - 2020 具体题目：IRR preference（12%）条件下，剩余 50/50 vs lookback 时 GP IRR 从 15.9% 跳到 20.3%

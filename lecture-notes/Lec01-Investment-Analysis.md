@@ -97,7 +97,27 @@ Step 5: 总价值 = Step1 + Step3 + Step4
 ---
 
 ## 考试高频考点 Exam Focus Points
-1. DCF 计算（TI BA II Plus 操作）
-2. 折现率的来源和含义
-3. Intra vs Inter-Lease 五步法（⭐ 极高频）
-4. 三种估值方法的适用场景和局限
+
+> **历年真题分析 Based on Past Exams 2013–2025**
+
+1. **RE 主要风险 Main Risks** ★★★★★ — 出现于**每年** Theory Q1（2013–2025）
+   - 空置、流动性差、经营成本、租赁违约、自然灾害、信息不对称
+   - 必须区分"房地产特有风险"vs"其他金融资产共有风险"
+
+2. **RE 主要机会 Opportunities** ★★★★ — 2013, 2014, 2015, 2018, 2022, 2023, 2025
+   - 租金增值、资产升值、运营管理协同效应（租金价值 > 售价重要）
+
+3. **流动性差/不可分割性 Illiquidity / Indivisibility** ★★★★ — 2019, 2020, 2023, 2025
+   - 三大特征：Indivisibility（大宗交易）、Illiquidity（难变现）、Large-lot size
+   - 这些特征使杠杆成为不可避免的选择，进一步放大风险
+
+4. **DCF 方法如何体现风险与机会** ★★★★ — 2013, 2014, 2019, 2021, 2025
+   - 分子（NOI）= 机会；分母（折现率）= 风险
+   - 同一资产不同租约段用不同折现率（Intra vs Inter-Lease）
+
+5. **Intra/Inter-Lease 折现率五步法** ★★ — 明确计算出现于 2016
+   - Intra-lease（签约期内）：低折现率（租户违约风险低）
+   - Inter-lease（租约间/未来重新出租）：高折现率（市场风险高）
+
+6. **物业类型特征 Property Types（Office/Retail/Industrial）** ★★ — 2013, 2014, 2015
+   - 位置、结构、租户特征对 Cap Rate 和风险的影响

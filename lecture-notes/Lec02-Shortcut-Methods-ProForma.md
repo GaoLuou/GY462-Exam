@@ -149,8 +149,29 @@ IRR CPT → 得出IRR
 ---
 
 ## 考试高频考点 Exam Focus Points
-1. Cap Rate 计算和含义（⭐ 必考）
-2. Gordon 模型 `Cap Rate = r - g`
-3. Pro Forma 各行项目定义
-4. IRR 计算器操作步骤
-5. Going-in vs Going-out Cap Rate 关系
+
+> **历年真题分析 Based on Past Exams 2013–2025**
+
+1. **Pro Forma 构建 + NOI 计算** ★★★★★ — **每年**计算 Q 都有（2013–2025）
+   - 典型元素：多租户建筑、租免期（rent-free）、超额租金（overage）、停车费
+   - 退出价值：`Year (n+1) NOI / Going-out Cap Rate`（需多算一年）
+   - 2020 考了购物中心（3租户）；2013考了办公楼（3租户+overage）
+
+2. **IRR 计算（CF Worksheet）** ★★★★★ — **每年**计算题（2013–2025）
+   - 给定购价求 IRR；给定目标 IRR 反算最高购价（用 NPV=0）
+   - 注意：计算器使用 CF0, C01/F01, C02/F02... → IRR CPT
+
+3. **Cap Rate 应用与近视性局限** ★★★★ — 2013, 2014, 2015, 2016, 2017, 2019, 2020
+   - `V = NOI / Cap Rate`；近视性（不考虑 NOI 增长）
+   - Going-in vs Going-out：去出 Cap Rate 一般 ≥ 进入 Cap Rate
+
+4. **Gordon 模型 Cap Rate 修正** ★★★★ — 2013, 2014, 2015, 2020
+   - `Adjusted Cap Rate = r - g`；DCF 和 Gordon 法结果一致（增长型永续年金）
+   - 2020 明确要求比较"未修正 Cap Rate"和"DCF"对同一物业的估值差异
+
+5. **情景/敏感性分析 Scenario Analysis** ★★★★ — 2013, 2014, 2015, 2016, 2017, 2018, 2020, 2023
+   - 变动 Cap Rate（±2%）对 IRR 的影响；E(IRR)、Var、SD、CoV 计算公式
+   - 2020 具体要求：三种情景各 1/3 概率，求期望 IRR 和标准差
+
+6. **等收益率法 Equivalent Yield** ★★ — 2013, 2014, 2016（英国早期考题）
+   - 区分 term-and-reversion、layer-and-hard core、equivalent/net initial/reversionary yield
