@@ -1,60 +1,60 @@
-# GY462 Real Estate Finance — Exam Preparation
+# GY462 Real Estate Finance（房地产金融）— 考试备考
 
-**Exam Date:** 11 May 2026, 14:30
+**考试时间 Exam Date：** 2026年5月11日 14:30
 
-> All links below require LSE Moodle authentication. Run `download_materials.py` to batch-download all PDFs locally.
-
----
-
-## Course Structure
-
-| Week | Topic |
-|------|-------|
-| 1-2 | Time Value of Money, Perpetuities |
-| 3 | Valuation & Due Diligence, WACC |
-| 4 | Leverage and Risk |
-| 5+ | Real Estate Funds, Case Studies |
+> 以下链接均需 LSE Moodle 登录。运行 `download_materials.py` 可一键下载所有 PDF 到本地。
 
 ---
 
-## Key Resources
+## 课程结构 Course Structure
 
-### Syllabus
+| 周次 Week | 主题 Topic |
+|-----------|-----------|
+| 1–2 | 货币时间价值 Time Value of Money、永续年金 Perpetuities |
+| 3 | 资产估值 Valuation、尽职调查 Due Diligence、加权平均资本成本 WACC |
+| 4 | 杠杆与风险 Leverage and Risk |
+| 5+ | 房地产基金 Real Estate Funds、案例研究 Case Studies |
+
+---
+
+## 核心资料 Key Resources
+
+### 课程大纲 Syllabus
 - [GY462 Syllabus WT2026](https://moodle.lse.ac.uk/pluginfile.php/4378205/mod_resource/content/3/GY462%20Syllabus%20WT2026%20Final.pdf)
 
-### Lectures
-| Lecture | Handout (PDF) | Full Slides (PDF) |
-|---------|--------------|-------------------|
+### 讲义 Lectures
+| 讲次 | 讲义 Handout (PDF) | 完整幻灯片 Full Slides (PDF) |
+|------|-------------------|---------------------------|
 | Lecture 3 | [Handout](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649320) | [Full Page PDF](https://moodle.lse.ac.uk/pluginfile.php/5762813/mod_resource/content/2/GY462_Lec03_2026_lec_full_page.pdf) |
 | Lecture 4 | [Handout](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649325) | [Full Page PDF](https://moodle.lse.ac.uk/pluginfile.php/5766352/mod_resource/content/1/GY462_Lec04_2026_lec_full_page.pdf) |
 
-Supplementary:
-- [Lecture 2 - Constant Multiple & Growth Perpetuity Sample](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649300)
-- [Lecture 3 - Due Diligence Sample](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649322)
-- [Lecture 3 - Deriving WACC Formulas](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649323)
-- [Lecture 4 - Leverage and Risk Calculations](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649329)
-- [Real Estate Funds - Slides (Damian Perry)](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649339)
+补充材料 Supplementary：
+- [Lecture 2 - 固定倍数与增长型永续年金样例 Constant Multiple & Growth Perpetuity Sample](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649300)
+- [Lecture 3 - 尽职调查样例 Due Diligence Sample](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649322)
+- [Lecture 3 - WACC 公式推导 Deriving WACC Formulas](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649323)
+- [Lecture 4 - 杠杆与风险计算 Leverage and Risk Calculations](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649329)
+- [房地产基金幻灯片 Real Estate Funds - Slides (Damian Perry)](https://moodle.lse.ac.uk/mod/resource/view.php?id=1649339)
 
-### Problem Sets
-| Set | Questions | Solutions | Excel |
-|-----|-----------|-----------|-------|
+### 习题集 Problem Sets
+| 习题集 | 题目 Questions | 解答 Solutions | Excel |
+|--------|--------------|---------------|-------|
 | Problem Set 1 | [PDF](https://moodle.lse.ac.uk/pluginfile.php/5759562/mod_resource/content/0/Problem%20Set%201_2026.pdf) | [Solutions](https://moodle.lse.ac.uk/pluginfile.php/5767386/mod_resource/content/0/Problem%20Set%201%20Solutions_2026.pdf) | [Excel](https://moodle.lse.ac.uk/pluginfile.php/5767389/mod_resource/content/0/Prob%20Set%201_2026_FV.xlsx) |
 | Problem Set 2 | [PDF](https://moodle.lse.ac.uk/pluginfile.php/5770242/mod_resource/content/0/Problem%20Set%202_2026.pdf) | [Solutions](https://moodle.lse.ac.uk/pluginfile.php/5771643/mod_resource/content/0/Problem%20Set%202%20Solutions%202026.pdf) | [Excel](https://moodle.lse.ac.uk/pluginfile.php/5771644/mod_resource/content/0/Prob%20Set%202_2026.xlsx) |
 
-- [Problem Set 1 - Financial Calculator Guide](https://moodle.lse.ac.uk/pluginfile.php/5767387/mod_resource/content/0/Problem%20Set%201%20-%20Financial%20calculator.pdf)
+- [金融计算器使用指南 Financial Calculator Guide](https://moodle.lse.ac.uk/pluginfile.php/5767387/mod_resource/content/0/Problem%20Set%201%20-%20Financial%20calculator.pdf)
 
-### Seminars
-| Seminar | Slides |
-|---------|--------|
+### 研讨课 Seminars
+| 研讨课 | 幻灯片 Slides |
+|--------|-------------|
 | Seminar 1 | [Slides PDF](https://moodle.lse.ac.uk/pluginfile.php/5767388/mod_resource/content/0/Seminar%201%20Slides_2026.pdf) |
-| Seminar 1 | [Perpetuity Demonstration](https://moodle.lse.ac.uk/pluginfile.php/4378251/mod_resource/content/0/Seminar%201%20Slides%20-%20Perpetuity%20demonstration.pdf) |
+| Seminar 1 | [永续年金演示 Perpetuity Demonstration](https://moodle.lse.ac.uk/pluginfile.php/4378251/mod_resource/content/0/Seminar%201%20Slides%20-%20Perpetuity%20demonstration.pdf) |
 
 ---
 
-## Past Exam Papers (with Solutions) ⭐
+## 历年真题（含解答）Past Exam Papers (with Solutions) ⭐
 
-| Year | File |
-|------|------|
+| 年份 Year | 文件 File |
+|-----------|----------|
 | 2025 | [GY462 2025 Exam with Solutions](https://moodle.lse.ac.uk/pluginfile.php/5787017/mod_resource/content/1/GY462%202025%20Exam%20with%20Solutions.pdf) |
 | 2024 | [GY462 2024](https://moodle.lse.ac.uk/pluginfile.php/4378222/mod_resource/content/1/GY462%202024.pdf) |
 | 2023 | [GY462 Exam 2023 Solutions](https://moodle.lse.ac.uk/pluginfile.php/4378223/mod_resource/content/1/GY462%20Exam%202023%20Solutions.pdf) |
@@ -66,21 +66,21 @@ Supplementary:
 
 ---
 
-## Exam Study Plan
+## 备考计划 Study Plan
 
-**13 days to exam (11 May 14:30)**
+**距考试还有13天（5月11日 14:30）**
 
-| Days | Focus |
-|------|-------|
-| Day 1-2 | Review all lecture handouts + key formulas |
-| Day 3-4 | Problem Sets 1 & 2 (redo without solutions) |
-| Day 5-7 | Past exams: 2025, 2024, 2023 (timed) |
-| Day 8-10 | Past exams: 2022, 2021, 2020 (timed) |
-| Day 11-12 | Review weak areas from past papers |
-| Day 13 | Light review, formula sheet |
+| 天数 | 任务 Focus |
+|------|-----------|
+| 第1–2天 | 复习所有讲义 + 核心公式 Review lecture handouts + key formulas |
+| 第3–4天 | 独立完成习题集 1 & 2（不看答案）Problem Sets 1 & 2 (redo without solutions) |
+| 第5–7天 | 限时做 2025、2024、2023 真题 Past exams timed |
+| 第8–10天 | 限时做 2022、2021、2020 真题 Past exams timed |
+| 第11–12天 | 针对薄弱点专项复习 Review weak areas |
+| 第13天 | 轻度回顾 + 公式速查 Light review + formula sheet |
 
 ---
 
-## Formula Quick Reference
+## 公式速查 Formula Quick Reference
 
-See [formula-sheet.md](formula-sheet.md) for key formulas.
+详见 [formula-sheet.md](formula-sheet.md)
