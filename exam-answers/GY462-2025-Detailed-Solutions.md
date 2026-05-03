@@ -1,8 +1,8 @@
 # GY462 Real Estate Finance — 2025 Exam Detailed Solutions
 # 2025年考试详细答案（中英双语）
 
-> **来源说明 Sources:** 所有答案基于 GY462 2026 讲义（Lecture 1–9），以及 Brueggeman & Fisher 教材。
-> All answers are grounded in GY462 2026 lecture slides and notes (Lectures 1–9).
+> **来源说明 Sources:** 所有答案仅基于 GY462 2026 课件（Lecture 1–9）。
+> All answers are based solely on GY462 2026 lecture slides and notes (Lectures 1–9).
 
 ---
 
