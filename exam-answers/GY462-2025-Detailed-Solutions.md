@@ -1,732 +1,712 @@
-# GY462 Real Estate Finance — 2025 Exam Detailed Solutions
-# 2025年考试详细答案（中英双语）
+# GY462 Real Estate Finance — 2025 Exam Model Answers
+# 2025年考试标准答案（中英双语）
 
-> **来源说明：** 所有答案仅基于 GY462 2026 课件（Lecture 1–9）。
-> All answers are based solely on GY462 2026 lecture slides and notes (Lectures 1–9).
-
----
-
-# QUESTION 1: Real Estate Investment Analysis (100 points)
-## 第一题：房地产投资分析
+> 来源：GY462 2026 课件（Lec 1–10）。难度标准：70分 Distinction 刚过线。
+> 考试结构：Q1 a–h 全员作答（含 PE 结构 + 开发合同）；Q2 a–j 全员作答。
 
 ---
 
-## Q1a — Key Risks and Opportunities of Direct Real Estate Investment (10 points)
-### 直接房地产投资的核心风险与机会
-
-**(Lecture 1)**
-
-### Risks 风险
-
-课件 Lecture 1 明确列出以下五类下行风险（Downside Risks）：
-
-**1. Vacancy 空置风险**
-物业可能出现空置，租金收入中断。即使空置期间，运营成本（保险、管理费等）仍持续产生。
-
-**2. Leasing / Tenant Default Risk 出租与租户违约风险**
-已签租约的租户可能破产违约，无法履行租约义务。这一风险直接影响折现率的选取——租约内（Intra-Lease）现金流的风险主要就是租户违约风险。
-
-**3. Natural Disasters 自然灾害**
-洪水、火灾等可能损毁物业，保险不一定全额覆盖。
-
-**4. Operating Costs 运营成本**
-维护、管理、保险等运营支出可能超出预期，直接压缩 NOI。
-
-**5. Liquidity 流动性风险**
-房产变现困难，交易缓慢且成本高昂（详见 Q1b）。
-
-**杠杆放大风险（Large Size and Use of Leverage）：**
-课件特别指出，房地产的不可分割性（Indivisibility）迫使投资者使用杠杆，而杠杆会进一步放大上述所有风险——物业价值下跌时，债务是固定的，损失首先由股权承担。
+# QUESTION 1 — Real Estate Investment: Risks, Leverage, DCF, PE and Development
 
 ---
 
-### Opportunities 机会
+## Q1a — Main risks and opportunities of direct real estate investment (10 pts)
 
-课件 Lecture 1 列出以下机会：
+*(Lecture 1)*
 
-**1. Terminal Value 资产终值**
-物业最终出售时的资本利得是主要回报来源之一，课件明确指出这通常是比租金增长"更重要"的机会（"Which one is more important? Why?"）。
+### Standard Answer
 
-**2. Rental Growth 租金增长**
-持有期内租金随市场和经济发展增长，带来持续提升的 NOI。
+**Risks:**
 
-**3. Operating Cost Synergies 运营协同**
-通过主动管理降低运营成本或提升租金收入，创造价值。课件同时将运营成本列为风险和机会（"Affect risk, opportunities — or both?"），提示两者相互关联。
+- **Vacancy:** property may stand empty, generating no income while fixed costs (insurance, management) continue.
+- **Tenant default:** existing tenants fail to pay rent or go bankrupt mid-lease, cutting cash flows unexpectedly.
+- **Operating cost overruns:** maintenance, insurance and management costs exceed budget, directly compressing NOI.
+- **Liquidity risk:** real estate transactions take months and cost 5–10% in fees; a forced sale means accepting a distressed price.
+- **Leverage:** most direct RE investments use debt, which amplifies all of the above — a fall in NOI or asset value hits equity first and disproportionately.
 
-**4. Leverage as Amplifier 杠杆放大回报**
-当物业回报率高于借贷成本（正向杠杆，Positive Leverage），杠杆可以放大股权回报（WACC 原理，详见 Q1c）。
+**Opportunities:**
 
----
-
-## Q1b — Why Direct RE is Intrinsically Illiquid, and Implications (10 points)
-### 直接房地产为何本质上缺乏流动性，以及流动性不足的影响
-
-**(Lecture 1)**
-
-### Why Illiquid? 为什么缺乏流动性？
-
-课件 Lecture 1 明确列出直接房地产与其他金融资产的核心差异，这些差异共同造成流动性差：
-
-**1. Indivisibility and Large Lot Size 不可分割性与大宗规模**
-买卖房地产需要数百万乃至数亿资金，无法像股票一样只购买"一份"。这使买卖双方池子极小，交易对手难以匹配。不可分割性也迫使投资者使用杠杆，进一步放大风险。
-
-**2. Heterogeneity 资产异质性**
-每栋物业的位置、楼龄、结构、租户均不同，不存在标准化产品。每笔交易都需要专业估值，耗时数周乃至数月。
-
-**3. Slow and Expensive Transactions 交易缓慢且成本高昂**
-完成一笔商业地产交易通常需要尽职调查、法律文件处理等，总交易成本（印花税、中介费、法律费）可达成交价的 5–10%，而股票交易几乎即时完成、成本极低。
-
-**4. Poor Liquidity and Private Trading 流动性差与私下交易**
-大多数商业地产交易在私下协商中完成，没有集中撮合的公开市场，信息不透明。
+- **Terminal value:** the exit sale price is typically the dominant return driver, especially over longer holds.
+- **Rental growth:** rent reviews and market conditions allow NOI to grow compoundingly over the hold period.
+- **Operating cost savings:** efficient management and energy improvements raise NOI above underwriting assumptions.
+- **Positive leverage:** when property yield > cost of debt, leverage amplifies equity returns beyond the unlevered return (WACC principle).
 
 ---
 
-### Implications 影响
+### 中文解释
 
-**风险（Risks）：**
-- **流动性风险（Liquidity Risk）本身即为风险：** 投资者因持有流动性差的资产，要求更高的风险溢价（Liquidity Premium 体现在折现率中）。
-- **被迫低价出售（Forced Sale）：** 当投资者急需资金（如还贷）或市场恶化时，房产无法迅速以合理价格变现，可能被迫折价出售。
-- **杠杆放大流动性风险：** 课件指出大规模物业通常使用杠杆（large size → leverage），一旦物业价值下跌，债务压力可能迫使在最差时机出售，流动性不足与杠杆风险相互强化。
+**五大风险 + 四大机会是 Lecture 1 的核心框架。**
 
-**机会（Opportunities）：**
-- 流动性差的市场意味着交易信息不透明，价格发现效率低。专业投资者凭借更深入的本地知识和行业经验，可以在其他投资者无法快速反应时买到被低估的物业，获取超额回报。
+关键点：杠杆（Leverage）是双向放大器——Property Yield > Cost of Debt 时（正杠杆 Positive Leverage）放大收益；反之加剧损失。Terminal Value 通常是最重要的机会，课件明确提出 "Which one is more important?"
+
+**关键术语：** Vacancy 空置 / Tenant Default 租户违约 / Liquidity Risk 流动性风险 / Leverage 杠杆 / Terminal Value 终值 / Rental Growth 租金增长 / Positive Leverage 正杠杆 / NOI（Net Operating Income）净营业收入
 
 ---
 
-## Q1c — Leverage Amplifying Opportunities: Why and Under What Conditions? (5 points)
-### 杠杆如何放大回报机会？在什么条件下？
+## Q1b — Why is direct real estate intrinsically illiquid? Risks and opportunities implied (10 pts)
 
-**(Lectures 3 & 4)**
+*(Lecture 1)*
 
-### WACC Formalisation WACC 公式形式化
+### Standard Answer
 
-从 Lecture 3 的 WACC（加权平均资本成本）公式出发：
+Direct real estate is structurally illiquid for four reasons:
 
-$$r_P = LTV \cdot r_D + (1 - LTV) \cdot r_E$$
+1. **Indivisibility and large lot size:** properties must be bought whole — no fractional shares. This requires very large capital commitments, drastically shrinking the pool of potential buyers.
+2. **Heterogeneity:** every asset is unique in location, age, and tenancy profile. There is no standardised product — pricing requires bespoke professional valuation, adding weeks to months of process time.
+3. **Slow and expensive transactions:** commercial deals require due diligence, legal documentation, and regulatory filings; total transaction costs run 5–10% of value (stamp duty, legal fees, agent fees) versus near-zero for equities.
+4. **Private trading:** most deals are negotiated bilaterally with no centralised exchange, creating information opacity and thin markets.
 
-其中：
-- $r_P$ = 物业整体回报率（Property Return）
-- $r_D$ = 债务成本（Cost of Debt / Mortgage Rate）
-- $r_E$ = 股权回报率（Equity Return）
-- $LTV$ = 贷款价值比（= D/V）
+**Risks from illiquidity:**
+- Investors demand a **liquidity premium** in the discount rate — otherwise the asset looks overpriced.
+- **Forced sale risk:** a stressed investor (e.g., facing loan covenant breach) cannot exit quickly at a fair price.
+- Leverage interacts adversely: large lot size necessitates debt, and if values fall, the lender can force a sale at the worst moment.
 
-变形得出股权回报率：
-
-$$\boxed{r_E = r_P + (r_P - r_D) \cdot \frac{D}{E}}$$
-
-### Condition for Positive Leverage 正向杠杆的条件
-
-**当 $r_P > r_D$（物业回报率 > 债务成本）时，杠杆放大股权回报（Positive Leverage）。**
-
-**数值示例（直接来自 Lecture 3）：**
-- 物业总价 £100，借款 £80（LTV = 80%，LR = 5），股权 £20
-- NOI = £12 → $r_P = 12\%$
-- 利率 = 10% → 年利息 = £8 → 股权收入 = £12 − £8 = £4
-- $r_E = 4/20 = 20\%$
-
-公式验证：$r_E = 12\% + (12\% - 10\%) \times (80/20) = 12\% + 8\% = 20\%$ ✓
-
-| 条件 | 效果 |
-|------|------|
-| $r_P > r_D$（Positive Leverage） | $r_E > r_P$，杠杆放大回报 |
-| $r_P = r_D$ | $r_E = r_P$，杠杆无效果 |
-| $r_P < r_D$（Negative Leverage） | $r_E < r_P$，杠杆反而降低回报 |
-
-杠杆率（D/E）越高，放大效果越强。
+**Opportunities from illiquidity:**
+- Thin, opaque markets create **information advantages** for well-connected local players — the ability to buy mispriced assets before broader price discovery corrects them.
 
 ---
 
-## Q1d — Costs of Leverage (Besides Interest Charges) (5 points)
-### 杠杆的成本（除利息以外）
+### 中文解释
 
-**(Lectures 3 & 4)**
+**直接房地产缺乏流动性的四大结构性原因（Lecture 1）：**
 
-### The Core Cost: Risk 核心成本是风险
+| 特征 | 核心影响 |
+|------|---------|
+| 不可分割性（Indivisibility）| 必须整体买入 → 买家池极小 |
+| 异质性（Heterogeneity）| 无标准化定价 → 估值耗时 |
+| 交易缓慢昂贵（Slow/Expensive）| 5–10% 交易成本 → 流动性差 |
+| 私下交易（Private Trading）| 无集中市场 → 信息不透明 |
 
-课件 Lecture 3 的核心观点：**杠杆的成本是风险（The cost of leverage is risk）**。具体来说：
+**流动性差的机会：** 市场信息不对称 → 专业投资者可捕获被低估资产的超额回报。
 
-**股权优先承担损失（Equity Takes the First Hit）**
+**关键术语：** Liquidity Premium 流动性溢价 / Forced Sale 被迫出售 / Price Discovery 价格发现 / Information Asymmetry 信息不对称
 
-课件明确指出：银行（债权人）拿固定利息，不管物业涨跌；一旦物业价值下跌，"equity, not debt takes a knock — banks don't really take haircuts"。
+---
 
-以 LTV = 80% 为例：
-- 物业跌价 20% → 物业价值 = £80 = 贷款额，股权归零
-- 物业跌价超过 20% → 负资产（Negative Equity）
+## Q1c — How does leverage amplify opportunities, and under what conditions? (5 pts)
 
-**WACC 公式量化风险放大：**
+*(Lectures 3 & 4)*
+
+### Standard Answer
+
+Leverage amplifies equity returns through the **WACC identity** (Lecture 3):
 
 $$r_E = r_P + (r_P - r_D) \cdot \frac{D}{E}$$
 
-当 $r_P$ 为负（物业价格下跌），杠杆将负回报同等放大。D/E 越高，损失放大越大。这正是杠杆成本的数学表达：杠杆是一个双向"乘数"，在负向时一样有效。
+**Condition for positive leverage: r_P > r_D (property return exceeds cost of debt).**
 
-**直觉总结（课件语言）：** 风险的本质是——出了问题时，股权持有人首当其冲，债权人几乎不受影响。因此，使用杠杆的投资者承担的风险远超其出资比例所暗示的水平。
+When this holds, the spread (r_P − r_D) is positive, and multiplying it by D/E > 0 boosts equity return above the unlevered property return.
 
----
+**Example (Lecture 3):** Property £100, LTV = 80%, r_P = 12%, r_D = 10%:
+$$r_E = 12\% + (12\% - 10\%) \times \frac{80}{20} = 12\% + 8\% = 20\%$$
 
-## Q1e — DCF Approach to Model Risk and Opportunities in Real Estate (15 points)
-### 如何用 DCF 方法分析房地产投资的风险与机会
+Leverage turns a 12% unlevered return into a 20% equity return. The higher the D/E ratio, the stronger the amplification.
 
-**(Lectures 1, 2, 3; Case Studies)**
-
-### DCF 三步框架（Lecture 1）
-
-**Step 1: Forecast Future Cash Flows 预测未来现金流**
-
-在典型的 10 年 DCF 模型中，现金流分为两部分（Lecture 3 Pro Forma）：
-- **Operating Cash Flows（经营现金流）：**
-  ```
-  PGI（Potential Gross Income）= 租金 × 面积
-  − Vacancy Allowance（空置率 × PGI）
-  + Other Income
-  − Operating Expenses
-  = NOI（Net Operating Income）
-  − Capital Improvement Expenditures
-  = PBTCF（Property Before-Tax Cash Flow）
-  ```
-- **Reversion Cash Flow（返售现金流）：** 持有期末出售收入，最常用方法是用第 11 年 NOI 除以 Going-Out Cap Rate（Lecture 3）。课件指出，出售收益的现值通常占总物业价值的 1/3 以上，是 DCF 中不确定性最高的部分。
-
-**Step 2: Determine Discount Rate 确定折现率**
-
-折现率 $r = r_f + RP$，需反映项目风险。关键区分（Lecture 1）：
-- **租约内折现率（Intra-Lease）：** 低，因为已签合同，主要风险仅为租户违约
-- **租约间折现率（Inter-Lease）：** 高，面临完整市场风险——续租条件和售价均不确定
-
-**Step 3: Compute NPV / IRR 计算 NPV 或 IRR**
-
-- NPV = PV(所有未来现金流) − 购买价格；NPV > 0 值得购买
-- IRR = 使 NPV = 0 的折现率；与必要回报率（Hurdle Rate = $r_f$ + RP）对比
-
-### Key Elements to Stress 重点分析要素（Lecture 3）
-
-**Partitioning the IRR / PV（IRR/PV 分解）：**
-将总价值分解为"经营现金流贡献"与"出售收益贡献"两部分。若出售收益占比过高（如 70%），说明投资回报高度依赖未来市场状况，风险集中在不确定性最高的部分。
-
-**Sensitivity Analysis（敏感性分析）：**
-对不同情景赋予概率，计算期望 IRR 和标准差（SD）、变异系数（CoV = SD/E(IRR)），量化风险范围。可压测的关键参数：
-- 空置率
-- Going-Out Cap Rate（对售价影响极大）
-- 租金增长率
-
-**Case Study 联系：**
-在两个 Case Study 中，核心练习正是构建完整 DCF：预测 NOI、选取折现率、估算 Going-Out Cap Rate，通过计算器算出 IRR 并与 Hurdle Rate 比较，作出投资决策。超表面的答案无法得高分——需要展示与 Case Study 材料的具体结合。
+**Negative leverage** (r_P < r_D): the same formula works in reverse — equity returns fall below the property return, and high leverage can produce negative equity returns even when the asset earns a positive income.
 
 ---
 
-## Q1f — GP vs LP Risk/Return Division and Waterfall Analysis (20 points)
-### GP 与 LP 的风险/收益划分，以及瀑布式分析
+### 中文解释
 
-**(Lecture 5)**
+**WACC 公式是理解杠杆放大效应的核心（Lecture 3）。**
 
-### LP vs GP 结构（Lecture 5 核心内容）
+正向杠杆条件：$r_P > r_D$（物业回报率 > 债务成本）→ 杠杆放大股权回报。
+反之 $r_P < r_D$ 时为负向杠杆，杠杆反而降低股权回报。
 
-| | LP（有限合伙人 / 投资者） | GP（普通合伙人 / 基金管理人）|
-|--|-------------------------|-----------------------------|
-| **出资比例（典型）** | 90% | 10% |
-| **法律责任** | 有限责任（最多损失出资额） | 无限责任（通常通过独立 GP 实体规避跨基金风险） |
-| **决策参与** | 被动，极少参与 | 完全控制运营与投资决策 |
-| **利润分配** | 优先获得 Pref（如 9%），然后按比例分享超额利润 | Promote / Carried Interest（超额利润的 20%）|
+D/E（杠杆率）越高，放大效果越强——无论方向。
 
-### Risk and Return Division 风险与收益划分
+**关键术语：** WACC（Weighted Average Cost of Capital）加权平均资本成本 / Positive Leverage 正向杠杆 / Negative Leverage 负向杠杆 / LTV（Loan-to-Value）贷款价值比
 
-**LP（Investors / "The Money"）：**
-- 在 GP 获得任何 Promote 之前，LP 必须先获得 Preferred Return（"Pref"），这为 LP 提供了最低回报保障。
-- LP 出资最多（90%），若投资失败损失绝对金额最大，但有优先受偿的保护。
+---
 
-**GP（Sponsor / Fund Manager）：**
-- GP 也出自己的资本（10%），确保与 LP 利益对齐（"align financial interests"——课件原文）。
-- 一旦 LP 的 Pref 得到满足，GP 通过 Promote 获得不成比例的超额利润。出资 10% 却可分享 20% 超额利润，GP 在上行时受益最大。
-- GP 通常也以管理费形式获得报酬（consulting and management fees——课件原文），但对 Promote 的追求是 GP 努力工作的核心激励。
+## Q1d — Costs of leverage besides the interest charges (5 pts)
 
-### Waterfall Analysis 瀑布式分析
+*(Lectures 3 & 4)*
 
-瀑布（Waterfall / "Cash Waterfall"——课件原文）规定基金收益按优先级顺序分配：先偿还债务，然后按约定的 Pref 和 Promote 结构逐层分配给 LP 和 GP。
+### Standard Answer
 
-**简单例题（直接来自 Lecture 5 — Bhavik Fund，Option 1）：**
-- 总投资 $100M（LP: Prushansky Pension $90M，GP: Bhavik Fund $10M）
-- 总利润 $25M，Pref = 9%（超过 9% 后按 80/20 分）
+The main cost of leverage beyond explicit interest is **risk — specifically, equity bears the first loss.**
+
+From the WACC formula:
+$$r_E = r_P + (r_P - r_D) \cdot \frac{D}{E}$$
+
+When r_P turns negative (falling asset values), the formula amplifies losses by exactly the same D/E multiple. Debt holders collect fixed interest regardless of performance; any decline in property value is absorbed entirely by equity first.
+
+**Example:** At LTV = 80%, a 20% drop in asset value wipes out equity entirely. A 25% drop creates negative equity — the borrower owes more than the asset is worth.
+
+Additional costs (Lecture 4):
+- **Financing costs and fees:** origination charges, legal costs, and ongoing covenants raise effective borrowing cost above the headline rate.
+- **Covenant restrictions:** lenders impose LTV and ICR covenants; a breach forces asset sales or equity top-ups at the worst moment.
+- **Loss of flexibility:** debt obligations constrain management decisions (e.g., cannot defer a sale to wait for better pricing).
+
+---
+
+### 中文解释
+
+**杠杆成本的核心 = 风险（Lecture 3）。** 银行拿固定利息不受影响；物业价值下跌时，股权首先亏损——这是 WACC 公式双向有效的表达。
+
+高 LTV 情况下少量价值下跌即可摧毁全部股权，即"杠杆放大负向风险"。
+
+**额外成本：** 手续费 + 贷款限制条款（Covenant）+ 管理灵活性丧失。
+
+**关键术语：** Negative Equity 负资产 / Loan Covenant 贷款限制条款 / ICR（Interest Coverage Ratio）利息覆盖率 / First Loss Position 首亏地位
+
+---
+
+## Q1e — How DCF models risks and opportunities in real estate (15 pts)
+
+*(Lectures 1, 2 & 3)*
+
+### Standard Answer
+
+DCF incorporates risks and opportunities through two mechanisms:
+
+**1. Cash flow forecasting — capturing every risk and opportunity driver:**
+
+The Pro Forma builds cash flows bottom-up:
+- **PGI** (Potential Gross Income) = fully-leased rent
+- **− Vacancy allowance** = explicit void rate (never assume 100% occupancy)
+- **+ Other income** = parking, signage
+- **= EGI** (Effective Gross Income)
+- **− Operating expenses** = fixed + variable costs; excludes depreciation (not a cash cost)
+- **= NOI** (Net Operating Income)
+- **− Capital improvements** = tenant fit-out costs, leasing commissions
+- **= PBTCF** (Property Before-Tax Cash Flow)
+- **+ Terminal (resale) value** = NOI_{n+1} / Going-Out Cap Rate
+
+**2. Discount rate — pricing risk by cash flow type (Lecture 2):**
+- **Intra-lease** (contracted rent): lower rate — risk is only tenant default.
+- **Inter-lease and terminal value**: higher rate — full market uncertainty about re-letting conditions and exit price.
+
+This two-rate approach means the DCF explicitly prices the asymmetry between contracted, predictable income and uncertain, uncontracted future cash flows.
+
+**Decision rule:** NPV > 0 → buy (asset underpriced for its risk); IRR vs hurdle rate drives hold/sell decisions.
+
+---
+
+### 中文解释
+
+**DCF 两大机制（Lecture 1/2/3）：**
+
+1. **现金流预测 = 量化所有风险和机会**：Pro Forma 结构（PGI → NOI → PBTCF）强制建模每个风险驱动因素。
+2. **折现率 = 风险定价**：租约内（Intra-Lease，低折现率）vs 租约间及终值（Inter-Lease，高折现率）——这是 GY462 的核心差异化考点。
+
+终值（Going-Out Cap Rate 决定）是 DCF 中最大的不确定性来源——Cap Rate 变动 1% 可使终值变化 12%+。
+
+**关键术语：** PGI 潜在总收入 / NOI 净营业收入 / PBTCF 税前物业现金流 / Going-Out Cap Rate 退出资本化率 / Intra-Lease 租约内 / Inter-Lease 租约间 / Hurdle Rate 门槛回报率
+
+---
+
+## Q1f — GP vs LP risk/return division and waterfall analysis (20 pts)
+
+*(Lecture 5)*
+
+### Standard Answer
+
+In a private equity real estate fund, capital and returns are divided between **GPs (General Partners / managers)** and **LPs (Limited Partners / investors)**:
+
+| | LP | GP |
+|--|----|----|
+| Typical capital contribution | 90% | 10% |
+| Legal liability | Limited (max = capital committed) | Unlimited (manages via separate entity) |
+| Decision control | Passive | Full control |
+| Return structure | Preferred return (Pref) first, then 80% of excess | Promote: 20% of excess profits above Pref |
+
+**Logic of the structure:**
+- LP contributes most capital and gets a preferred return (e.g., 9%) before the GP earns Promote — protecting downside.
+- GP contributes own capital (10%) to align interests, then earns a disproportionately large share of upside through Promote.
+
+**Waterfall worked example** (Lecture 5 — Bhavik Fund, Option 1):
+Total investment £100m (LP £90m, GP £10m). Total profit £25m. Pref = 9%, then 80/20 split.
 
 ```
-Step 1 — Pref 分配（$100M × 9% = $9M）：
-  LP（Prushansky）= $9M × 90% = $8.10M
-  GP（Bhavik）    = $9M × 10% = $0.90M
+Step 1 — Pref (£100m × 9% = £9m):
+  LP = £9m × 90% = £8.10m
+  GP = £9m × 10% = £0.90m
 
-Step 2 — 剩余超额利润（$25M − $9M = $16M）：
-  80% 按出资比例（pari passu）= $12.8M
-    LP = $12.8M × 90% = $11.52M
-    GP = $12.8M × 10% = $1.28M
-  20% Promote（全给 GP）= $3.2M
+Step 2 — Excess profit (£25m − £9m = £16m):
+  80% pari passu = £12.8m → LP gets £11.52m, GP gets £1.28m
+  20% Promote (all to GP) = £3.20m
 
-汇总：
-  LP 总计 = $8.10 + $11.52 = $19.62M
-  GP 总计 = $0.90 + $1.28 + $3.20 = $5.38M
+Total:
+  LP = £8.10 + £11.52 = £19.62m
+  GP = £0.90 + £1.28 + £3.20 = £5.38m
 ```
 
-GP 出资 10%（$10M）但获得 $5.38M，即 53.8% 的回报率——Promote 赋予 GP 不成比例的上行收益，这正是 PE 投资结构的核心设计逻辑。
+GP contributed 10% of capital but earns 21.5% of total profit (£5.38m / £25m) — the Promote creates disproportionate upside for the GP.
 
 ---
 
-## Q1g — Role of the Promote; Deal-by-Deal vs Whole Fund (15 points)
-### Promote 的作用；逐笔交易 vs 全基金方式
+### 中文解释
 
-**(Lecture 5 — Prof. Silva pre-recorded + Damian Perry live lecture)**
+**GP/LP 结构是 Lecture 5 的核心——必须会计算瀑布（Waterfall）。**
 
-### Role of the Promote 激励机制
+| 角色 | 出资 | 核心收益来源 |
+|------|------|------------|
+| LP（投资者）| 90% | Pref（优先回报）+ 80% 超额按比例分 |
+| GP（基金管理人）| 10% | Pref 按比例 + 20% Promote（杠杆式超额收益）|
 
-**Promote（也称 Carried Interest）** 是 GP 超出其出资比例所能获得的超额利润分成（典型为 20%）。
+**Promote 的核心逻辑：** GP 出资 10%，但在超额利润部分拿 20%——这就是 GP 愿意全力管理的激励来源。
 
-**核心作用：激励 GP 努力工作并对齐利益（课件原文：incentivise GP efforts / align financial interests）**
-
-- **绩效激励：** 只有投资回报超过 Pref 阈值，GP 才能获得 Promote。这确保 GP 积极追求超额回报，而非仅满足于完成最低要求。
-- **自有资金参与：** GP 自己也出资（10%），若投资失败，GP 的本金也受损——这将 GP 的利益与 LP 绑定在一起（课件：GP contribution plays an important role in aligning interests）。
-
----
-
-### Deal-by-Deal vs Whole Fund 逐笔交易 vs 全基金
-
-课件 Lecture 5（Damian Perry 部分）详细介绍了两种方式的区别：
-
-| | Deal-by-Deal（逐笔） | Whole Fund（全基金） |
-|--|--------------------|--------------------|
-| **计算范围** | 每笔交易单独计算利润和 Promote | 等全部投资结束，基金整体计算 |
-| **GP 拿钱时间** | 每成功一笔即可拿 Promote，现金流来得早 | 需等基金清盘，可能多年后才拿到 |
-| **LP 的保护** | 早期成功交易 GP 已拿走 Promote，后期亏损 LP 难以追回 | 盈亏整体平均，LP 在全部回报超 Pref 后才付 Promote |
-| **市场惯例** | **美国市场**更常见 | **英国/欧洲市场**更倾向全基金方式 |
-
-**课件强调的核心区别：** 两种方式激励 GP 的方式不同（"they incentivise GPs differently"），且在美国和英国市场的部署方式也不同（"deployed differently in the US vs UK markets"）。
-
-Deal-by-Deal 对 GP 更有利（早拿 Promote），但对 LP 风险更大——若后期投资表现差，LP 已付出的 Promote 无法收回。Whole Fund 对 LP 更安全，但 GP 需要更长时间等待收益。
+**关键术语：** GP（General Partner）普通合伙人 / LP（Limited Partner）有限合伙人 / Preferred Return（Pref）优先回报 / Promote / Carried Interest 超额利润分成 / Waterfall 瀑布式分配 / Pari Passu 按比例平等分配
 
 ---
 
-## Q1h — Development Risks and Contractual Arrangements (20 points)
-### 开发项目的风险机会，以及不同合同结构的影响
+## Q1g — Role of the Promote; deal-by-deal vs whole fund (15 pts)
 
-**(Lecture 9 — Guest Speakers from DFI: Paul and Enrico)**
+*(Lecture 5)*
 
-### Key Risks and Opportunities 核心风险与机会
+### Standard Answer
 
-课件 Lecture 9（DFI 嘉宾讲师）的核心观点：如何管理代理施工的建筑公司（construction companies acting on your behalf）直接决定开发项目的成败。
+**Role of the Promote:**
 
-**风险（Risks）：**
+The Promote (also called Carried Interest) is the GP's share of profits above the LP's Preferred Return threshold — typically 20%. Its purpose is twofold:
 
-**1. Cost Overrun 成本超支**
-建设成本往往超过预算。嘉宾讲师特别强调：
-- 市场景气时（承包商订单饱满），他们缺乏控制成本的激励，更容易出现超支
-- 建设周期长，原材料价格变化、施工复杂度超预期均可推高成本
+1. **Incentivise GP performance:** the GP only earns Promote if the fund outperforms the Pref. This aligns the GP's economic interest with generating strong returns for LPs, not merely collecting management fees.
+2. **Align capital interests:** GP also contributes capital (typically 10%), so in poor-performing funds the GP also loses. This "skin in the game" principle prevents purely fee-driven behaviour.
 
-**2. Time Overrun 工期延误**
-延误成本极高——建设贷款利息以负摊销方式积累（每月滚入本金），工期每延误一天都在增加总成本。课件强调 DFI 嘉宾"讨论了管理成本和时间线的重要性"。
+**Deal-by-deal vs Whole Fund:**
 
-**3. Contractor Insolvency / Default 承包商违约或破产**
-建设期长（数年），承包商中途破产将导致工程停工，开发商必须重新招标，损失巨大。
+| | Deal-by-Deal | Whole Fund |
+|--|-------------|------------|
+| Promote calculated on | Each individual deal | Entire fund at wind-up |
+| When GP receives Promote | After each successful exit | Only after full fund return exceeds Pref |
+| LP protection | Weaker — GP pockets early wins; hard to claw back if later deals fail | Stronger — losses and gains netted across the whole portfolio |
+| Market convention | Common in the **US** | Preferred in the **UK / Europe** |
 
-**机会（Opportunities）：**
-- 若管理得当，开发利润（Development Spread）可远超直接购入已建成物业
-- 在建设到稳定运营的过程中捕获价值增值
+**Key insight (Lecture 5):** the two approaches "incentivise GPs differently" and are "deployed differently in the US vs UK markets." Deal-by-deal is better for GP (earlier cash, less clawback risk); whole fund is better for LP (full portfolio netting).
 
 ---
 
-### Contractual Arrangements 合同结构（DFI 嘉宾重点讲解）
+### 中文解释
 
-课件明确介绍了三种合同如何影响"成本和工期超支的可能性，以及哪方更可能承担后果或被激励避免问题"：
+**Promote 的双重作用：激励 + 利益对齐（Lecture 5 Damian Perry 部分）。**
 
-#### 1. Turnkey Contract 交钥匙合同
+**逐笔 vs 全基金：**
+- 逐笔（Deal-by-Deal）：GP 每成功一笔即可拿 Promote，资金来得早；但若后期亏损，LP 已付的 Promote 难以追回。美国常见。
+- 全基金（Whole Fund）：等全部投资结束才结算，LP 保护更强（盈亏互抵）。英国 / 欧洲更常见。
 
-承包商以固定总价承包，负责全程，完工后"交钥匙"给开发商。
-
-**风险分配：**
-- 成本超支、工期延误的风险 → **承包商承担**
-- 开发商获得高度确定的成本和时间
-
-**代价：** 承包商在报价时已包含大量风险溢价，总成本更高；若市场变好，开发商无法分享超额收益。
-
-#### 2. Forward Fund Contract 预先融资合同
-
-投资者（如机构投资者）在开发开始前即同意购买并提前提供资金，开发商用投资者资金建设。
-
-**风险分配：**
-- 建设完成风险 → **开发商**（需按约定标准交付）
-- 市场价值风险（建成后物业涨跌）→ **投资者（买方）**
-
-**优点：** 开发商锁定买方，消除出售不确定性；投资者以较低价格锁定优质物业。
-
-#### 3. Forward Commitment Contract 预先承购合同
-
-投资者承诺在物业完工并满足特定条件（如达到约定出租率）后才支付价款，不提前注资。
-
-**风险分配：**
-- 建设成本/工期/出租风险 → **开发商**（全部保留）
-- 市场价值风险（完工后）→ **投资者**
-
-**优点：** 开发商确定了买方，降低完工后出售的不确定性，更容易获得建设贷款；投资者无需建设期占用资金，风险最低。
-
-### 三种合同对比
-
-| 合同类型 | 开发商承担的主要风险 | 投资者承担的主要风险 |
-|----------|--------------------|--------------------|
-| Turnkey | 低（成本/工期转移给承包商） | 无 |
-| Forward Fund | 中（建设完成风险保留）| 中（市场/出租风险）|
-| Forward Commit | 高（建设+出租风险全保留）| 低（仅市场价值风险）|
-
-**DFI 嘉宾的核心结论（课件原文）：** 不同合同结构"真正影响成本和工期超支的可能性，以及哪方更可能承受后果（and/or incentivised to avoid problems）"——选择合同类型实质上是在开发商和投资者之间分配激励机制。
+**关键术语：** Promote / Carried Interest 超额利润分成 / Deal-by-Deal 逐笔交易 / Whole Fund 全基金 / Clawback 追回条款 / Skin in the Game 自有资金参与
 
 ---
 
-# QUESTION 2: Mortgage Calculations (100 points)
-## 第二题：按揭贷款计算
+## Q1h — Risks in RE development and contractual arrangements with builders (20 pts)
 
-> **基本设定：** 购房价 £1,000,000；贷款 £750,000；25年期；月度复利；银行 DCR = 1.4；Income Multiple = 5
+*(Lecture 9 — DFI Guest Lecturers)*
 
----
+### Standard Answer
 
-## Q2a — Interest Only (IO) Loan: Monthly Payments and Last Payment (5 points)
-### 纯息贷款：月供与最后一期还款
+**Key development risks (Lecture 9):**
 
-**(Lecture 6)**
+1. **Cost overrun:** construction costs regularly exceed budget — material price swings, unforeseen site conditions, contractor claims. The DFI lecturers emphasised that managing cost is a primary challenge when builders act on your behalf.
+2. **Time overrun:** delays compound through negative amortisation on the construction loan — every extra month rolls unpaid interest into the principal, raising total cost.
+3. **Contractor insolvency/default:** if the builder goes bust mid-project, the developer faces procurement delays, restart costs, and potentially complete loss of sunk expenditure.
 
-**给定：** PV = £750,000；年利率 = 5.5%；N = 300（25×12）；纯息（IO）
+**Three contractual arrangements and how they allocate risk:**
 
-**IO 特征（Lecture 6）：** 每期只还利息，本金不摊销（AMORT = 0，BAL 始终 = BAL₀），到期一次性偿还本金（Balloon Payment）。
+**1. Turnkey Contract:**
+- Contractor takes a fixed all-in price; delivers a completed building ready to use.
+- Cost overrun and time overrun risk → **contractor bears**.
+- Developer gets certainty on cost and delivery date but pays a higher headline price (contractor's risk premium baked in).
 
-**月供：**
-$$\text{PMT} = 750{,}000 \times \frac{5.5\%}{12} = 750{,}000 \times 0.004583 = \boxed{£3{,}437.50}$$
+**2. Forward Fund:**
+- Institutional investor agrees to buy and funds the project upfront; developer builds using investor's capital.
+- Construction completion risk → **developer bears**.
+- Market/value risk once built → **investor bears**.
+- Developer locks in a buyer before breaking ground; investor secures the asset at a below-stabilised price.
 
-**最后一期（第 300 期）还款：**
-$$\text{Last Payment} = £3{,}437.50 + £750{,}000 = \boxed{£753{,}437.50}$$
+**3. Forward Commitment:**
+- Investor commits to buy only once the project completes and meets agreed conditions (date, occupancy, rent level).
+- All construction, time, and lease-up risk → **developer bears**.
+- Market value risk after completion → **investor bears**.
+- Developer gains buyer certainty (making construction finance easier) while the investor avoids tying up capital during construction.
 
-**计算器（TI BA II Plus）：**
-```
-2nd [P/Y] 12 ENTER
-300 N  |  5.5 I/Y  |  750000 +/- PV  |  0 FV
-CPT PMT → -3,437.50
-最后一期手动加 750,000 本金
-```
-
----
-
-## Q2b — Constant Payment Mortgage (CPM): Monthly Payments (10 points)
-### 等额还款贷款（CPM）：月供
-
-**(Lecture 6)**
-
-**给定：** PV = £750,000；年利率 = 4.9%；N = 300
-
-**CPM 特征：** 每期还款额固定（Constant Payment），逐渐增加本金摊还、减少利息。
-
-**计算器：**
-```
-2nd [RESET] ENTER
-2nd [P/Y] 12 ENTER  |  CE/C
-300 N  |  4.9 I/Y  |  750000 +/- PV  |  0 FV
-CPT PMT → -4,340.84
-```
-
-$$\boxed{\text{月供} = £4{,}340.84 \text{（整个25年固定不变）}}$$
+**DFI conclusion (Lecture 9):** contract choice fundamentally "affects the likelihood of cost and time overruns and which party bears the consequences or is incentivised to avoid them."
 
 ---
 
-## Q2c — Why Lower Rate on CPM than IO? (5 points)
-### 为什么 CPM 利率低于 IO？
+### 中文解释
 
-**(Lecture 6)**
+**开发风险核心三点：** 成本超支（Cost Overrun）、工期延误（Time Overrun）、承包商违约（Contractor Default）。建设贷款负摊销（Negative Amortisation）使工期延误的成本以指数方式上升。
 
-**答：CPM 的摊销特性降低了银行风险，因此银行收取更低的利率。**
+**三种合同风险对比：**
 
-**IO 风险更高的原因（来自 Lecture 6）：**
+| 合同 | 开发商主要风险 | 投资者主要风险 |
+|------|--------------|--------------|
+| Turnkey 交钥匙 | 低（成本/工期已转给承包商）| 无 |
+| Forward Fund 预先融资 | 中（建成完工风险）| 中（市场价值风险）|
+| Forward Commitment 预先承购 | 高（建设 + 出租风险全保留）| 低（仅完工后市场风险）|
 
-**1. 无本金摊销（No Amortisation）：**
-IO 贷款整个期间银行的未偿余额始终为 £750,000，永远不会下降。CPM 每期偿还部分本金，银行未偿余额逐月递减，风险随时间降低。
-
-**2. 气球还款风险（Balloon Payment Risk）：**
-IO 到期后借款人须一次性偿还 £750,000 本金。若届时物业价值下跌或借款人无法再融资，银行面临全额损失。CPM 到期时余额为零，无此风险。
-
-**结论：** CPM 的摊销机制天然降低贷款风险，银行无需收取相同的风险溢价，因此 CPM 利率（4.9%）低于 IO（5.5%）。
+**关键术语：** Turnkey Contract 交钥匙合同 / Forward Fund 预先融资 / Forward Commitment 预先承购 / Cost Overrun 成本超支 / Negative Amortisation 负摊销 / Take-Out Commitment 永久贷款承诺
 
 ---
 
-## Q2d — Constant Amortisation Mortgage (CAM): First, 12th and Last Payments (15 points)
-### 等额摊还贷款（CAM）：第一、第十二和最后一期还款
+---
 
-**(Lectures 6 & 7)**
+# QUESTION 2 — Mortgage Calculations
 
-**给定：** £750,000；年利率 4.5%；月利率 $i = 4.5\%/12 = 0.375\%$；N = 300
-
-**CAM 特征（Lecture 6）：** 每期固定摊还相同本金，月供随时间线性递减。
-
-$$\text{AMORT}_{monthly} = \frac{750{,}000}{300} = £2{,}500$$
-$$\text{PMT}_t = i \cdot \text{BAL}_{t-1} + 2{,}500$$
-
-**第 1 期：**
-$$\text{Interest}_1 = 750{,}000 \times 0.00375 = £2{,}812.50$$
-$$\boxed{\text{PMT}_1 = £2{,}812.50 + £2{,}500 = £5{,}312.50}$$
-
-**第 12 期（前 11 期已摊还 = 11 × £2,500 = £27,500）：**
-$$\text{BAL}_{11} = 750{,}000 - 27{,}500 = £722{,}500$$
-$$\text{Interest}_{12} = 722{,}500 \times 0.00375 = £2{,}709.375$$
-$$\boxed{\text{PMT}_{12} = £2{,}709.375 + £2{,}500 = £5{,}209.375}$$
-
-**第 300 期（前 299 期已摊还 = 299 × £2,500 = £747,500）：**
-$$\text{BAL}_{299} = 750{,}000 - 747{,}500 = £2{,}500$$
-$$\text{Interest}_{300} = 2{,}500 \times 0.00375 = £9.375$$
-$$\boxed{\text{PMT}_{300} = £9.375 + £2{,}500 = £2{,}509.375}$$
+**Background:** Property £1,000,000. Loan = **£750,000**. Annual income £160,000 → Monthly income = **£13,333**. 25-year term, monthly compounding (N = 300). DCR ≥ 1.4; Income Multiple ≤ 5.
 
 ---
 
-## Q2e — Why Even Lower Rate on CAM? (5 points)
-### 为什么 CAM 利率比 CPM 和 IO 都低？
+## Q2a — IO loan: monthly payment and last payment (5 pts)
 
-**(Lecture 6)**
+*(Lecture 6)*
 
-**答：CAM 的本金偿还比 CPM 更前置，银行风险最小。**
+### Standard Answer
 
-**CAM vs CPM 摊还对比（Lecture 6）：**
-- **CPM：** 早期还款以利息为主，本金摊还极少（Back-Loaded Amortisation）
-- **CAM：** 第一期就摊还固定 £2,500，始终保持高速摊还
+**IO monthly payment** (rate = 5.5% p.a., i = 5.5%/12 = 0.4583%):
+$$PMT_{IO} = £750{,}000 \times 0.4583\% = \mathbf{£3{,}437.50/month}$$
+Last payment = £3,437.50 + £750,000 (balloon repayment) = **£753,437.50**
 
-因此，在相同贷款额下，CAM 的银行未偿余额在任何时点都低于 CPM，即银行平均风险敞口更小 → 可接受更低的风险溢价。
-
-$$\boxed{i_{CAM} < i_{CPM} < i_{IO}}$$
-
-这一利率排序与 Lecture 6 所述的风险递增顺序完全对应。
+IO characteristic: balance never falls — £750,000 outstanding throughout the 25-year term.
 
 ---
 
-## Q2f — Debt Coverage Ratio, Income Multiple, and Preference (10 points)
-### DCR、收入倍数约束，以及贷款偏好
+### 中文解释
 
-**(Lectures 7 & 8)**
+IO（Interest Only）纯息贷款：每月只还利息，到期（第300期）一次性还清本金 £750,000（Balloon Payment）。月供 = £750,000 × 月利率 = £3,437.50。
 
-### Constraint Analysis 约束分析
+**关键术语：** IO（Interest Only）纯息贷款 / Balloon Payment 气球还款 / Monthly Rate 月利率
 
-**年收入 £160,000 → 月收入 £13,333**
+---
 
-**Income Multiple（收入倍数）：**
-$$\text{Max Loan} = 5 \times £160{,}000 = £800{,}000 \geq £750{,}000 \quad ✓$$
+## Q2b — CPM loan: monthly payment (10 pts)
 
-**DCR（月收入 / 月供 ≥ 1.4）：**
+*(Lecture 6)*
 
-| 贷款类型 | 月供 | DCR | 通过？|
-|---------|------|-----|------|
+### Standard Answer
+
+**CPM monthly payment** (rate = 4.9% p.a., i = 4.9%/12, N = 300):
+
+Calculator: 300 N | 4.9 I/Y | 750,000 +/− PV | 0 FV → **CPT PMT = £4,340.84**
+
+$$\boxed{PMT_{CPM} = £4{,}340.84/month \text{ (fixed for all 25 years)}}$$
+
+Unlike IO, each payment includes both interest and principal repayment, with the principal share growing over time.
+
+---
+
+### 中文解释
+
+**CPM（Constant Payment Mortgage）等额还款：** 每期还款额固定，前期以利息为主，后期以本金为主。TI BA II+ 操作：设定 P/Y = 12，输入 300 N / 4.9 I/Y / 750000 PV / 0 FV，CPT PMT。
+
+**关键术语：** CPM（Constant Payment Mortgage）等额还款 / Amortisation 本金摊还 / P/Y 每年期数设置
+
+---
+
+## Q2c — Why lower rate on CPM than IO? (5 pts)
+
+*(Lecture 6)*
+
+### Standard Answer
+
+The bank charges a lower rate on CPM (4.9% vs 5.5%) because **CPM is less risky for the lender** in three ways:
+
+1. **Amortisation reduces outstanding balance progressively.** Under IO, the bank's exposure stays at £750,000 for 25 years. Under CPM, the outstanding balance falls monthly — the bank's risk declines over time.
+2. **No balloon payment risk.** IO requires the borrower to repay the full £750,000 at maturity. If property values have fallen or refinancing is unavailable, the bank faces full principal loss. CPM balance is zero at maturity.
+3. **Shorter effective duration.** CPM returns principal steadily, so the bank's average time-weighted exposure is shorter — less interest rate risk.
+
+Lower risk → lower risk premium → lower stated rate.
+
+---
+
+### 中文解释
+
+**利率差异 = 风险差异。** IO 整个期间银行敞口不变（£750,000），CPM 每月下降 → 银行风险逐渐降低 → 接受更低利率。
+
+核心：① 摊销降低敞口 ② 无气球还款风险 ③ 有效久期（Duration）更短。
+
+**关键术语：** Duration 久期 / Balloon Payment Risk 气球还款风险 / Amortisation 摊还 / Risk Premium 风险溢价
+
+---
+
+## Q2d — CAM: first, 12th, and last payments (15 pts)
+
+*(Lectures 6 & 7)*
+
+### Standard Answer
+
+**CAM** (rate = 4.5% p.a., i = 4.5%/12 = **0.375%**, N = 300)
+
+Fixed principal repayment each period:
+$$AMORT_{monthly} = \frac{750{,}000}{300} = £2{,}500$$
+
+$$PMT_t = i \cdot BAL_{t-1} + £2{,}500$$
+
+**Period 1:**
+$$Interest_1 = £750{,}000 \times 0.375\% = £2{,}812.50$$
+$$\boxed{PMT_1 = £2{,}812.50 + £2{,}500 = £5{,}312.50}$$
+
+**Period 12** (11 periods already amortised = £27,500; BAL₁₁ = £722,500):
+$$Interest_{12} = £722{,}500 \times 0.375\% = £2{,}709.38$$
+$$\boxed{PMT_{12} = £2{,}709.38 + £2{,}500 = £5{,}209.38}$$
+
+**Period 300** (299 periods amortised = £747,500; BAL₂₉₉ = £2,500):
+$$Interest_{300} = £2{,}500 \times 0.375\% = £9.38$$
+$$\boxed{PMT_{300} = £9.38 + £2{,}500 = £2{,}509.38}$$
+
+Payments decline linearly from £5,312.50 to £2,509.38 as the balance falls.
+
+---
+
+### 中文解释
+
+**CAM（Constant Amortisation Mortgage）等额摊还：** 每期固定摊还相同本金（£2,500），利息随余额减少而递减 → 月供线性递减。
+
+公式：$PMT_t = 月利率 \times BAL_{t-1} + £2,500$
+
+**关键术语：** CAM（Constant Amortisation Mortgage）等额摊还 / Outstanding Balance 未偿余额 / Linear Decline 线性递减
+
+---
+
+## Q2e — Why even lower rate on CAM than CPM? (5 pts)
+
+*(Lecture 6)*
+
+### Standard Answer
+
+CAM charges an even lower rate (4.5%) than CPM (4.9%) because **CAM front-loads principal repayment more aggressively:**
+
+Under CPM, early payments are mostly interest — principal repayment is back-loaded. Under CAM, a fixed £2,500 principal is repaid from period 1, meaning the outstanding balance falls faster than CPM at every point.
+
+At any given month, the bank's exposure under CAM < exposure under CPM < exposure under IO.
+
+Therefore: **risk_{CAM} < risk_{CPM} < risk_{IO}** → **rate_{CAM} < rate_{CPM} < rate_{IO}**
+
+$$\boxed{4.5\% < 4.9\% < 5.5\%}$$
+
+---
+
+### 中文解释
+
+**CAM 比 CPM 还款更"前置"（Front-Loaded Amortisation）**：第一期就还 £2,500 本金，而 CPM 前期以利息为主，本金摊还极少。
+
+结果：任意时点 CAM 余额 < CPM 余额 < IO 余额 → 风险从低到高 → 利率从低到高。
+
+**关键术语：** Front-Loaded Amortisation 前置摊还 / Outstanding Balance 未偿余额 / Risk Exposure 风险敞口
+
+---
+
+## Q2f — DCR, Income Multiple, and which mortgage to prefer (10 pts)
+
+*(Lectures 7 & 8)*
+
+### Standard Answer
+
+**Income Multiple constraint:** Max loan = 5 × £160,000 = £800,000 ≥ £750,000 ✓ (all three qualify)
+
+**DCR (monthly income £13,333 / monthly payment ≥ 1.4):**
+
+| Loan | Monthly payment | DCR | Pass? |
+|------|----------------|-----|-------|
 | IO | £3,437.50 | 3.88 | ✓ |
 | CPM | £4,340.84 | 3.07 | ✓ |
-| CAM 第1期 | £5,312.50 | 2.51 | ✓ |
+| CAM Period 1 | £5,312.50 | 2.51 | ✓ |
 
-**结论：三种贷款均通过，借款人不受约束。** 这是考题中的"Red Herring"——课件明确如此表述。
+**All three qualify — this is a red herring in the question.** The constraints are not binding.
 
-### Which Mortgage to Prefer? 最优选择讨论
+**Which to prefer?**
 
-**CAM 最不受欢迎（Lecture 6/7）：**
-CAM 还款从最高开始逐渐下降，与借款人收入通常随时间增长的规律相反（"Contrary to typical income growth expectations"——课件原文）。早期高还款发生在收入最低时，不符合生命周期规律。
-
-**CPM vs IO（更有趣的讨论，Lecture 7/8）：**
-- IO 月供最低，短期现金流压力小，适合押注资本增值的投资者。
-- CPM 每月逐步积累本金，25 年末完全还清，无气球还款风险，对以自住为目的的借款人更稳健。
-- IO 的核心风险：到期时须一次性偿还 £750,000 本金；若届时物业价值下跌或无法再融资，风险极高。
+- **CAM** is least attractive to most borrowers: payments are highest in early years when income may be lowest — contrary to typical life-cycle income growth. Early repayment provides less financial flexibility.
+- **CPM** suits owner-occupiers: fixed payments are easy to budget, and the loan fully amortises with no balloon risk.
+- **IO** suits investors expecting capital appreciation: lowest monthly payment preserves cash flow, but carries balloon risk at maturity (£750,000 due). Best only if the investor is confident of asset value growth or refinancing ability.
 
 ---
 
-## Q2g — Effective Cost of Borrowing: CPM with 1% Origination Charge (20 points)
-### CPM 含 1% 手续费的实际借贷成本
+### 中文解释
 
-**(Lectures 7 & 8)**
+**核心考点：三种贷款全部通过约束 = Red Herring（干扰项）。** 约束不具有约束力，不影响贷款选择。
 
-**设定：** CPM 月供 = £4,340.84；1% 手续费 → 实际到手 = £750,000 × 99% = **£742,500**
+**偏好讨论：**
+- CAM：还款最高、最前置 → 最不受大多数借款人青睐
+- CPM：固定月供 → 自住者首选
+- IO：月供最低但有气球还款风险 → 投资者（押注资产增值）首选
 
-**关键原理（Lecture 7）：** 借款人实际到手 £742,500，但仍按 £750,000 还款，使实际借贷成本（IRR）高于名义利率 4.9%。
-
----
-
-### Case 1: Held to Maturity（持有至到期，25年）
-
-```
-CF Worksheet:
-  CF0 = -742,500
-  C01 = 4,340.84,  F01 = 300
-IRR CPT × 12
-```
-
-$$\boxed{\text{有效借贷成本（至到期）} \approx 5.006\%}$$
+**关键术语：** DCR（Debt Coverage Ratio）偿债覆盖率 / Income Multiple 收入倍数 / Red Herring 无实质约束的干扰题 / Balloon Risk 气球还款风险
 
 ---
 
-### Case 2: Repay after 10 Years（10年后还清）
+## Q2g — ECB for CPM with 1% origination charge (20 pts)
 
-**第 120 期未偿余额（AMORT Worksheet）：**
-```
-300 N, 4.9 I/Y, 750000 +/- PV, 0 FV → CPT PMT = 4,340.84
-2nd [AMORT] → 120 ENTER → BAL = -552,554.93
-```
+*(Lectures 7 & 8)*
 
-```
-CF Worksheet:
-  CF0 = -742,500
-  C01 = 4,340.84,  F01 = 119
-  C02 = 4,340.84 + 552,554.93 = 556,895.77,  F02 = 1
-IRR CPT × 12
-```
+### Standard Answer
 
-$$\boxed{\text{有效借贷成本（10年）} \approx 5.043\%}$$
+**Net proceeds** = £750,000 × 99% = **£742,500** (1% origination charge deducted upfront).
+CPM monthly payment = £4,340.84 (rate 4.9%, N = 300).
 
----
+**ECB = IRR of actual cash flows from net proceeds.**
 
-### Case 3: Repay after 5 Years（5年后还清）
+**Case 1: Held to maturity (25 years / 300 months)**
 
-**第 60 期未偿余额：** BAL₆₀ = £663,286.58
+CF Worksheet: CF0 = −742,500; C01 = 4,340.84 (F01 = 300); CPT IRR × 12:
 
-```
-CF Worksheet:
-  CF0 = -742,500
-  C01 = 4,340.84,  F01 = 59
-  C02 = 4,340.84 + 663,286.58,  F02 = 1
-IRR CPT × 12
-```
+$$\boxed{ECB_{maturity} \approx 5.006\%}$$
 
-$$\boxed{\text{有效借贷成本（5年）} \approx 5.140\%}$$
+**Case 2: Repaid after 10 years (month 120)**
 
----
+Outstanding balance at month 120 (AMORT Worksheet): BAL₁₂₀ ≈ **£552,554.93**
+Final CF = £4,340.84 + £552,554.93 = £556,895.77
 
-### Summary 汇总
+CF0 = −742,500; C01 = 4,340.84 (F01 = 119); C02 = 556,895.77 (F02 = 1):
 
-| 还清时间 | 有效借贷成本 |
-|---------|------------|
-| 持有至到期 | **5.006%** |
-| 10年后还清 | **5.043%** |
-| 5年后还清 | **5.140%** |
+$$\boxed{ECB_{10yr} \approx 5.043\%}$$
+
+**Case 3: Repaid after 5 years (month 60)**
+
+BAL₆₀ ≈ **£663,286.58**; Final CF = £667,627.42
+
+$$\boxed{ECB_{5yr} \approx 5.140\%}$$
+
+| Repayment horizon | ECB |
+|-------------------|-----|
+| Held to maturity | **5.006%** |
+| 10 years | **5.043%** |
+| 5 years | **5.140%** |
+
+**Pattern: earlier repayment → higher ECB.** The fixed origination cost (£7,500) is amortised over fewer periods, raising the annualised effective cost.
 
 ---
 
-## Q2h — Why Do Banks Charge Discount Points? (5 points)
-### 银行为什么收取折扣点（手续费）？
+### 中文解释
 
-**(Lectures 7 & 8)**
+**ECB（Effective Cost of Borrowing）= 借款人实际现金流的年化 IRR。**
 
-**从 Q2g 的规律出发：** 提前还清越早，有效借贷成本越高。这个规律本身就揭示了银行收费的逻辑。
+1% 手续费使实际到手为 £742,500，但月供按 £750,000 计算 → 借款人实际支付比名义利率更高的有效成本。
 
-**1. 防范提前还款风险（课件 Lecture 7/8 明确讨论）**
+提前还清越早，固定手续费分摊期越短 → ECB 越高。
 
-借款人在利率下降时倾向于提前还清旧贷款、以更低利率重新借款（Refinancing）。课件明确：借款人在利率下跌时再融资对银行极为不利——"Borrowers that repay do so mostly at times of decreasing rates when they can refinance cheaply. This is a problem that the bank is trying to avoid."
+**工具：** TI BA II+ CF Worksheet → 输入 CF0 = −742,500，后续各期，CPT IRR × 12 = 年化 ECB。
 
-手续费（折扣点）将提前还清的有效成本提高，抑制借款人在利率下降时的再融资冲动。
-
-**2. 吸引不活跃借款人（Attract Less Mobile Borrowers）**
-
-课件 Lecture 7 专门有 "What Does the Mobile Borrower Prefer?" 部分，说明银行通过手续费机制筛选、吸引不频繁再融资的稳定客户。愿意支付手续费的借款人通常预期长期持有贷款，是银行更希望服务的客户群体。
-
-> **课件原文总结：** "Banks' charges are like a fixed cost that increases the borrowing effective yield the sooner the contract ends. The bank do this to prevent repayment and attract less mobile borrowers."
+**关键术语：** ECB（Effective Cost of Borrowing）有效借款成本 / Origination Charge 起始手续费 / Net Proceeds 实际到手金额 / AMORT Worksheet 摊还计算表
 
 ---
 
-## Q2i — ARM Effective Cost of Borrowing (20 points)
-### 浮动利率贷款（ARM）的实际借贷成本
+## Q2h — Why do banks charge origination fees / discount points? (5 pts)
 
-**(Lecture 8)**
+*(Lectures 7 & 8)*
 
-**ARM 设定：**
-- 贷款 £750,000；1% 手续费 → 实际到手 £742,500
-- 第 1–3 年（月 1–36）：4.9%，CPM 月供 = £4,340.84
-- 第 4–5 年（月 37–60）：4.5%，利率重置
-- 第 6 年起（月 61 起）：5.0%，再次重置
-- 持有至第 10 年末（月 120）还清
+### Standard Answer
 
-**ARM 计算逻辑（Lecture 8）：ARM = 一系列 CPM 的序列，每次重置后用新利率和新余额重新计算月供。**
+Banks charge origination fees for two main reasons (Lecture 7):
 
----
+1. **Deter adverse prepayment:** when market rates fall, borrowers want to refinance — repaying the bank at the worst possible time for reinvestment. The fee means early repayment carries a higher effective cost (as shown in Q2g: ECB rises as repayment comes sooner), discouraging refinancing exactly when it hurts the bank most.
 
-**Step 1：第 36 期末未偿余额**
-```
-300 N, 4.9 I/Y, 750000 +/- PV → CPT PMT = 4,340.84
-2nd [AMORT] → 36 ENTER → BAL = -700,533.80
-```
+2. **Screen for less mobile borrowers:** borrowers willing to pay upfront signal they intend to hold the loan long-term. This filters out frequent refinancers and gives the bank a more stable, predictable loan book.
 
-**Step 2：第 2 段月供（4.5%，剩余 22 年 = 264 期）**
-```
-264 N, 4.5 I/Y, 700533.80 +/- PV, 0 FV
-CPT PMT → 4,184.89
-```
-
-**Step 3：第 60 期末未偿余额（第 2 段第 24 期）**
-```
-2nd [AMORT] → 24 ENTER（基于第2段） → BAL = -661,486.79
-```
-
-**Step 4：第 3 段月供（5.0%，剩余 20 年 = 240 期）**
-```
-240 N, 5.0 I/Y, 661486.79 +/- PV, 0 FV
-CPT PMT → 4,365.52
-```
-
-**Step 5：第 120 期末未偿余额（第 3 段第 60 期）**
-```
-2nd [AMORT] → 60 ENTER（基于第3段） → BAL = -552,042.89
-```
-
-**Step 6：IRR（CF Worksheet）**
-```
-CF0 = -742,500
-C01 = 4,340.84,  F01 = 36
-C02 = 4,184.89,  F02 = 24
-C03 = 4,365.52,  F03 = 59
-C04 = 4,365.52 + 552,042.89 = 556,408.41,  F04 = 1
-IRR CPT → 月IRR = 0.4165% → 年化 = 4.980%
-```
-
-$$\boxed{\text{ARM 有效借贷成本} \approx 4.980\%}$$
-
-### ARM vs CPM 对比
-
-| | CPM（Q2g，10年）| ARM（Q2i）|
-|--|----------------|-----------|
-| 有效借贷成本 | 5.043% | **4.980%** |
-
-ARM 略低（约 6bps）。原因：贷款中段（第 4–5 年）利率 4.5% 低于 CPM 的 4.9%，节省部分利息成本，虽然第 6 年起利率升至 5.0%，但整体略低。选择主要取决于借款人对利率波动的风险偏好（Risk Preferences）。
+> Lecture 7 summary: "Banks' charges are like a fixed cost that increases the borrowing effective yield the sooner the contract ends. The bank does this to prevent repayment and attract less mobile borrowers."
 
 ---
 
-## Q2j — Rationale Behind ARMs and Risk Sharing (5 points)
-### ARM 的逻辑：如何在银行与借款人之间分担利率风险
+### 中文解释
 
-**(Lecture 8)**
+**银行收取起始手续费的核心目的：** 防止利率下降时借款人集中再融资（Refinancing）。Q2g 的规律（提前还清 ECB 越高）就是这一抑制机制的体现。
 
-**ARMs 的核心设计（Lecture 8）：Sharing Interest Rate Risk Between Borrower and Lender**
-
-### For Borrowers 对借款人的优势
-
-1. **初始利率更低（Lower Initial Rate）：** ARM 借款人承担了利率波动风险，因此银行不需要收取固定利率贷款中包含的利率风险溢价（Interest Rate Risk Premium）。
-2. **利率下降时自动受益：** 若市场利率下降，ARM 月供随之下降，借款人无需主动再融资。
-
-### For Banks 对银行的优势
-
-1. **转移利率风险：** 固定利率贷款中，若市场利率上升，银行仍只收到低利率，面临机会成本损失。ARM 将利率风险转移给借款人——利率上升时，银行收益也相应提高。
-
-### Risk Sharing Mechanism 风险分担机制（课件原文：Sharing Interest Rate Risk）
-
-```
-固定利率（CPM）:
-  利率风险 → 完全由银行承担
-
-ARM:
-  利率上升 → 借款人月供增加（借款人承担风险）
-  利率下降 → 借款人月供减少（借款人获益）
-  → 风险在银行与借款人之间"共享"
-```
-
-课件指出，ARM 的利率风险溢价比 CPM 更低正是这一共担机制的体现——这也解释了为什么 Q2i 中 ARM 有效成本略低于 CPM。好的答案应能将这一点与利率变化、风险溢价，以及对借款人和银行各自的利弊联系起来。
+**关键术语：** Adverse Prepayment 不利的提前还款 / Refinancing 再融资 / Less Mobile Borrowers 不频繁再融资的稳定借款人 / Fixed Cost Front-Loading 固定成本前置效应
 
 ---
 
-# Formula Summary 公式汇总
+## Q2i — ARM effective cost of borrowing (20 pts)
 
-| 类型 | 月供公式 |
-|------|---------|
-| IO | $\text{PMT}_t = i \cdot \text{BAL}_0$（常数），最后期 + 本金 |
-| CAM | $\text{PMT}_t = \text{BAL}_0/N + i \cdot \text{BAL}_{t-1}$（递减）|
-| CPM | $\text{PMT} = \text{PV} \cdot i(1+i)^N / [(1+i)^N - 1]$（常数）|
+*(Lecture 8)*
 
-$$r_P = LTV \cdot r_D + (1-LTV) \cdot r_E \qquad r_E = r_P + (r_P - r_D) \cdot D/E$$
+### Standard Answer
 
-$$\text{PV} = \sum_{t=1}^{N} \frac{CF_t}{(1+r)^t} + \frac{\text{Resale}_N}{(1+r)^N}$$
+**ARM = partitioned CPM:** at each rate reset, recalculate PMT using remaining balance and remaining term.
+
+Setup: £750,000 loan, 1% origination → net proceeds £742,500. Held to month 120 (10 years).
+- Months 1–36: 4.9%; Months 37–60: 4.5%; Months 61+: 5.0%
+
+**Stage 1 (Months 1–36, 4.9%, N=300):**
+PMT₁ = £4,340.84; BAL₃₆ ≈ **£700,533.80**
+
+**Stage 2 (Months 37–60, 4.5%, remaining N=264):**
+264 N | 4.5 I/Y | 700,533.80 PV → PMT₂ = **£4,184.89**; BAL₆₀ ≈ **£661,486.79**
+
+**Stage 3 (Months 61+, 5.0%, remaining N=240):**
+240 N | 5.0 I/Y | 661,486.79 PV → PMT₃ = **£4,365.52**; BAL₁₂₀ ≈ **£552,042.89**
+
+**ECB (CF Worksheet):**
+```
+CF0 = −742,500
+C01 = 4,340.84  F01 = 36
+C02 = 4,184.89  F02 = 24
+C03 = 4,365.52  F03 = 59
+C04 = 4,365.52 + 552,042.89 = 556,408.41  F04 = 1
+CPT IRR × 12
+```
+
+$$\boxed{ECB_{ARM} \approx 4.980\%}$$
+
+**vs CPM held to 10 years (Q2g): 5.043%** — ARM is slightly cheaper (≈6 bps) because the Stage 2 rate dip (4.5%) saves interest cost, partially offset by Stage 3 rising to 5.0%.
+
+---
+
+### 中文解释
+
+**ARM（Adjustable Rate Mortgage）可调利率贷款 = 一系列分段 CPM。** 每次利率重置时，以剩余余额和剩余期数重新计算月供。
+
+三段计算：① 4.9% 计算 36 期，得期末余额 → ② 以余额和剩余期数按 4.5% 计算 24 期，得期末余额 → ③ 以新余额按 5.0% 计算至持有期末。
+
+最终 ECB ≈ 4.980%，略低于同期 CPM（5.043%）——因为第 2 段（4.5%）低利率节省了利息成本。
+
+**关键术语：** ARM（Adjustable Rate Mortgage）可调利率抵押贷款 / Partitioned CPM 分段等额还款 / Rate Reset 利率重置
+
+---
+
+## Q2j — Rationale behind ARMs and interest rate risk sharing (5 pts)
+
+*(Lecture 8)*
+
+### Standard Answer
+
+ARMs exist to **share interest rate risk between borrower and lender** (Lecture 8).
+
+**Under fixed-rate CPM:**
+- The bank bears all interest rate risk — if market rates rise, the bank is stuck earning the old low rate; if rates fall, the borrower refinances.
+- Bank must charge a risk premium for bearing this uncertainty → higher fixed rate.
+
+**Under ARM:**
+- Rate resets pass market rate movements to the borrower — if rates rise, borrower's monthly payment rises; if rates fall, it falls.
+- Bank's interest rate risk is reduced → ARM rate can be set lower initially than a comparable fixed-rate loan.
+
+**For the borrower:**
+- Lower initial rate (compensates for accepting rate risk).
+- Automatic benefit if rates fall (no need to refinance).
+- Risk: payment can rise sharply if rates spike — especially problematic if borrower's income is fixed.
+
+**This sharing mechanism explains** why Q2i (ARM ECB ≈ 4.980%) is slightly below Q2g (CPM ECB ≈ 5.043%): the borrower accepted rate risk in exchange for a lower initial rate.
+
+---
+
+### 中文解释
+
+**ARM 的核心设计 = 利率风险分担（Sharing Interest Rate Risk）。**
+
+- 固定利率（CPM）：利率风险全由银行承担 → 银行收取更高的风险溢价。
+- ARM：利率变动风险转移给借款人 → 银行风险降低 → 初始利率更低。
+
+ARM 对借款人的优劣：初始利率更低（优点）；利率上升时月供增加（风险）。
+
+**关键术语：** ARM（Adjustable Rate Mortgage）可调利率贷款 / Interest Rate Risk 利率风险 / Risk Sharing 风险分担 / Risk Premium 风险溢价
+
+---
+
+# 关键公式速查
+
+| 公式 | 用途 |
+|------|------|
+| $PMT_{IO} = i \times L$ | 纯息月供 |
+| $PMT_{CAM,t} = L/N + i \times B_{t-1}$ | 等额摊还月供（递减）|
+| $PMT_{CPM} = L \times \frac{i}{1-(1+i)^{-N}}$ | 等额还款月供（常数）|
+| $B_t = L(1+i)^t - PMT \times \frac{(1+i)^t-1}{i}$ | 任意时点余额 |
+| ECB = 月IRR × 12（CF Worksheet）| 有效借款成本 |
+| $V_{sale} = NOI_{n+1} / \text{Going-Out Cap Rate}$ | 终值估算 |
+| $r_E = r_P + (r_P - r_D) \times D/E$ | 杠杆股权回报率（WACC 变形）|
+| $Waterfall: LP_{total} = Pref \times 90\% + 80\% \times Excess \times 90\%$ | LP 瀑布分配 |
 
 ---
 
 *Prepared for GY462 Real Estate Finance — LSE Winter Term 2026*
-*Based solely on Lectures 1–9 by Prof. Olmo Silva and guest lecturers (Damian Perry, DFI Team)*
+*Based solely on Lectures 1–10 by Prof. Olmo Silva and guest lecturers (Damian Perry, DFI Team, S Burak Kaplanoglu)*
