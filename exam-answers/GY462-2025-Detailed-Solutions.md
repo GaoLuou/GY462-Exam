@@ -163,15 +163,11 @@ DCF incorporates risks and opportunities through two mechanisms:
 
 **1. Cash flow forecasting — capturing every risk and opportunity driver:**
 
-The Pro Forma builds cash flows bottom-up:
-- **PGI** (Potential Gross Income) = fully-leased rent
-- **− Vacancy allowance** = explicit void rate (never assume 100% occupancy)
-- **+ Other income** = parking, signage
-- **− Operating expenses** = fixed + variable costs; excludes depreciation (not a cash cost)
-- **= NOI** (Net Operating Income)
-- **− Capital improvements** = tenant fit-out costs, leasing commissions
-- **= PBTCF** (Property Before-Tax Cash Flow)
-- **+ Terminal (resale) value** = NOI_{n+1} / Going-Out Cap Rate
+The Pro Forma (Lec 2) structures cash flows as:
+
+
+
+Resale value is calculated separately: **Year (n+1) NOI / Going-Out Cap Rate**
 
 **2. Discount rate — pricing risk by cash flow type (Lecture 2):**
 - **Intra-lease** (contracted rent): lower rate — risk is only tenant default.
