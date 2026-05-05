@@ -167,7 +167,6 @@ The Pro Forma builds cash flows bottom-up:
 - **PGI** (Potential Gross Income) = fully-leased rent
 - **− Vacancy allowance** = explicit void rate (never assume 100% occupancy)
 - **+ Other income** = parking, signage
-- **= EGI** (Effective Gross Income)
 - **− Operating expenses** = fixed + variable costs; excludes depreciation (not a cash cost)
 - **= NOI** (Net Operating Income)
 - **− Capital improvements** = tenant fit-out costs, leasing commissions
