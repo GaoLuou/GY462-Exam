@@ -159,36 +159,70 @@ Additional costs (Lecture 4):
 
 ### Standard Answer
 
-DCF incorporates risks and opportunities through two mechanisms:
+DCF models risks and opportunities through three mechanisms:
 
-**1. Cash flow forecasting — capturing every risk and opportunity driver:**
+**1. Cash flow forecasting — the Pro Forma (Lecture 2):**
 
-The Pro Forma (Lec 2) structures cash flows as:
+The Pro Forma structures operating cash flows as:
 
+PGI − Vacancy + Other Income = EGI − Operating Expenses = NOI − Capital Improvements = PBTCF
 
+Terminal value (reversion) is computed separately: **NOI_{n+1} / Going-Out Cap Rate**
 
-Resale value is calculated separately: **Year (n+1) NOI / Going-Out Cap Rate**
+Each line item captures a specific risk (vacancy, cost overrun) or opportunity (rental growth, other income). The terminal value is typically the largest single component of total return.
 
-**2. Discount rate — pricing risk by cash flow type (Lecture 2):**
-- **Intra-lease** (contracted rent): lower rate — risk is only tenant default.
-- **Inter-lease and terminal value**: higher rate — full market uncertainty about re-letting conditions and exit price.
+**2. Discount rate — pricing risk by cash flow type (Lecture 1):**
 
-This two-rate approach means the DCF explicitly prices the asymmetry between contracted, predictable income and uncertain, uncontracted future cash flows.
+- **Intra-lease** (contracted rent): lower rate — risk is tenant default only.
+- **Inter-lease and terminal value**: higher rate — full market uncertainty about re-letting and exit price.
 
-**Decision rule:** NPV > 0 → buy (asset underpriced for its risk); IRR vs hurdle rate drives hold/sell decisions.
+This two-rate approach explicitly prices the asymmetry between contracted and uncontracted cash flows, which a single blended rate cannot capture.
+
+**3. Risk quantification (Lecture 3):**
+
+- **IRR/PV partitioning:** split total value into operating CFs vs terminal value — a high terminal-value share signals concentrated exit-market risk.
+- **Sensitivity analysis:** three scenarios (pessimistic / most-likely / optimistic) → compute E(IRR), SD, and CoV to measure and compare investment risk numerically.
+
+**Decision rule:** NPV > 0 → buy; IRR > hurdle rate → invest.
 
 ---
 
 ### 中文解释
 
-**DCF 两大机制（Lecture 1/2/3）：**
+**三大机制框架，对应 Lec 1 / 2 / 3：**
 
-1. **现金流预测 = 量化所有风险和机会**：Pro Forma 结构（PGI → NOI → PBTCF）强制建模每个风险驱动因素。
-2. **折现率 = 风险定价**：租约内（Intra-Lease，低折现率）vs 租约间及终值（Inter-Lease，高折现率）——这是 GY462 的核心差异化考点。
+**① 现金流（分子）= 量化风险和机会（Lec 2）**
 
-终值（Going-Out Cap Rate 决定）是 DCF 中最大的不确定性来源——Cap Rate 变动 1% 可使终值变化 12%+。
+Pro Forma 强制把每个风险和机会驱动因素逐一建模：
+- PGI（Potential Gross Income 潜在总收入）：满租收入
+- 扣除空置损失（Vacancy）→ 永远不能假设 100% 出租率
+- 加其他收入（Other Income）→ 停车、广告位等机会
+- 扣运营费用（Operating Expenses）→ 固定 + 可变，**不含折旧**（非现金支出）
+- 扣资本改善（Capital Improvements）→ 租户装修补贴（TIs）、招租中介费
+- = PBTCF（Property Before-Tax Cash Flow 税前物业现金流）
+- 终值单独计算：NOI_{n+1} / Going-Out Cap Rate（**用下一年 NOI，因为买家看未来**）
 
-**关键术语：** PGI 潜在总收入 / NOI 净营业收入 / PBTCF 税前物业现金流 / Going-Out Cap Rate 退出资本化率 / Intra-Lease 租约内 / Inter-Lease 租约间 / Hurdle Rate 门槛回报率
+**② 折现率（分母）= 按风险类型定价（Lec 1 最高频考点）**
+
+这是整门课最重要的差异化概念：
+- **租约内（Intra-Lease）**：用低折现率 → 现金流已由合同锁定，唯一风险是租户违约（Tenant Default）
+- **租约间及终值（Inter-Lease / Terminal Value）**：用高折现率 → 下一个租户条件未知，市场风险大
+
+两段式折现率 = 显式定价合同收入与非合同收入之间的风险不对称。用单一混合折现率会低估这种差异。
+
+**③ 风险量化（Lec 3）**
+
+- **IRR/PV 分解（Partitioning）**：把总价值拆成运营现金流部分 vs 终值部分。终值占比越高（典型如 70%），投资对退出市场的依赖越强，风险越集中。
+- **敏感性分析（Sensitivity Analysis）**：设三种情景（悲观/最可能/乐观），计算期望 E(IRR)、标准差 SD、变异系数 CoV（= SD/E(IRR)）——数字化衡量投资风险。
+
+**关键术语：**
+- PGI / NOI / PBTCF：Pro Forma 收入结构
+- Going-Out Cap Rate 退出资本化率
+- Intra-Lease 租约内 / Inter-Lease 租约间
+- Tenant Default Risk 租户违约风险
+- Hurdle Rate 门槛回报率
+- Partitioning IRR/PV 分解
+- CoV（Coefficient of Variation）变异系数
 
 ---
 
