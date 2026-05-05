@@ -660,5 +660,5 @@ ARM（6.0966%）< 固定利率（6.6874%）——因为 ARM 前两年享受 4.5%
 | $B_t = L(1+i)^t - PMT \cdot \frac{(1+i)^t-1}{i}$ | 任意时点剩余本金 |
 | ECB = 月度 IRR × 12（CF Worksheet 求解） | 有效借款成本 |
 | $(1+r_{nom}) = (1+r_{real})(1+\pi)$ | Fisher 方程（名义利率） |
-| $\text{Real PMT}_t = PMT_{nom} / (1+\pi)^t$ | 通胀倾斜实际月供 |
+| {real,t} = PMT_{nom} / (1+\pi)^t$ | 通胀倾斜实际月供 |
 | $DCR = \text{月收入}/\text{月供} \geq 1.3$ | 贷款资格检验 |
