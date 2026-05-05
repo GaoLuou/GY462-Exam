@@ -152,7 +152,13 @@ N = 总期数
 
 ### 剩余余额 Remaining Balance
 ```
+方法1（剩余付款现值）：
 BALₜ = PMT × [1 - (1 + i)^(-(N-t))] / i
+
+方法2（复利累积法）：
+BALₜ = PV × (1 + i)^t - PMT × [(1 + i)^t - 1] / i
+
+两式等价，结果相同。BA II Plus 用 AMORT 工作表直接查。
 ```
 
 ### 有效年利率 EAY
