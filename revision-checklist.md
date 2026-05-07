@@ -1,7 +1,19 @@
 # GY462 考前复习清单 Revision Checklist
 
-> 来源：2026年5月6日老师划重点录音（考试前5天）
+> 来源：2026年5月6日 + 5月7日老师划重点录音
 > 考试：2026年5月11日 14:30 | 闭卷 | 2小时+10分钟阅读时间 | 两道题均必答
+
+---
+
+## 优先级说明 Priority Guide
+
+| 标记 | 含义 | 目标 |
+|------|------|------|
+| 🔴 **及格必记** | 不会这个很难及格，先死磕这些 | 50分 |
+| 🟡 **Merit加分** | 掌握后能稳定在60分区间 | 60分 |
+| 🟢 **Distinction** | 已有时间再看，否则跳过 | 70分 |
+
+> 只想及格：**只看 🔴 标记的内容**，Q2计算题做对，Q1写 IO vs CPM + MBS三类 + 风险排序，就够了。
 
 ---
 
@@ -22,13 +34,13 @@
 
 ### 1.1 房地产投资分析 Real Estate Investment Analysis（Lec 1–5）
 
-- [ ] **风险与机会 Risks & Opportunities of Real Estate**
+- [ ] 🔴 **风险与机会 Risks & Opportunities of Real Estate**
   - 风险：自然灾害（物理资产集中在特定位置）、空置风险、租赁风险、运营风险、流动性风险（大额且不可分割）
   - 机会：租金增长 Rental Growth、终值 Terminal Value（出售所得）、运营成本优化 Operating Cost（课件原词，非"Capital Appreciation"）
   - **排序很重要**：优先最大化租金收入 → 高效运营 → 最后依赖地产周期
   - 不要把流动性/大额/不可分割全堆在第一个子问题，若Q1b专门问这些则省着说
 
-- [ ] **估值方法 Valuation Methods**
+- [ ] 🟡 **估值方法 Valuation Methods**
   - DCF（折现现金流）：结合风险与机会，可使用分阶段折现率
   - 上行/下行现金流的拆解（Unbundling cash flows）：整合收入 vs 过渡收入
   - Cap Rate：为什么好（简单）？为什么不好（不前瞻）？如何调整（减去增长率）？
@@ -39,7 +51,7 @@
   - **Cap Rate大 = 风险高 + 机会少**
   - 资产价值由净营业收入NOI驱动，不要完全依赖地产周期
 
-- [ ] **风险评估方法 Risk Assessment Methods**（老师说很多人没答全）
+- [ ] 🟢 **风险评估方法 Risk Assessment Methods**（老师说很多人没答全）
   - **课件（Lec03）三种正式方法**：
     1. **尽职调查 Due Diligence**：⚠️ 几乎没人提！是定量分析的前提，验证所有输入假设
     2. **IRR分解/NPV分解 Partitioning**：⚠️ 几乎没人提——区分"运营收益"vs"出售收益"，判断是否过度依赖终值
@@ -49,7 +61,7 @@
        - **模拟/蒙特卡洛 Simulation / Monte Carlo**：⚠️ Mock 里几乎没人提，是高分点——对所有关键变量的概率分布同时模拟，输出 IRR/NPV 的概率分布，比单点情景分析更全面
   - 结合案例（Copenhagen / Croydon 项目）讲述你做了哪些压力测试
 
-- [ ] **杠杆 Leverage**（Lec 4）
+- [ ] 🟡 **杠杆 Leverage**（Lec 4）
   - 税前/税后 IRR（Before/After Tax）
   - 盈亏平衡利率 Breakeven Interest Rate
   - 杠杆与收益的关系（Weil公式）
@@ -58,42 +70,41 @@
 
 ### 1.2 抵押贷款 Mortgages（Lec 6–7）
 
-- [ ] 理解抵押贷款全周期（含/不含二级市场）
-- [ ] 各类贷款对比：
+- [ ] 🟡 理解抵押贷款全周期（含/不含二级市场）
+- [ ] 🔴 各类贷款对比：
   - IO（Interest Only）：对商业投资者友好（早期现金流压力小），对银行风险较大（敞口期长）→ 银行收更高利率
   - CPM（Constant Payment Mortgage）
   - GPM（Graduated Payment Mortgage）：通货膨胀背景下使用，早期还款少
   - ARM（Adjustable Rate Mortgage）：利率随市场调整
-  - **通货膨胀如何推动 GPM 和 ARM 的使用**
-  - **参与贷款 Participation Loan**：⚠️ 老师提到"没怎么讲，但理论题可能出"
+  - 🟡 **通货膨胀如何推动 GPM 和 ARM 的使用**
+  - 🟢 **参与贷款 Participation Loan**：⚠️ 老师提到"没怎么讲，但理论题可能出"
     - 贷款方除收取利息外，还分享物业的部分运营收入或资本增值
     - 好处：借款人以"让利"换取更低的基础利率
     - 风险分配：lender 承担更多上行收益权，borrower 以此换取更低固定利率负担
-- [ ] IO vs CPM 的权衡（银行与借款人各自偏好分析）
+- [ ] 🔴 IO vs CPM 的权衡（银行与借款人各自偏好分析）
 
 ### 1.3 私募股权基金 Private Equity Funds（Lec 5，外部讲师 Ignacio）
 
-- [ ] GP（General Partner）与 LP（Limited Partner）角色、风险分担、报酬
-- [ ] 瀑布分配 Waterfall：Deal-by-deal vs All-fund 结构对比
-- [ ] 激励机制（carried interest）与绩效计量
+- [ ] 🟡 GP（General Partner）与 LP（Limited Partner）角色、风险分担、报酬
+- [ ] 🟡 瀑布分配 Waterfall：Deal-by-deal vs All-fund 结构对比
+- [ ] 🟢 激励机制（carried interest）与绩效计量
 - [ ] ⚠️ **瀑布不会出计算题**，只考理论
 
 ### 1.4 开发融资 Development Finance（外部讲师 Paul + Rico）
 
-- [ ] 永久贷款 Permanent Loan vs 过渡贷款 Interim Lender（桥接），如何衔接
-- [ ] **快捷估值（10法则 / Rule of 10 & 7a）vs 完整折现估值**对比：优缺点各是什么？
-- [ ] 开发项目关键风险管理（Paul & Rico 提到的文化差异与承包商管理）
+- [ ] 🟡 永久贷款 Permanent Loan vs 过渡贷款 Interim Lender（桥接），如何衔接
+- [ ] 🟡 **快捷估值（10法则 / Rule of 10 & 7a）vs 完整折现估值**对比：优缺点各是什么？
+- [ ] 🟢 开发项目关键风险管理（Paul & Rico 提到的文化差异与承包商管理）
 
 ### 1.5 抵押贷款支持证券 Mortgage-Backed Securities（MBS）
 
 - [ ] ⚠️ **只考理论，不考计算**
-- [ ] 有/无二级抵押市场下，贷款的生命周期对比
-- [ ] 证券化动机：现金型（Cash Program）vs 互换型（Swap Program）
-- [ ] 三类证券对比：
-  - **抵押贷款债券 Mortgage-Backed Bonds（MBB）**：超额抵押（over-collateralised），预付风险归发行方
-  - **抵押贷款直接过手证券 Mortgage Pass-Throughs**：预付风险归投资者
-  - **抵押贷款担保债券 CMOs（Collateralised Mortgage Obligations）**：按批次分配不同风险与收益
-- [ ] 关键：谁承担预付风险？谁承担利率风险？
+- [ ] 🟡 有/无二级抵押市场下，贷款的生命周期对比
+- [ ] 🟡 证券化动机：现金型（Cash Program）vs 互换型（Swap Program）
+- [ ] 🔴 三类证券对比（**谁承担预付风险是核心**）：
+  - **抵押贷款债券 Mortgage-Backed Bonds（MBB）**：超额抵押（over-collateralised），预付风险归**发行方**
+  - **抵押贷款直接过手证券 Mortgage Pass-Throughs**：预付风险归**投资者**
+  - **抵押贷款担保债券 CMOs（Collateralised Mortgage Obligations）**：按**tranche分配**，高级层最安全
 
 ### 1.6 ESG（Lec 10，外部讲师 S. Burak Kaplanoglu）
 
@@ -110,55 +121,53 @@
 
 ### 2.1 计算器操作
 
-- [ ] 检查电池是否充足
-- [ ] **每次开始计算前清除内存**（按 CLR → Memory），避免残留数字污染
-- [ ] 确认 Casio FX-83/85 可以使用；其他型号考前联系考试办公室
+- [ ] 🔴 检查电池是否充足，确认是 Casio FX-83/85
+- [ ] 🔴 **每次开始计算前清除内存**（按 CLR → Memory），避免残留数字污染
 - [ ] Excel 和金融计算器软件**不允许使用**
 
-### 2.2 CPM（Constant Payment Mortgage）⭐ 必须会
+### 2.2 CPM（Constant Payment Mortgage）🔴 及格命脉
 
-- [ ] 5个键：N, I/Y, PV, PMT, FV
-- [ ] 月付/季付/年付的 N 和 I/Y 调整（直接乘/除，不需要有效年利率转换）
-- [ ] 负摊销贷款 **Negative Amortization**：FV > PV（初始本金），**FV键不能留零**
-- [ ] 部分摊销贷款 **Partial Amortizing Loan**：FV = 气球还款额（Balloon Payment），不为零
+- [ ] 🔴 5个键：N, I/Y, PV, PMT, FV——**先把这5个键玩熟，其他一切都建在这上面**
+- [ ] 🔴 月付/季付/年付的 N 和 I/Y 调整（直接乘/除，不需要有效年利率转换）
+- [ ] 🔴 负摊销贷款 **Negative Amortization**：FV > PV（初始本金），**FV键不能留零**
+- [ ] 🔴 部分摊销贷款 **Partial Amortizing Loan**：FV = 气球还款额（Balloon Payment），不为零
 - [ ] ⚠️ 常见错误：把IO + CPM混合，认为"前N期IO，第N+1期CPM一次性还完"——**这是错误的**，整个期间是一致的摊销逻辑
 
-### 2.3 IO（Interest Only）
+### 2.3 IO（Interest Only）🔴
 
-- [ ] 每期只还利息，期末还本金
-- [ ] 不需要计算器复杂功能，理解即可
+- [ ] 🔴 每期只还利息，期末还本金（FV = 原始贷款额）
+- [ ] 🔴 **Levered IRR 里最常用 IO**：中间期扣利息，最后期还本金 + 利息
 
-### 2.4 GPM（Graduated Payment Mortgage）⭐ 复杂，需要反复练习
+### 2.4 GPM（Graduated Payment Mortgage）🟢 时间够再看
 
-- [ ] 早期还款低，后期递增
-- [ ] 需要分阶段计算，计算器操作繁琐
+- [ ] 🟢 早期还款低，后期递增
+- [ ] 🟢 需要分阶段计算，计算器操作繁琐
 - [ ] 目标：做对大概方向，写清楚逻辑步骤（即使数字偏差，得逻辑分）
 
-### 2.5 ARM（Adjustable Rate Mortgage）
+### 2.5 ARM（Adjustable Rate Mortgage）🟡
 
-- [ ] 老师只做过年频率示例，考试可能出现月/季频率
-- [ ] 有效借款成本（Effective Cost of Borrowing）的计算
-- [ ] ARM的预付情景：提前5年还款时 ECB 可能低于名义利率（利率逐渐上升但提前还款规避了后期高利率）→ 这是反直觉的，**不要硬解释成"正常现象"，要说明原因**
+- [ ] 🟡 老师只做过年频率示例，考试可能出现月/季频率
+- [ ] 🟡 有效借款成本（Effective Cost of Borrowing）的计算
+- [ ] 🟡 ARM的预付情景：提前还款时 ECB 可能低于全期 ECB（规避了后期高利率）→ 反直觉，**不要假设结论，计算后再判断**
 
-### 2.6 有效借款成本 Effective Cost of Borrowing（ECB）⭐
+### 2.6 有效借款成本 Effective Cost of Borrowing（ECB）🔴
 
-- [ ] 折扣点 Discount Points：增加 ECB，因为前期缴费减少了实际到手金额
-- [ ] ECB **必须高于名义利率**（当有折扣点时），若计算出来更低说明计算有误
-- [ ] 若发现数字与逻辑矛盾，**明确写出"我知道这不对，但时间不够检查"**，比假装没看到更有利
-- [ ] 提前还款的影响：是否有罚款？
+- [ ] 🔴 折扣点 Discount Points：增加 ECB，因为前期缴费减少了实际到手金额
+- [ ] 🔴 ECB **必须高于名义利率**（当有折扣点时），若计算出来更低说明计算有误
+- [ ] 🔴 若发现数字与逻辑矛盾，**明确写出"I believe there may be a calculation error; logically ECB should be higher"**，比假装没看到更有利
 
-### 2.7 杠杆计算
+### 2.7 杠杆计算 🔴 及格命脉（与Q2直接挂钩）
 
-- [ ] 无杠杆 IRR vs 有杠杆 IRR（简单现金流 + CPM贷款）
-- [ ] 税前/税后 IRR（28% 税率，利息费用抵税）
-- [ ] 折旧：土地 vs 建筑物折旧（理论为主，计算较少）
+- [ ] 🔴 无杠杆 IRR vs 有杠杆 IRR（简单现金流 + IO/CPM贷款）——**老师说这就是Q2的结构**
+- [ ] 🟡 税前/税后 IRR（28% 税率，利息费用抵税）
+- [ ] 🟢 折旧：土地 vs 建筑物折旧（理论为主，计算较少）
 
-### 2.8 现金流与 IRR
+### 2.8 现金流与 IRR 🔴
 
-- [ ] 季度现金流的处理：直接用季度频率计算（不要折算成年度）
-- [ ] 写出清晰的中间步骤：N= ?, I/Y= ?, PV= ?, PMT= ?, FV= ?
-- [ ] 数字精度：一般保留4位小数；百万量级金额截断2位可接受；利率/百分比尽量保留更多位
-- [ ] 季度频率转年：直接乘4（不要用有效年利率公式复利换算），计算器内在逻辑是乘法
+- [ ] 🔴 季度现金流的处理：直接用季度频率计算（不要折算成年度）
+- [ ] 🔴 写出清晰的中间步骤：N= ?, I/Y= ?, PV= ?, PMT= ?, FV= ?（**逻辑对数字错也给分**）
+- [ ] 🔴 季度频率转年：直接乘4（不要用有效年利率公式复利换算）
+- [ ] 🟡 数字精度：金额保留4位小数；利率/百分比尽量多保留几位
 
 ---
 

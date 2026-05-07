@@ -2,6 +2,9 @@
 # 老师划重点标准答案（英文答案 + 中文详解）
 
 > **说明**：内容来自 GY462 课件（Olmo Silva 教授讲义）。按 Distinction 70分难度撰写：突出 2–3 个核心论点，考试时间内可写完。
+>
+> **优先级标记：** 🔴 及格必记 | 🟡 Merit加分（60+）| 🟢 Distinction（时间够再看）
+> **只想及格：只读标 🔴 的章节**，其余跳过。
 
 ---
 
@@ -30,7 +33,7 @@
 
 ---
 
-## T1. Risks & Opportunities of Direct Real Estate Investment
+## T1. Risks & Opportunities of Direct Real Estate Investment 🔴 及格必记
 
 ### Model Answer (English)
 
@@ -73,7 +76,7 @@ Growth-adjusted Cap Rate = Raw Cap Rate − Growth Rate
 
 ---
 
-## T2. Risk Assessment Methods
+## T2. Risk Assessment Methods 🟢 Distinction（及格可跳过）
 
 ### Model Answer (English)
 
@@ -112,7 +115,7 @@ The course identifies three main approaches to assessing risk in a real estate i
 
 ---
 
-## T3. Leverage: Effects on Return, Risk and Cash Flow
+## T3. Leverage: Effects on Return, Risk and Cash Flow 🟡 Merit加分
 
 ### Model Answer (English)
 
@@ -163,7 +166,7 @@ Early-period cash flows are squeezed most under debt service. Under an interest-
 
 ---
 
-## T4. IO vs CPM Tradeoffs
+## T4. IO vs CPM Tradeoffs 🔴 及格必记
 
 ### Model Answer (English)
 
@@ -195,7 +198,7 @@ IO is good for the borrower but costly from the bank's viewpoint — and this mi
 
 ---
 
-## T4.5. Participation Loan
+## T4.5. Participation Loan 🟢 Distinction（及格可跳过）
 
 ### Model Answer (English)
 
@@ -234,7 +237,7 @@ From the borrower's perspective, the lower base rate reduces the immediate debt 
 
 ---
 
-## T5. Private Equity: GP/LP and Waterfall
+## T5. Private Equity: GP/LP and Waterfall 🟡 Merit加分
 
 ### Model Answer (English)
 
@@ -282,7 +285,7 @@ Under deal-by-deal structures, the GP can crystallise promote on successful earl
 
 ---
 
-## T6. Development Finance
+## T6. Development Finance 🟡 Merit加分
 
 ### Model Answer (English)
 
@@ -323,7 +326,7 @@ The shortcut — producing income at a 10% yield and selling at an 8% yield — 
 
 ---
 
-## T7. Mortgage-Backed Securities
+## T7. Mortgage-Backed Securities 🔴 及格必记（纯理论，背下来就有分）
 
 ### Model Answer (English)
 
@@ -369,7 +372,7 @@ Originators sell loans to a Government-Sponsored Enterprise (GSE) or conduit (Ca
 
 ---
 
-## T8. ESG
+## T8. ESG 🟡 Merit加分
 
 ### Model Answer (English)
 
@@ -412,7 +415,7 @@ The course frames ESG through the lens of double materiality: inside-out (the as
 
 ---
 
-## C1. Negative Amortization & Partial Amortizing Loans
+## C1. Negative Amortization & Partial Amortizing Loans 🔴 及格必记（老师强调三遍）
 
 ### Model Answer — Methodology (English)
 
@@ -462,7 +465,7 @@ Calculator approach:
 
 ---
 
-## C2. Effective Cost of Borrowing with Discount Points
+## C2. Effective Cost of Borrowing with Discount Points 🔴 及格必记
 
 ### Model Answer — Methodology (English)
 
@@ -517,7 +520,7 @@ Step 3：求 IRR
 
 ---
 
-## C3. ARM: Effective Cost & Prepayment
+## C3. ARM: Effective Cost & Prepayment 🟡 Merit加分
 
 ### Model Answer — Methodology (English)
 
@@ -564,7 +567,7 @@ ARM 的利率不固定，每隔一段时间根据市场基准利率重置，所�
 
 ---
 
-## C4. Leveraged vs Unlevered IRR
+## C4. Leveraged vs Unlevered IRR 🔴 及格命脉（老师说这就是Q2的核心结构）
 
 ### Model Answer — Methodology (English)
 
