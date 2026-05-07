@@ -24,7 +24,7 @@
 
 - [ ] **风险与机会 Risks & Opportunities of Real Estate**
   - 风险：自然灾害（物理资产集中在特定位置）、空置风险、租赁风险、运营风险、流动性风险（大额且不可分割）
-  - 机会：租金收入 Rental Value、资本增值 Capital Appreciation、运营管理 Operations Management
+  - 机会：租金增长 Rental Growth、终值 Terminal Value（出售所得）、运营成本优化 Operating Cost（课件原词，非"Capital Appreciation"）
   - **排序很重要**：优先最大化租金收入 → 高效运营 → 最后依赖地产周期
   - 不要把流动性/大额/不可分割全堆在第一个子问题，若Q1b专门问这些则省着说
 
@@ -32,15 +32,22 @@
   - DCF（折现现金流）：结合风险与机会，可使用分阶段折现率
   - 上行/下行现金流的拆解（Unbundling cash flows）：整合收入 vs 过渡收入
   - Cap Rate：为什么好（简单）？为什么不好（不前瞻）？如何调整（减去增长率）？
+  - **Growth-adjusted Cap Rate = Cap Rate − Growth Rate**
+    - Growth > 0：减去正数 → adjusted cap rate 变小 → 资产价值更高（市场预期增长）
+    - Growth < 0：减去负数（等于加上）→ adjusted cap rate 变大 → 资产价值更低、风险更高
+    - ⚠️ 反直觉：负增长时不是"cap rate 减个负数"让价格变高，而是让 cap rate 变大反映更高风险
   - **Cap Rate大 = 风险高 + 机会少**
   - 资产价值由净营业收入NOI驱动，不要完全依赖地产周期
 
 - [ ] **风险评估方法 Risk Assessment Methods**（老师说很多人没答全）
-  - 情景分析 Scenario Analysis：多个宏观状态，所有关键变量同时变化
-  - 压力测试 Stress Testing：固定中心预测，逐个测试关键变量边界
-  - **判断法 Judgments**：⚠️ 几乎没人提，是重要得分点
-  - **IRR分解/NPV分解 Partitioning**：⚠️ 几乎没人提——区分"运营收益"vs"出售收益"，判断是否过度依赖资本增值
-  - 结合案例（Copenhagen / Freud项目）讲述你做了哪些压力测试
+  - **课件（Lec03）三种正式方法**：
+    1. **尽职调查 Due Diligence**：⚠️ 几乎没人提！是定量分析的前提，验证所有输入假设
+    2. **IRR分解/NPV分解 Partitioning**：⚠️ 几乎没人提——区分"运营收益"vs"出售收益"，判断是否过度依赖终值
+    3. **敏感性分析 Sensitivity Analysis**：包含三个层次——
+       - 压力测试 Stress Testing：固定中心预测，逐个测试单一变量
+       - 情景分析 Scenario Analysis：多个宏观状态，所有关键变量同时变化
+       - **模拟/蒙特卡洛 Simulation / Monte Carlo**：⚠️ Mock 里几乎没人提，是高分点——对所有关键变量的概率分布同时模拟，输出 IRR/NPV 的概率分布，比单点情景分析更全面
+  - 结合案例（Copenhagen / Croydon 项目）讲述你做了哪些压力测试
 
 - [ ] **杠杆 Leverage**（Lec 4）
   - 税前/税后 IRR（Before/After Tax）
@@ -58,6 +65,10 @@
   - GPM（Graduated Payment Mortgage）：通货膨胀背景下使用，早期还款少
   - ARM（Adjustable Rate Mortgage）：利率随市场调整
   - **通货膨胀如何推动 GPM 和 ARM 的使用**
+  - **参与贷款 Participation Loan**：⚠️ 老师提到"没怎么讲，但理论题可能出"
+    - 贷款方除收取利息外，还分享物业的部分运营收入或资本增值
+    - 好处：借款人以"让利"换取更低的基础利率
+    - 风险分配：lender 承担更多上行收益权，borrower 以此换取更低固定利率负担
 - [ ] IO vs CPM 的权衡（银行与借款人各自偏好分析）
 
 ### 1.3 私募股权基金 Private Equity Funds（Lec 5，外部讲师 Ignacio）
@@ -84,11 +95,13 @@
   - **抵押贷款担保债券 CMOs（Collateralised Mortgage Obligations）**：按批次分配不同风险与收益
 - [ ] 关键：谁承担预付风险？谁承担利率风险？
 
-### 1.6 ESG（Lec 10，外部讲师 Porras）
+### 1.6 ESG（Lec 10，外部讲师 S. Burak Kaplanoglu）
 
-- [ ] ESG如何影响资产风险（未来价值稳定性、抗自然灾害）
-- [ ] ESG如何影响借款成本（绿色贷款利率更低，贷款方视ESG资产为更安全）
-- [ ] 投资者视角 + 贷款方视角（Viva / Segro3 / 开发商的不同立场）
+- [ ] ESG 影响四个维度：Risks（±）/ Yields（±）/ Finance（±）/ Valuation（±）
+- [ ] ESG如何影响资产风险：搁浅资产（Stranded Asset）、绿色溢价（Green Premium）、空置期延长
+- [ ] ESG如何影响借款成本：73%贷款方有ESG策略；81%认为ESG将影响贷款意愿；93%认为监管将要求纳入资本配置
+- [ ] **双重实质性 Double Materiality**：Inside-out（企业对环境的影响）+ Outside-in（环境风险对企业财务的反向冲击）
+- [ ] 要将 ESG 与 investment analysis、cost of borrowing 串联，不要孤立讲
 - [ ] ⚠️ Mock exam 的 ESG 题与今年课程偏差较大，今年重点更偏**投资者+贷款方**视角
 
 ---
@@ -155,8 +168,8 @@
 
 | 案例 | 适用场景 |
 |------|---------|
-| **Copenhagen** | 开发项目，现金流跨度长，季度时间轴，要压力测试的变量（建设周期等） |
-| **Freud / Crawl** | Buy-hold 项目，NOI估算，杠杆IRR，IRR分解 |
+| **Copenhagen** | 开发项目（Development），现金流跨度长，季度时间轴，压力测试变量：建设周期、招租率 |
+| **Croydon** | Buy-hold 持有型项目，NOI估算，杠杆IRR，IRR分解 |
 
 - 若题目问"如何评估投资风险"，可说"在Copenhagen案例中我们做了X，若条件允许还应做Y"
 - 可以比较两个案例（如开发 vs 持有型投资的风险差异）
