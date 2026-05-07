@@ -9,7 +9,7 @@
 
 **理论题 Theory Questions**
 - [T1. Risks & Opportunities of Direct Real Estate Investment](#t1-risks--opportunities-of-direct-real-estate-investment)
-- [T2. Risk Assessment Methods (Stress Testing / Scenario / Judgements / IRR Partitioning)](#t2-risk-assessment-methods)
+- [T2. Risk Assessment Methods (Due Diligence / Partitioning IRR / Sensitivity Analysis)](#t2-risk-assessment-methods)
 - [T3. Leverage: Effects on Return, Risk and Cash Flow](#t3-leverage-effects-on-return-risk-and-cash-flow)
 - [T4. IO vs CPM: Who Prefers What and Why?](#t4-io-vs-cpm-tradeoffs)
 - [T5. Private Equity: GP/LP Structure and Waterfall](#t5-private-equity-gplp-and-waterfall)
@@ -41,9 +41,9 @@ The most important risks are vacancy and leasing risk. If a tenant vacates, the 
 
 **Key Opportunities:**
 
-The primary opportunity is rental income growth. Since a property's value is anchored to its Net Operating Income (NOI), maximising rent and controlling operating costs is the most reliable path to value creation — more so than depending on favourable real estate cycles. Capital appreciation provides a secondary upside, particularly when exit cap rates compress at time of sale.
+The primary opportunity is rental income growth. Since a property's value is anchored to its Net Operating Income (NOI), maximising rent and controlling operating costs is the most reliable path to value creation — more so than depending on favourable real estate cycles. Terminal value (resale proceeds) provides a secondary upside, but is highly uncertain because it depends on exit cap rates at the time of sale.
 
-**Priority:** Among these opportunities, efficient operations and rental maximisation should take precedence. The terminal (resale) value is large but highly uncertain; investors who focus on NOI generation first will outperform those who bet on market timing.
+**Priority:** Among these opportunities, efficient operations and rental maximisation should take precedence. The terminal value is large but the least controllable; investors who focus on NOI generation first will outperform those who bet on market timing.
 
 ---
 
@@ -55,7 +55,7 @@ The primary opportunity is rental income growth. Since a property's value is anc
 
 2. **流动性风险（Liquidity Risk）**：大额、不可分割（large lot size & indivisibility）是直接投资区别于股票、债券的本质特征。老师在讲座中专门说"流动性是第二问的重点，别在第一问把话说完"——所以要根据子问题结构合理分配。
 
-3. **机会的优先级（Priority of Opportunities）**：列出租金、资本增值、运营管理还不够，**必须给出排序**：首先专注最大化租金和高效运营，这是可控的；而市场周期带来的资本增值是不可控的，不应作为主要投资逻辑。老师明确说"没排序就丢分"。
+3. **机会的优先级（Priority of Opportunities）**：列出租金、终值（Terminal Value）、运营管理还不够，**必须给出排序**：首先专注最大化租金和高效运营，这是可控的；而市场周期带来的终值（Terminal Value，即出售所得）是不可控的，不应作为主要投资逻辑。老师明确说"没排序就丢分"。课件中三大机会是：Operating cost（运营成本优化）、Terminal value（终值）、Rental growth（租金增长）。
 
 **不应该写的：** 不要在这道题用大量篇幅讲流动性，如果子问题明确把流动性单列出来的话。先通读所有子题再分配内容。
 
@@ -65,31 +65,33 @@ The primary opportunity is rental income growth. Since a property's value is anc
 
 ### Model Answer (English)
 
-There are four main approaches to assessing risk in a real estate investment, each providing a different perspective on potential downside:
+The course identifies three main approaches to assessing risk in a real estate investment:
 
-**1. Scenario Analysis:** Involves constructing a small number of distinct states of the world (e.g., base, optimistic, pessimistic) where all key variables — rental growth, vacancy, exit cap rate — change simultaneously. This captures correlated macro shocks but requires credible probability weights.
+**1. Due Diligence:** The foundation of risk assessment before committing capital. This involves verifying financial projections, reviewing legal title, assessing market conditions, and checking physical condition of the asset. Due diligence establishes whether the investment assumptions are credible in the first place — without it, quantitative analysis rests on unverified inputs.
 
-**2. Stress Testing:** Fixes the central projection and then moves one variable at a time to its worst plausible value. This identifies which specific input (e.g., exit cap rate, vacancy rate) has the largest impact on IRR, allowing the investor to focus risk mitigation where it matters most. In the Copenhagen case study, for example, stressing the length of the construction period and stabilised vacancy were the most informative tests.
+**2. Partitioning of IRR/NPV:** Decomposing the total IRR or NPV into its sources — income return (operating cash flows) versus capital return (terminal value from resale) — reveals whether the investment is overly dependent on resale proceeds. If most of the IRR comes from terminal value rather than operating income, the investment is riskier than the headline number suggests, since resale value is highly uncertain and depends on future cap rates at exit.
 
-**3. Judgements:** Qualitative assessment of risks that cannot be easily quantified — regulatory changes, political risk, or ESG-related obsolescence. These are combined with quantitative outputs to form an overall view.
+**3. Sensitivity Analysis:** Testing how the investment's IRR or NPV changes as key input variables are altered — rental growth, vacancy rates, exit cap rates, construction timeline. This identifies which variables drive the most risk, allowing the investor to focus risk mitigation where it matters most. Sensitivity analysis can be applied to single variables in turn (stress testing individual assumptions) or to combinations of variables moving together (scenario analysis).
 
-**4. Partitioning of IRR/NPV:** Decomposing the IRR or NPV into its sources (income return vs capital return) reveals whether the investment is overly dependent on terminal value. If most of the IRR comes from resale proceeds rather than operating income, the investment is riskier than the headline number suggests — since resale value is highly uncertain.
+**Key Insight:** Partitioning is the most commonly overlooked method. An investment with a strong headline IRR but most returns concentrated in terminal value is qualitatively riskier than one generating stable operating income throughout.
 
 ---
 
 ### 中文详解
 
-**这道题的失分陷阱（老师原话：almost nobody mentioned 3 and 4）：**
+**⚠️ 注意：课件（Lec03）列出的三种方法与很多人背的不同！**
 
-1. **情景分析（Scenario Analysis）** vs **压力测试（Stress Testing）** ——很多人知道这两个，但混淆了区别：
-   - 情景分析：**多个变量同时变化**，模拟不同的宏观状态（如经济衰退 vs 繁荣）
-   - 压力测试：**固定中心预测，单次只动一个变量**，找出哪个变量对 IRR 影响最大
+**课件（Lec03）的三种标准方法：**
 
-2. **判断法（Judgements）**——几乎没人提，直接得分点。是指对无法量化的风险（法规、ESG过时、政治风险）做定性判断，结合定量分析。
+1. **尽职调查（Due Diligence）**——课件第一个列出的方法，但几乎没人提！考试必须写。核心：在做定量分析之前，先验证所有输入假设（市场数据、法律产权、物业状况）是否可信。尽职调查是风险评估的基础，没有它，后面的 IRR 计算全是建在沙子上的。
 
-3. **IRR分解/NPV分解（Partitioning）**——几乎没人提，是高分点。核心思路：把 IRR 拆成"运营收益（income return）"和"资本增值（capital return）"两部分。如果大部分 IRR 来自终值（resale），说明这笔投资高度依赖市场时机，风险比表面数字大得多。
+2. **IRR分解/NPV分解（Partitioning of IRR/PV）**——课件第二个方法，也是高分点。核心思路：把 IRR 拆成"运营收益（income return）"和"资本增值/终值（capital/terminal value return）"两部分。如果大部分 IRR 来自终值（resale），说明这笔投资高度依赖市场时机，风险比表面数字大得多。
 
-**考试写法建议**：4个方法各一个简短段落，最后说哪个最重要/哪个最被忽略（Partitioning），这样有层次、有判断力，容易拿 Distinction。
+3. **敏感性分析（Sensitivity Analysis）**——课件第三个方法，包含：
+   - 单变量压力测试（Stress Testing）：固定中心预测，逐个改变关键变量（租金、空置率、出售资本化率）
+   - 多变量情景分析（Scenario Analysis）：多个变量同时变化，模拟不同宏观状态
+
+**考试写法建议**：三个方法各一个简短段落，重点强调 Partitioning（最常被忽略），体现对风险来源的深度理解，容易拿 Distinction。不要把情景分析和压力测试单独列为独立方法——它们是 Sensitivity Analysis 的子方法。
 
 ---
 
@@ -188,9 +190,9 @@ The General Partner (GP) manages the fund — sourcing deals, overseeing asset m
 **The Waterfall:**
 Returns are distributed in a sequence designed to protect LPs first:
 1. Return of capital to LPs
-2. Preferred return (Pref) to LPs — typically 6–8% IRR hurdle
+2. Preferred return (Pref) to LPs — a minimum annual return agreed at fund inception (the course example uses a 9% pref rate); the GP receives nothing until LPs have earned this hurdle
 3. Catch-up to GP (to compensate for the promoted interest deferral)
-4. Carried interest split (e.g., 80/20 LP/GP above the hurdle)
+4. Carried interest split above the hurdle (e.g., 80/20 LP/GP)
 
 **Deal-by-Deal vs Whole Fund:**
 Under deal-by-deal structures, the GP can crystallise promote on successful early disposals without waiting for underperforming assets to be resolved — this favours the GP. Whole-fund structures aggregate all returns before distributing promote, giving LPs stronger protection but reducing GP incentive to move quickly. In the UK market, whole-fund structures are more common.
@@ -212,7 +214,7 @@ Under deal-by-deal structures, the GP can crystallise promote on successful earl
 
 **瀑布（Waterfall）分配顺序**：
 1. 返还本金（Return of Capital）
-2. 优先回报（Preferred Return / Pref）：通常 6–8% IRR
+2. 优先回报（Preferred Return / Pref）：课件示例为年化 9%（具体数值由基金协议约定，每个基金不同）——LP 达到该收益率前 GP 不参与分配
 3. 补偿条款（Catch-up）：GP 追上之前被延迟的 promote
 4. 超额分配（Carried Interest）：如 20% 归 GP，80% 归 LP
 
@@ -323,28 +325,30 @@ Buildings that fail to meet evolving environmental standards face obsolescence r
 **Impact on Cost of Borrowing:**
 Lenders are increasingly incorporating ESG scores into pricing. Assets assessed as more future-proof (better energy ratings, lower stranded asset risk) attract lower loan margins. This creates a direct link between ESG performance and financing cost — reducing the cost of debt, thereby improving levered IRR.
 
-**Integration with Investment Analysis:**
-The key insight is that ESG is not standalone — it reinforces the core investment case. Maximising NOI stability through green credentials reduces vacancy risk; securing preferential financing through ESG compliance improves levered returns. The two effects compound.
+**Double Materiality:**
+The course frames ESG through the lens of double materiality: inside-out (the asset's impact on the environment) and outside-in (how environmental and social risks flow back to affect the asset's financial performance — portfolio risk, insurance costs, asset valuations, rental yields, void periods). Investors who focus only on the ethical dimension miss the financial materiality channel. How a real estate business responds to ESG will determine yields, risks, financing terms, and ultimately valuations.
 
 ---
 
 ### 中文详解
 
-**老师强调**：这道题今年的外部讲师（Porras）从**投资者+贷款方**双重视角讲 ESG，与以往侧重开发商视角不同。Mock exam 的 ESG 题偏离了今年内容，所以要按今年课件来答。
+**今年课件（Lec10，外部讲师 S. Burak Kaplanoglu）的核心框架：**
+
+**ESG 影响四个维度**（课件结论幻灯片）：Risks（±）、Yields（±）、Finance（±）、Valuation（±）——答题时可用这个结构组织思路。
 
 **两条主线（必须都答到）：**
 
 1. **ESG 影响资产风险（Asset Risk）**：
-   - 不达标 ESG 的资产面临"搁浅资产风险（Stranded Asset Risk）"——法规趋严后可能无人愿租，租金下跌
-   - 达标 ESG 的资产有"绿色溢价（Green Premium）"——优质租户偏好，空置率低，NOI 更稳定
+   - 不达标 ESG 的资产面临"搁浅资产风险（Stranded Asset Risk）"——法规趋严后空置期延长（longer void periods）、可能变成不可保资产（uninsurable assets）、运维问题（如传统锅炉无法使用）
+   - 达标 ESG 的资产有"绿色溢价（Green Premium）"——课件引用 JLL 数据：伦敦办公楼绿色溢价高达 11.6%，北美 7.1%，亚洲 9.9%
    - 应纳入折现率和压力测试的考量中
 
 2. **ESG 影响借款成本（Cost of Borrowing）**：
-   - 贷款方（Viva, Segro3等）对 ESG 评分高的资产收取更低贷款利差（loan margin）
+   - 课件数据：73% 的贷款方已有 ESG 贷款策略；81% 认为 ESG 表现将日益影响其贷款意愿；93% 认为监管机构可能要求将可持续性纳入资本配置模型（影响贷款可用性和成本）
    - 更低的借贷成本 → 提升有杠杆 IRR（Levered IRR）
-   - 这是今年课件明确提到的具体机制
+   - 课件核心观点：ESG = 非财务绩效，但它直接影响财务绩效（双重实质性，Double Materiality）
 
-**连接案例**：如果题目允许，可以提到 Oxo Tower 附近的开发项目（外部讲师讲的案例）——完全可持续设计带来的融资优势和租金溢价。
+**双重实质性（Double Materiality）**：课件提出的核心概念——Inside out（企业对环境/社会的影响）+ Outside in（环境/社会风险对企业财务的反向影响）。两个方向都要考虑。
 
 ---
 
