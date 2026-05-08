@@ -137,24 +137,21 @@ The course identifies three main approaches to assessing risk in a real estate i
 
 ### Model Answer (English)
 
-Leverage amplifies both returns and risks in a predictable, quantifiable way.
-
 **Effect on Return:**
-Using the yield decomposition framework, the equity yield is:
 
 yE = (yP − LTV × yD) / (1 − LTV)
 
-As long as the property return yP exceeds the cost of debt yD (positive leverage), equity yield rises with LTV. The Break-Even Interest Rate (BEIR) equals the unlevered IRR — borrowing below BEIR enhances equity returns; borrowing above destroys them.
+Positive leverage requires yP > yD. The Break-Even Interest Rate (BEIR) equals the unlevered IRR — borrow below it and equity returns rise; borrow above it and leverage destroys value.
 
 **Effect on Risk:**
-The equity risk premium is amplified by the leverage ratio (LR = 1/(1−LTV)):
 
-RPE = RPD + LR × (RPP − RPD)
+RPE = RPD + LR × (RPP − RPD),  where LR = 1/(1 − LTV)
 
-With risk-free debt (RPD = 0): RPE = LR × RPP. A 70% LTV loan doubles the equity risk premium relative to unlevered investment. Leverage does not create risk-free return; every unit of additional return comes with proportionally higher risk.
+Leverage scales the equity risk premium by the same multiple as it scales return. There is no free lunch: every extra unit of levered return comes with proportionally higher equity risk.
 
 **Effect on Cash Flow:**
-Early-period cash flows are squeezed most under debt service. Under an interest-only (IO) loan, the entire principal remains outstanding, so the investor must ensure sufficient NOI to cover debt service throughout — creating cash flow risk if vacancy rises. Partitioning the levered IRR into income and capital components helps identify whether cash flow is genuinely sufficient or the investment relies excessively on terminal value.
+
+Debt service reduces cash flow available to equity in every period. Under IO, the full principal stays outstanding throughout, so cash flow risk persists until exit. Under CPM, the outstanding balance falls each period, progressively reducing the lender's exposure — and the investor's cash flow risk.
 
 ---
 
