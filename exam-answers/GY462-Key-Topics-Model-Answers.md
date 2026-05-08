@@ -39,32 +39,58 @@
 
 ### Model Answer (English)
 
-Direct real estate investment offers a distinctive risk-return profile compared to financial assets such as government bonds.
+**Downside Risks:**
 
-**Key Risks:**
+1. **Operating cost:** Maintenance, insurance, and management costs may exceed budget, directly compressing NOI even when the property is fully let.
 
-The most important risks are vacancy and leasing risk. If a tenant vacates, the investor faces a period with no rental income while still bearing operating costs. Beyond that, real estate is highly illiquid: its large lot size and indivisibility mean it cannot be sold quickly or partially — this makes it vulnerable to forced selling at distressed prices. Finally, as a physical asset concentrated at a fixed location, it is exposed to natural disaster risk (fire, flood) in a way diversified financial portfolios are not.
+2. **Natural disaster:** As a physical asset concentrated at a fixed location, the property is exposed to fire, flood, or other catastrophic events — a risk not easily diversified away unlike financial assets.
 
-**Key Opportunities:**
+3. **Vacancy:** The property stands empty with zero rental income, while fixed costs continue. This is the bigger risk compared to leasing because there is no income at all — not even a below-market contract.
 
-The primary opportunity is rental income growth. Since a property's value is anchored to its Net Operating Income (NOI), maximising rent and controlling operating costs is the most reliable path to value creation — more so than depending on favourable real estate cycles. Terminal value (resale proceeds) provides a secondary upside, but is highly uncertain because it depends on exit cap rates at the time of sale.
+4. **Leasing:** A tenant is in place but either defaults mid-lease or renews at below-market rent. The difference from vacancy is that some cash flow remains, but the investor cannot easily renegotiate a contractually locked rent.
 
-**Priority:** Among these opportunities, efficient operations and rental maximisation should take precedence. The terminal value is large but the least controllable; investors who focus on NOI generation first will outperform those who bet on market timing.
+5. **Liquidity:** Large lot size and indivisibility mean the asset cannot be sold quickly or in parts. A forced sale — for example under loan covenant breach — can result in a deeply discounted price.
+
+**Opportunities:**
+
+1. **Operating cost:** Efficient management and cost control directly raise NOI without relying on market conditions. This is the most controllable opportunity.
+
+2. **Terminal value:** The resale price at exit is typically the largest single cash flow. However, it is the least controllable — it depends on exit cap rates and market conditions at the time of sale.
+
+3. **Rental growth:** Rent reviews and favourable market conditions allow NOI to compound over the holding period, steadily building asset value.
+
+**Priority:** Operating cost management and rental maximisation should take precedence over relying on terminal value — because a property's sale price is ultimately anchored to the NOI it generates. Investors who bet on market timing rather than NOI growth take on unnecessary risk.
 
 ---
 
 ### 中文详解
 
-**核心论点（考试必答的3个）：**
+**课件五大风险逐点解析（Lec01，幻灯片10）：**
 
-1. **空置/租赁风险（Vacancy & Leasing Risk）**：这是老师明确排到第一位的风险。空置意味着完全失去租金收入，而运营成本还在继续。考试时不要只列名称，要说明为什么它比其他风险更重要——它直接冲击 NOI（净营业收入 Net Operating Income），而资产价值由 NOI 决定。
+1. **运营成本（Operating Cost）**：维修、保险、管理费等超出预算 → NOI 被直接压缩。即使满租也会因为成本超支而亏损。
 
-2. **流动性风险（Liquidity Risk）**：大额、不可分割（large lot size & indivisibility）是直接投资区别于股票、债券的本质特征。老师在讲座中专门说"流动性是第二问的重点，别在第一问把话说完"——所以要根据子问题结构合理分配。
+2. **自然灾害（Natural Disaster）**：物业是固定地点的物理资产，无法像股票那样分散到不同地区 → 火灾、洪水等集中风险。
 
-3. **机会的优先级（Priority of Opportunities）**：列出租金、终值（Terminal Value）、运营管理还不够，**必须给出排序**：首先专注最大化租金和高效运营，这是可控的；而市场周期带来的终值（Terminal Value，即出售所得）是不可控的，不应作为主要投资逻辑。老师明确说"没排序就丢分"。课件中三大机会是：Operating cost（运营成本优化）、Terminal value（终值）、Rental growth（租金增长）。
+3. **空置（Vacancy）**：完全没有租金收入，但固定成本仍在运转。**比 Leasing 更严重的风险**——因为连收入都没有，而 Leasing 风险至少还有合同租金（哪怕低于市场价）。
 
-**不应该写的：** 不要在这道题用大量篇幅讲流动性，如果子问题明确把流动性单列出来的话。先通读所有子题再分配内容。
-> Growth-Adjusted Cap Rate 属于估值方法题（T9），不属于本题，不要混入。
+4. **租约（Leasing）**：租户在位但出现问题——拖欠租金（违约）或合同期满时无法按市场价续约。与 Vacancy 的区别：有合同保护但存在执行风险；与 Vacancy 的共同点：都直接冲击 NOI。
+
+5. **流动性（Liquidity）**：大额（Large lot size）+ 不可分割（Indivisibility）→ 无法快速或部分出售。⚠️ **若子问题单独问流动性，这里就少说，留给那道子题**。
+
+**课件三大机会逐点解析（Lec01，幻灯片11）：**
+
+1. **运营成本优化（Operating Cost）**：节约成本直接提升 NOI，**最可控**——不依赖市场。
+
+2. **终值（Terminal Value）**：出售所得通常是总收益中最大的一笔现金流，但**最不可控**——完全取决于出售时的 Cap Rate 和市场状况。
+
+3. **租金增长（Rental Growth）**：通过租金审查和市场上涨实现 NOI 复利增长，属于可在一定程度上主动管理的机会。
+
+**优先级排序（老师说"没有排序就丢分"）：**
+- 第一：Operating cost + Rental growth（可控，主动管理）
+- 最后：Terminal value（不可控，不应作为主要投资逻辑）
+- 原因：资产售价归根结底由 NOI 决定；追求 NOI 增长 > 赌市场周期
+
+> **⚠️ 注意：** Growth-Adjusted Cap Rate 属于估值方法（T9），不要写进本题。流动性如果有专门子题，Q1a 就少写，留给专门那问。
 
 ---
 
