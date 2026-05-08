@@ -185,16 +185,17 @@ Debt service reduces cash flow available to equity in every period. Under IO, th
 
 ### Model Answer (English)
 
-The choice between Interest-Only (IO) and Constant Payment Mortgage (CPM) reflects a fundamental tradeoff between the interests of borrowers and lenders.
+**IO:** monthly payment = interest only → principal balance unchanged throughout → lender's exposure stays at full original loan amount → lender charges higher rate.
 
-**From the Borrower's Perspective:**
-IO loans are preferred by commercial investors because early-stage cash flows are often constrained — particularly during lease-up or development. IO loans minimise debt service in the critical early years, preserving cash flow when operating income may be lower. The full principal is repaid only at maturity, allowing the investor to deploy capital more efficiently in the interim.
+**CPM:** monthly payment = fixed, principal component rises each period → outstanding balance falls → lender's exposure shrinks progressively → lender charges lower rate.
 
-**From the Lender's Perspective:**
-IO loans are riskier. The bank's outstanding balance never decreases, so if the borrower defaults, the lender is exposed to the full original loan amount throughout the entire term. Under CPM, the outstanding balance decreases steadily with each payment, so the lender's exposure is progressively reduced. This is why banks charge a higher interest rate on IO loans: they require compensation for bearing greater duration risk.
+**Rate order:** CAM < CPM < IO. Faster principal repayment reduces the lender's credit exposure → lower rate justified.
 
-**The Tradeoff:**
-IO is good for the borrower but costly from the bank's viewpoint — and this misalignment is priced into the interest rate premium. CPM sacrifices early cash flow in exchange for a cheaper loan. In practice, institutional real estate investors often prefer IO precisely because NOI stability becomes more assured once the asset is stabilised, making the balloon repayment manageable.
+**Borrower preference for IO:** lower early debt service → more cash retained when NOI is low (e.g., lease-up phase). Cost: higher rate and a balloon repayment at maturity.
+
+**Lender preference for CPM:** outstanding balance falls each period → loss-given-default shrinks over time → lower risk.
+
+The rate premium on IO compensates the lender for bearing full principal exposure throughout the entire term.
 
 ---
 
@@ -217,15 +218,13 @@ IO is good for the borrower but costly from the bank's viewpoint — and this mi
 
 ### Model Answer (English)
 
-A participation loan (also called an equity kicker or equity participation mortgage) is a mortgage in which the lender receives, in addition to regular interest payments, a contractual share of the property's operating income or capital appreciation upon sale.
+A participation loan sets the base interest rate below market. In exchange, the lender receives a contractual share of either NOI above a threshold or resale proceeds at exit.
 
-**Structure:**
-The lender provides debt at a below-market base interest rate. In return, the lender receives a participation right — for example, a share of NOI above a specified threshold, or a percentage of the resale proceeds. This converts part of the lender's return from fixed interest into a variable, performance-linked component.
+**For the borrower:** lower base rate → debt service decreases → early cash flow increases. Cost: a portion of any upside goes to the lender.
 
-**Why it Exists — Risk and Return Logic:**
-From the borrower's perspective, the lower base rate reduces the immediate debt service burden, improving early cash flow — similar in effect to an IO structure. From the lender's perspective, giving up fixed interest income in exchange for a participation right exposes them to both the upside and the operating performance of the asset. The lender's return becomes partially dependent on the borrower's management quality and market conditions.
+**For the lender:** fixed interest income decreases. In return: performance-linked participation replaces some fixed return. Risk: lender's return now depends on operating performance and market conditions at exit → lender's exposure to asset risk increases.
 
-**Key Exam Point:** The course notes that participation loans were not covered in depth but may appear as a theory question. The core concept to convey is the tradeoff: lower fixed rate for the borrower in exchange for sharing value creation with the lender.
+**Core trade-off:** borrower retains more cash early; lender gains a share of value creation in exchange for the rate reduction.
 
 ---
 
@@ -256,22 +255,23 @@ From the borrower's perspective, the lower base rate reduces the immediate debt 
 
 ### Model Answer (English)
 
-In a private equity real estate fund, risk and return are deliberately split between two types of investor to align incentives.
-
 **GP/LP Structure:**
-The General Partner (GP) manages the fund — sourcing deals, overseeing asset management, and handling disposals. The Limited Partners (LPs) provide the bulk of the capital but are passive investors with limited liability. Because the GP has superior information and control, compensation is structured to align their incentives with LP interests.
+GP: contributes <5% of capital, makes all operating decisions, bears unlimited liability.
+LP: contributes >95% of capital, no decision-making role, liability limited to capital contributed.
 
-**The Waterfall:**
-Returns are distributed in a sequence designed to protect LPs first:
-1. Return of capital to LPs
-2. Preferred return (Pref) to LPs — a minimum annual return agreed at fund inception (the course example uses a 9% pref rate); the GP receives nothing until LPs have earned this hurdle
-3. Catch-up to GP (to compensate for the promoted interest deferral)
-4. Carried interest split above the hurdle (e.g., 80/20 LP/GP)
+Principal-agent problem: GP controls the asset but bears little downside → the waterfall aligns GP compensation with LP returns.
 
-**Deal-by-Deal vs Whole Fund:**
-Under deal-by-deal structures, the GP can crystallise promote on successful early disposals without waiting for underperforming assets to be resolved — this favours the GP. Whole-fund structures aggregate all returns before distributing promote, giving LPs stronger protection but reducing GP incentive to move quickly. In the UK market, whole-fund structures are more common.
+**Waterfall — distribution sequence:**
+1. Return of capital to LP (first call on all proceeds)
+2. Preferred return to LP (e.g., 9% pa) — GP receives nothing until this hurdle is cleared
+3. Catch-up to GP (GP receives until its cumulative share equals the pref level)
+4. Carried interest split above the hurdle (e.g., 80% LP / 20% GP)
 
-**Note:** Waterfall calculations are theory-only in the exam. No numerical waterfall structuring will be required.
+**Deal-by-deal:** GP crystallises promote on early winning deals without waiting for losers → GP benefit increases, LP protection decreases.
+
+**Whole-fund (UK standard):** all deals aggregated before promote is calculated → GP cannot benefit from winners while losses on other deals remain unrealised → LP protection increases.
+
+Note: waterfall calculations are not required in the exam — theory only.
 
 ---
 
@@ -304,13 +304,15 @@ Under deal-by-deal structures, the GP can crystallise promote on successful earl
 
 ### Model Answer (English)
 
-Development financing involves two distinct lending phases, a choice between simplified and full valuation methods, and specific contractual structures for managing construction risk.
+**Two Loan Phases:**
+During construction: developer draws an interim (construction) loan — interest-only, short-term, rate is higher (no rental income yet, cost uncertainty is high).
+After completion and stabilisation: interim loan is repaid; replaced by a permanent loan — longer term, rate decreases.
 
-**Interim vs Permanent Financing:**
-During construction, the developer draws on an interim (or construction) loan provided by a bridging lender. This loan is typically short-term, interest-only, and carries a higher rate — reflecting elevated uncertainty during the build phase. Once the property is completed and income-generating, the interim loan is refinanced with a permanent loan (a longer-term mortgage at a lower rate). The key risk is that cost overruns or lease-up failures may prevent transition to permanent financing, leaving the interim lender exposed.
+Key risk: cost overrun or lease-up failure → developer cannot repay interim loan on schedule → interim lender's exposure increases → potential default.
 
-**Shortcut Valuation ("Build at 10, Sell at 8") vs Full DCF:**
-The shortcut — producing income at a 10% yield and selling at an 8% yield — gives a quick feasibility screen. Its advantage is speed and simplicity; its weakness is that it ignores the timing of cash flows, construction duration uncertainty, and the cost of capital across phases. A full DCF explicitly models each quarter's costs and revenues, applies a risk-appropriate discount rate, and can incorporate stress tests. The shortcut is a useful first filter; the full DCF is required for investment decisions.
+**Shortcut vs Full DCF:**
+Shortcut ("build at 10%, sell at 8%"): ignores cash flow timing and construction duration → overestimates NPV when construction delays occur.
+Full DCF: models each quarter's costs and revenues, applies a risk-adjusted discount rate → more accurate; required for investment decisions.
 
 **Development Risk & Contractual Arrangements:** 🟢 Distinction
 The three primary development risks are: (1) cost overrun — construction costs exceed budget; (2) time overrun — delays compound through negative amortisation on the construction loan; (3) contractor default — the builder becomes insolvent mid-project. Three contract types allocate these risks differently:
@@ -361,23 +363,23 @@ The Forward Commitment gives developers a committed buyer (improving constructio
 
 ### Model Answer (English)
 
-Securitisation transforms illiquid mortgage loans into tradeable financial securities, broadening the funding base for mortgage markets.
+**Without Secondary Market:**
+Originator holds loans on balance sheet → capital tied up → new lending capacity decreases → mortgage market grows slowly.
 
-**Life of a Mortgage Without Secondary Market:**
-Originators hold loans on their own balance sheet until maturity, tying up capital and concentrating risk. The primary constraint is the lender's own capital and risk appetite.
+**With Secondary Market:**
+Originator sells loans to GSE or conduit → capital recycled → new lending capacity increases → credit risk transferred away from originator.
 
-**Life of a Mortgage With Secondary Market:**
-Originators sell loans to a Government-Sponsored Enterprise (GSE) or conduit (Cash Programme), or exchange them for mortgage-backed securities (Swap Programme). This allows originators to recycle capital, originate more loans, and transfer credit risk. The GSE pools the loans and issues securities to investors.
+**Prepayment risk** is the key concept: when rates fall, borrowers prepay early → investors receive principal back at the worst time (when reinvestment rates are low) → interest income decreases. The three MBS types differ only in who bears this risk:
 
-**Three Types of MBS:**
+| Security | Over-collateralised? | Who bears prepayment risk? |
+|---------|---------------------|---------------------------|
+| **MBB** | Yes | Issuer → investor gets fixed coupon regardless of prepayments |
+| **Pass-Through** | No | Investor → receives actual cash flows pro-rata |
+| **CMO** | Tranched | Split: senior tranche bears least → lower yield; junior tranche bears most → higher yield |
 
-| Security | Risk Allocation | Key Feature |
-|---------|-----------------|-------------|
-| **Mortgage-Backed Bond (MBB)** | Prepayment risk stays with **issuer** (over-collateralised) | Investor receives fixed coupon regardless of prepayments |
-| **Mortgage Pass-Through** | Prepayment risk transferred to **investor** | Investor receives pro-rata share of all principal and interest payments |
-| **CMO (Collateralised Mortgage Obligation)** | Risk **split across tranches** — senior tranche bears least, junior tranche bears most | Different investor risk preferences are matched through tranching |
+CMO allows investors with different risk preferences to self-select: senior investors sacrifice yield for prepayment protection; junior investors accept prepayment risk in exchange for higher yield.
 
-**Key Exam Point:** Prepayment risk is the central concept — when interest rates fall, borrowers prepay early, and investors receive principal back when reinvestment rates are low. Who bears this risk is the fundamental differentiator between MBS types. No calculation questions will be set on MBS.
+No calculation questions will be set on MBS.
 
 ---
 
@@ -407,16 +409,21 @@ Originators sell loans to a Government-Sponsored Enterprise (GSE) or conduit (Ca
 
 ### Model Answer (English)
 
-ESG (Environmental, Social, Governance) considerations have increasingly direct implications for both investment returns and the cost of capital in real estate.
-
 **Impact on Asset Risk:**
-Buildings that fail to meet evolving environmental standards face obsolescence risk — future refurbishment costs, difficulty attracting high-quality tenants, and declining rents. Conversely, ESG-compliant assets attract a "green premium": stronger tenant demand, lower vacancy, and more resilient NOI. From an investor's perspective, ESG is not simply an ethical constraint but a forward-looking risk factor that should be incorporated into the discount rate and stress tests.
+ESG non-compliance → vacancy increases, insurance costs increase, capex for refurbishment increases → NOI decreases → asset value decreases.
+Regulatory tightening → stranded asset risk increases → asset may become unlettable or uninsurable.
+
+ESG compliance → tenant demand increases, green premium on rent increases → NOI increases → asset value increases.
+(JLL data: green premium up to 11.6% in London offices.)
 
 **Impact on Cost of Borrowing:**
-Lenders are increasingly incorporating ESG scores into pricing. Assets assessed as more future-proof (better energy ratings, lower stranded asset risk) attract lower loan margins. This creates a direct link between ESG performance and financing cost — reducing the cost of debt, thereby improving levered IRR.
+Higher ESG score → lender perceives lower default risk → loan margin decreases → cost of debt decreases → levered IRR increases.
 
 **Double Materiality:**
-The course frames ESG through the lens of double materiality: inside-out (the asset's impact on the environment) and outside-in (how environmental and social risks flow back to affect the asset's financial performance — portfolio risk, insurance costs, asset valuations, rental yields, void periods). Investors who focus only on the ethical dimension miss the financial materiality channel. How a real estate business responds to ESG will determine yields, risks, financing terms, and ultimately valuations.
+Outside-in: environmental and regulatory risks flow back into NOI, vacancy, insurance costs, and valuations.
+Inside-out: the asset's own emissions and energy consumption create future compliance cost exposure.
+
+Treating ESG as only an ethical issue misses the direct financial channel: ESG performance determines yields, financing terms, and ultimately asset valuations.
 
 ---
 
@@ -446,8 +453,6 @@ The course frames ESG through the lens of double materiality: inside-out (the as
 
 ### Model Answer (English)
 
-DCF captures the risks and opportunities of a real estate investment through two components: the Pro Forma cash flow model and the risk-adjusted discount rate.
-
 **Pro Forma Cash Flow Structure:**
 
 Operating cash flows are built from the ground up:
@@ -469,14 +474,15 @@ Note: it is Year n+1 NOI (the buyer's first year), not Year n. The going-out cap
 
 **Risk-Adjusted Discount Rates — Unbundling Cash Flows:**
 
-The course identifies two categories of cash flow with different risk profiles:
+Two cash flow types carry different risk levels:
 
-1. **Intra-lease cash flows** (contracted rent within an existing lease): risk is limited to tenant default — the cash flow is legally committed. A lower discount rate is appropriate.
-2. **Inter-lease cash flows and terminal value** (re-letting after lease expiry, resale): exposed to full market uncertainty — future rental levels and exit cap rates are unknown. A higher discount rate is required.
+**Intra-lease (contracted rent within active lease):** only tenant default risk → lower discount rate applies.
+**Inter-lease / terminal value (re-letting after expiry, resale):** full market uncertainty — future rents and exit cap rates unknown → higher discount rate applies.
 
-Using a single blended discount rate fails to price this asymmetry. Unbundling by applying different rates to these two cash flow types produces a more accurate valuation and explicitly reveals where the risk is concentrated.
+Single blended discount rate underprices the risk of the terminal value → valuation is overstated.
+Unbundling applies different rates to each type → more accurate valuation, risk concentration is explicit.
 
-**Key Insight:** In most direct real estate investments, terminal value constitutes the majority of total return. Since terminal value is discounted at the highest rate, the investment is more sensitive to exit cap rate assumptions than to annual NOI estimates — partitioning the IRR into income vs reversion components helps quantify this concentration.
+Terminal value typically constitutes the majority of total return → investment is more sensitive to exit cap rate assumptions than to annual NOI → partitioning IRR into income vs reversion components quantifies this concentration.
 
 ---
 
@@ -518,34 +524,30 @@ PGI（满租收入）
 
 ### Model Answer (English)
 
-High inflation creates a structural problem for fixed-rate mortgages, which in turn gave rise to two alternative mortgage designs: GPM and ARM.
-
 **The Tilt Problem:**
 
-The Fisher equation links nominal interest rates to inflation:
+Fisher equation: (1 + r_nominal) = (1 + r_real) × (1 + π)
 
-(1 + r_nominal) = (1 + r_real) × (1 + π)
+High inflation (π↑) → nominal rate rises sharply → CPM nominal monthly payment increases (e.g., doubles when π = 6%, r_real = 4%).
+The nominal payment is fixed throughout the term. In real terms it falls as inflation erodes purchasing power — but real burden is highest in the early years when income is lowest.
+Consequence: many creditworthy borrowers fail the day-1 debt-service qualification test, even though total real repayments over the full term are affordable.
 
-When inflation is high (e.g., π = 6%), the nominal rate required to preserve the lender's real return rises sharply — for example, from 4% (real) to approximately 10.24% nominal. Under a standard CPM, this inflates the nominal monthly payment to nearly double what it would be without inflation.
+**GPM — Solution:**
 
-The problem is front-loading: the high nominal payment is fixed in *nominal* terms throughout the loan. In real terms, it declines as inflation erodes its purchasing power — but the borrower faces peak real burden in the *early years*, precisely when income is lowest. This is the "tilt": real repayments are tilted toward the start of the loan. Many creditworthy borrowers fail qualification tests on Day 1 (income-to-payment ratios), even though in real terms they could have comfortably repaid the loan over its full life.
+Early scheduled payments set below interest due → unpaid interest added to balance → balance increases (negative amortisation).
+Payments rise each year at a fixed rate (e.g., 7.5% pa for 5 years) → matches nominal income growth driven by inflation.
+Effect: early real payment decreases → qualification test passed → affordability improves.
+Cost: total interest paid increases; early LTV increases → lender's security decreases.
 
-**Graduated Payment Mortgage (GPM) — Smoothing the Tilt:**
+**ARM — Solution:**
 
-GPM reduces early-period payments below even the interest due, allowing the balance to grow initially (negative amortisation). Payments are scheduled to rise gradually at a fixed rate (e.g., 7.5% per year for five years), matching the borrower's expected nominal income growth driven by inflation. This shifts the real payment profile toward the back of the loan, improving early-period affordability without reducing the total real burden.
+Rate resets periodically (e.g., annually) based on market index + margin.
+At origination: rate set below fixed-rate equivalent (teaser rate) → early payment decreases.
+When inflation rises: rate rises → monthly payment increases.
+When inflation falls: rate falls → monthly payment decreases automatically (no refinancing needed).
+Effect: inflation risk transferred from lender to borrower → lender no longer needs to embed a worst-case inflation premium at origination → initial rate lower.
 
-Limitation: the lender bears additional risk — in the early negative amortisation phase, the outstanding balance may exceed the property value, reducing security.
-
-**Adjustable Rate Mortgage (ARM) — Sharing the Inflation Risk:**
-
-ARM transfers interest rate risk from lender to borrower. The rate resets periodically (e.g., annually) based on a market index. When inflation rises, the rate rises, and when it falls, the rate falls. This means:
-- The borrower, not the lender, bears the risk of rate increases.
-- In exchange, the initial (teaser) rate is set below an equivalent fixed rate.
-- If inflation and rates subsequently fall, the borrower automatically benefits without refinancing.
-
-ARM addresses the tilt problem differently: it avoids locking in a high nominal rate at origination, instead letting the rate float with market conditions.
-
-**Summary:** Both GPM and ARM emerged as solutions to the same inflation-induced affordability problem — GPM by smoothing the payment profile, ARM by making the payment respond to changing inflation expectations rather than embedding a worst-case inflation assumption at inception.
+Both GPM and ARM target the same problem: GPM smooths the payment profile; ARM avoids locking in a high nominal rate at the outset.
 
 ---
 
