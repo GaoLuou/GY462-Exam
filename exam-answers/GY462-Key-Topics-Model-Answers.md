@@ -20,6 +20,8 @@
 - [T6. Development Finance: Interim vs Permanent Loan; Shortcut vs Full Evaluation](#t6-development-finance)
 - [T7. Mortgage-Backed Securities: MBB, Pass-Through, CMO](#t7-mortgage-backed-securities)
 - [T8. ESG: Impact on Investment Risk and Cost of Borrowing](#t8-esg)
+- [T9. DCF Valuation: Pro Forma Structure & Risk-Adjusted Discount Rates](#t9-dcf-valuation-pro-forma--discount-rate-unbundling)
+- [T10. Inflation Tilt Problem: GPM & ARM as Solutions](#t10-inflation-tilt-problem-gpm--arm-as-solutions)
 
 **计算题 Calculation Questions**
 - [C1. Negative Amortization & Partial Amortizing Loans](#c1-negative-amortization--partial-amortizing-loans)
@@ -408,6 +410,151 @@ The course frames ESG through the lens of double materiality: inside-out (the as
    - 课件核心观点：ESG = 非财务绩效，但它直接影响财务绩效（双重实质性，Double Materiality）
 
 **双重实质性（Double Materiality）**：课件提出的核心概念——Inside out（企业对环境/社会的影响）+ Outside in（环境/社会风险对企业财务的反向影响）。两个方向都要考虑。
+
+---
+
+## T9. DCF Valuation: Pro Forma & Discount Rate Unbundling 🟡 Merit加分（2025年Q1e，15分）
+
+### Model Answer (English)
+
+DCF captures the risks and opportunities of a real estate investment through two components: the Pro Forma cash flow model and the risk-adjusted discount rate.
+
+**Pro Forma Cash Flow Structure:**
+
+Operating cash flows are built from the ground up:
+
+PGI (Potential Gross Income: full-occupancy rent roll)
+− Vacancy Allowance (realistic vacancy rate applied to PGI)
++ Other Income (parking, signage, miscellaneous)
+= EGI (Effective Gross Income)
+− Operating Expenses (fixed: taxes, insurance; variable: maintenance, utilities)
+= NOI (Net Operating Income)
+− Capital Improvement Expenditures (tenant improvements, leasing commissions, major repairs)
+= PBTCF (Property Before-Tax Cash Flow)
+
+The terminal value (reversion) at the end of the holding period is estimated as:
+
+**Reversion = NOI_{n+1} / Going-Out Cap Rate**
+
+Note: it is Year n+1 NOI (the buyer's first year), not Year n. The going-out cap rate is typically set higher than the going-in cap rate, reflecting property ageing and exit-market uncertainty.
+
+**Risk-Adjusted Discount Rates — Unbundling Cash Flows:**
+
+The course identifies two categories of cash flow with different risk profiles:
+
+1. **Intra-lease cash flows** (contracted rent within an existing lease): risk is limited to tenant default — the cash flow is legally committed. A lower discount rate is appropriate.
+2. **Inter-lease cash flows and terminal value** (re-letting after lease expiry, resale): exposed to full market uncertainty — future rental levels and exit cap rates are unknown. A higher discount rate is required.
+
+Using a single blended discount rate fails to price this asymmetry. Unbundling by applying different rates to these two cash flow types produces a more accurate valuation and explicitly reveals where the risk is concentrated.
+
+**Key Insight:** In most direct real estate investments, terminal value constitutes the majority of total return. Since terminal value is discounted at the highest rate, the investment is more sensitive to exit cap rate assumptions than to annual NOI estimates — partitioning the IRR into income vs reversion components helps quantify this concentration.
+
+---
+
+### 中文详解
+
+**考试背景：** 2025年Q1e考了15分，题目是"DCF 如何量化房地产投资的风险和机会"——这是标准理论题。
+
+**Pro Forma 结构（必须会写这条线）：**
+
+```
+PGI（满租收入）
+− 空置损失（Vacancy Allowance）：不能假设100%出租率！
++ 其他收入（Other Income）
+= EGI（有效总收入）
+− 运营费用（Operating Expenses）：包含物业税、保险等固定+可变费用，不含折旧和贷款
+= NOI（净营业收入）
+− 资本改善支出（Capital Improvement Expenditures）：TIs（租户装修贡献）+ 中介佣金
+= PBTCF（税前物业现金流）
+```
+
+**终值计算：NOI_{n+1} / Going-Out Cap Rate**
+- ⚠️ 用第 n+1 年 NOI（买方视角：他买入后第一年能收到的）
+- Going-Out Cap Rate ≥ Going-In Cap Rate（物业老化+不确定性增加）
+
+**折现率拆分（Unbundling）——这是最容易拿 Distinction 的要点：**
+
+| 现金流类型 | 风险来源 | 折现率 |
+|-----------|---------|-------|
+| 租约内（Intra-Lease）| 仅租户违约风险 | **低**（现金流已由合同锁定）|
+| 租约间/终值（Inter-Lease/Reversion）| 市场风险（重新出租价格、退出资本化率）| **高**（完全暴露于市场不确定性）|
+
+单一折现率会系统性低估这种差异。两段式折现率才能真实定价合同收入与非合同收入之间的风险不对称。
+
+**关键术语：** PGI（Potential Gross Income）潜在总收入 / NOI（Net Operating Income）净营业收入 / PBTCF（Property Before-Tax Cash Flow）税前物业现金流 / Going-Out Cap Rate 退出资本化率 / Intra-Lease 租约内 / Inter-Lease 租约间 / Unbundling 现金流拆解 / Partitioning 分解
+
+---
+
+## T10. Inflation Tilt Problem: GPM & ARM as Solutions 🟡 Merit加分
+
+### Model Answer (English)
+
+High inflation creates a structural problem for fixed-rate mortgages, which in turn gave rise to two alternative mortgage designs: GPM and ARM.
+
+**The Tilt Problem:**
+
+The Fisher equation links nominal interest rates to inflation:
+
+(1 + r_nominal) = (1 + r_real) × (1 + π)
+
+When inflation is high (e.g., π = 6%), the nominal rate required to preserve the lender's real return rises sharply — for example, from 4% (real) to approximately 10.24% nominal. Under a standard CPM, this inflates the nominal monthly payment to nearly double what it would be without inflation.
+
+The problem is front-loading: the high nominal payment is fixed in *nominal* terms throughout the loan. In real terms, it declines as inflation erodes its purchasing power — but the borrower faces peak real burden in the *early years*, precisely when income is lowest. This is the "tilt": real repayments are tilted toward the start of the loan. Many creditworthy borrowers fail qualification tests on Day 1 (income-to-payment ratios), even though in real terms they could have comfortably repaid the loan over its full life.
+
+**Graduated Payment Mortgage (GPM) — Smoothing the Tilt:**
+
+GPM reduces early-period payments below even the interest due, allowing the balance to grow initially (negative amortisation). Payments are scheduled to rise gradually at a fixed rate (e.g., 7.5% per year for five years), matching the borrower's expected nominal income growth driven by inflation. This shifts the real payment profile toward the back of the loan, improving early-period affordability without reducing the total real burden.
+
+Limitation: the lender bears additional risk — in the early negative amortisation phase, the outstanding balance may exceed the property value, reducing security.
+
+**Adjustable Rate Mortgage (ARM) — Sharing the Inflation Risk:**
+
+ARM transfers interest rate risk from lender to borrower. The rate resets periodically (e.g., annually) based on a market index. When inflation rises, the rate rises, and when it falls, the rate falls. This means:
+- The borrower, not the lender, bears the risk of rate increases.
+- In exchange, the initial (teaser) rate is set below an equivalent fixed rate.
+- If inflation and rates subsequently fall, the borrower automatically benefits without refinancing.
+
+ARM addresses the tilt problem differently: it avoids locking in a high nominal rate at origination, instead letting the rate float with market conditions.
+
+**Summary:** Both GPM and ARM emerged as solutions to the same inflation-induced affordability problem — GPM by smoothing the payment profile, ARM by making the payment respond to changing inflation expectations rather than embedding a worst-case inflation assumption at inception.
+
+---
+
+### 中文详解
+
+**考试背景：** 复习清单明确标为 🟡："通货膨胀如何推动 GPM 和 ARM 的使用"。
+
+**倾斜问题（Tilt Problem）核心逻辑（Lec07）：**
+
+```
+高通胀（π↑）
+→ Fisher方程：名义利率↑ （1+r_nom）=（1+r_real）×（1+π）
+→ CPM 名义月供大幅上升（从 £286 到 £537！）
+→ 实际月供在早期非常沉重，后期随通胀侵蚀而减轻
+→ 借款人"倾斜"——实际负担集中在最前期
+→ 收入/月供比达不到银行资格标准 → 有效借款需求下降
+```
+
+**GPM（渐进还款贷款）的解决方案：**
+- 早期月供低于应付利息 → 产生负摊销（余额短暂增加）
+- 月供每年以固定比例（如7.5%）递增，匹配借款人名义收入增长
+- 优点：解决早期资格问题
+- 缺点：总利息更高；银行早期安全边际缩小（Lec07: balance can exceed property value）
+
+**ARM（可调利率贷款）的解决方案：**
+- 利率随市场基准（Index + Margin）定期重置
+- 不在贷款起点就锁定"高通胀溢价" → 初始利率（Teaser Rate）低
+- 借款人分担利率风险换取更低起步利率
+- 优点：若通胀后来下降，借款人自动受益
+- 缺点：利率上升时月供可能大幅增加（不可预测性）
+
+**Fisher 方程（必须能写出）：**
+
+(1 + r_nominal) = (1 + r_real) × (1 + inflation)
+
+简化近似：r_nominal ≈ r_real + inflation rate
+
+**关键术语：** Tilt Problem 倾斜问题 / Fisher Equation 费雪方程 / GPM（Graduated Payment Mortgage）渐进还款贷款 / ARM（Adjustable Rate Mortgage）可调利率贷款 / Negative Amortisation 负摊销 / Teaser Rate 诱惑初始利率 / Interest Rate Risk 利率风险
 
 ---
 

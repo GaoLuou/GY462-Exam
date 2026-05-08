@@ -2,6 +2,7 @@
 
 > 来源：2026年5月6日 + 5月7日老师划重点录音
 > 考试：2026年5月11日 14:30 | 闭卷 | 2小时+10分钟阅读时间 | 两道题均必答
+> 📎 **标准答案文件：** `exam-answers/GY462-Key-Topics-Model-Answers.md`（T1–T10理论题 + C1–C4计算题）
 
 ---
 
@@ -14,6 +15,11 @@
 | 🟢 **Distinction** | 已有时间再看，否则跳过 | 70分 |
 
 > 只想及格：**只看 🔴 标记的内容**，Q2计算题做对，Q1写 IO vs CPM + MBS三类 + 风险排序，就够了。
+
+> ⚠️ **针对60分目标的补充说明（2025年考题复盘）：**
+> 2025年 Q1 共8题（100分）：Q1a-b基础（20分，🔴）、Q1c-e杠杆+DCF（25分，🟡）、Q1f-g GP/LP瀑布（35分，🟡）、Q1h开发合同（20分，🟢）。
+> **只靠🔴拿50分，需要至少4个🟡主题才能稳上60。** 核心🟡优先级：GP/LP瀑布 > DCF Pro Forma > 杠杆公式 > 通胀+ARM。
+> 对于Q2计算，🔴项（CPM/IO/ECB/IRR）已经覆盖70分+，因此Q2方向压力小。
 
 ---
 
@@ -40,9 +46,10 @@
   - **排序很重要**：优先最大化租金收入 → 高效运营 → 最后依赖地产周期
   - 不要把流动性/大额/不可分割全堆在第一个子问题，若Q1b专门问这些则省着说
 
-- [ ] 🟡 **估值方法 Valuation Methods**
+- [ ] 🟡 **估值方法 Valuation Methods** → 见 Key Topics 文件 **T9**（2025年Q1e 15分！）
+  - Pro Forma 现金流结构：PGI → EGI → NOI → PBTCF + 终值（NOI_{n+1} / Going-Out Cap Rate）
+  - **Discount Rate Unbundling（最重要）**：租约内（Intra-Lease）用低折现率；租约间/终值用高折现率
   - DCF（折现现金流）：结合风险与机会，可使用分阶段折现率
-  - 上行/下行现金流的拆解（Unbundling cash flows）：整合收入 vs 过渡收入
   - Cap Rate：为什么好（简单）？为什么不好（不前瞻）？如何调整（减去增长率）？
   - **Growth-adjusted Cap Rate = Cap Rate − Growth Rate**
     - Growth > 0：减去正数 → adjusted cap rate 变小 → 资产价值更高（市场预期增长）
@@ -76,7 +83,10 @@
   - CPM（Constant Payment Mortgage）
   - GPM（Graduated Payment Mortgage）：通货膨胀背景下使用，早期还款少
   - ARM（Adjustable Rate Mortgage）：利率随市场调整
-  - 🟡 **通货膨胀如何推动 GPM 和 ARM 的使用**
+  - 🟡 **通货膨胀如何推动 GPM 和 ARM 的使用** → 见 Key Topics 文件 **T10**
+    - Fisher方程：(1+r_nom) = (1+r_real) × (1+π)；高通胀→高名义利率→CPM月供前置沉重
+    - 倾斜问题（Tilt Problem）：实际还款负担集中在早期 → 借款人资格达不到
+    - GPM：早期低月供+负摊销 → 匹配收入增长；ARM：利率随通胀调整 → 初始利率低
   - 🟢 **参与贷款 Participation Loan**：⚠️ 老师提到"没怎么讲，但理论题可能出"
     - 贷款方除收取利息外，还分享物业的部分运营收入或资本增值
     - 好处：借款人以"让利"换取更低的基础利率
@@ -138,31 +148,39 @@
 - [ ] 🔴 每期只还利息，期末还本金（FV = 原始贷款额）
 - [ ] 🔴 **Levered IRR 里最常用 IO**：中间期扣利息，最后期还本金 + 利息
 
-### 2.4 GPM（Graduated Payment Mortgage）🟢 时间够再看
+### 2.4 CAM（Constant Amortization Mortgage）🟡 Merit加分（2025年Q2d-e共20分）
+
+- [ ] 🟡 **每期固定摊还本金** = 贷款额 / N（与CPM不同——CPM是固定月供，CAM是固定本金）
+- [ ] 🟡 第 t 期月供 = 月利率 × BAL_{t-1} + 固定摊还额（月供逐期递减）
+- [ ] 🟡 ⚠️ **AMORT功能不适用CAM**，必须手动逐期计算（余额线性下降）
+- [ ] 🟡 **利率排序记忆：CAM < CPM < IO**（还本越快 = 银行风险越小 = 利率越低）
+- [ ] 🟡 第1期月供最高，最后一期最低；与CPM的关键区别在于早期本金还款更多
+
+### 2.5 GPM（Graduated Payment Mortgage）🟢 时间够再看
 
 - [ ] 🟢 早期还款低，后期递增
 - [ ] 🟢 需要分阶段计算，计算器操作繁琐
 - [ ] 目标：做对大概方向，写清楚逻辑步骤（即使数字偏差，得逻辑分）
 
-### 2.5 ARM（Adjustable Rate Mortgage）🟡
+### 2.6 ARM（Adjustable Rate Mortgage）🟡
 
 - [ ] 🟡 老师只做过年频率示例，考试可能出现月/季频率
 - [ ] 🟡 有效借款成本（Effective Cost of Borrowing）的计算
 - [ ] 🟡 ARM的预付情景：提前还款时 ECB 可能低于全期 ECB（规避了后期高利率）→ 反直觉，**不要假设结论，计算后再判断**
 
-### 2.6 有效借款成本 Effective Cost of Borrowing（ECB）🔴
+### 2.7 有效借款成本 Effective Cost of Borrowing（ECB）🔴
 
 - [ ] 🔴 折扣点 Discount Points：增加 ECB，因为前期缴费减少了实际到手金额
 - [ ] 🔴 ECB **必须高于名义利率**（当有折扣点时），若计算出来更低说明计算有误
 - [ ] 🔴 若发现数字与逻辑矛盾，**明确写出"I believe there may be a calculation error; logically ECB should be higher"**，比假装没看到更有利
 
-### 2.7 杠杆计算 🔴 及格命脉（与Q2直接挂钩）
+### 2.8 杠杆计算 🔴 及格命脉（与Q2直接挂钩）
 
 - [ ] 🔴 无杠杆 IRR vs 有杠杆 IRR（简单现金流 + IO/CPM贷款）——**老师说这就是Q2的结构**
 - [ ] 🟡 税前/税后 IRR（28% 税率，利息费用抵税）
 - [ ] 🟢 折旧：土地 vs 建筑物折旧（理论为主，计算较少）
 
-### 2.8 现金流与 IRR 🔴
+### 2.9 现金流与 IRR 🔴
 
 - [ ] 🔴 季度现金流的处理：直接用季度频率计算（不要折算成年度）
 - [ ] 🔴 写出清晰的中间步骤：N= ?, I/Y= ?, PV= ?, PMT= ?, FV= ?（**逻辑对数字错也给分**）
