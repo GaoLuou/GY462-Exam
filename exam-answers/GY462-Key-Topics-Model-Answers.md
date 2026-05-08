@@ -51,8 +51,6 @@ The primary opportunity is rental income growth. Since a property's value is anc
 
 **Priority:** Among these opportunities, efficient operations and rental maximisation should take precedence. The terminal value is large but the least controllable; investors who focus on NOI generation first will outperform those who bet on market timing.
 
-**Growth-Adjusted Cap Rate:** The cap rate can be adjusted for expected NOI growth: Adjusted Cap Rate = Raw Cap Rate − Growth Rate. When expected growth is negative, subtracting a negative number makes the adjusted cap rate *larger* — reflecting higher risk and lower value. This is why a high cap rate signals both high risk and low growth expectations simultaneously.
-
 ---
 
 ### 中文详解
@@ -65,20 +63,12 @@ The primary opportunity is rental income growth. Since a property's value is anc
 
 3. **机会的优先级（Priority of Opportunities）**：列出租金、终值（Terminal Value）、运营管理还不够，**必须给出排序**：首先专注最大化租金和高效运营，这是可控的；而市场周期带来的终值（Terminal Value，即出售所得）是不可控的，不应作为主要投资逻辑。老师明确说"没排序就丢分"。课件中三大机会是：Operating cost（运营成本优化）、Terminal value（终值）、Rental growth（租金增长）。
 
-**⚠️ Growth-adjusted Cap Rate 的反直觉逻辑（必须能解释）：**
-
-Growth-adjusted Cap Rate = Raw Cap Rate − Growth Rate
-
-- 若 Growth > 0（预期租金增长）：adjusted cap rate 变小 → 资产价值更高，风险更低
-- 若 Growth < 0（预期租金下降）：减去负数等于加上一个正数 → adjusted cap rate **变大** → 资产价值更低，风险更高
-- 考试陷阱：不少人认为"负增长时 cap rate 减去负数，cap rate 会变小"——这是错误的！Cap Rate 变大才是正确方向。
-- 这就是为什么说 **Cap Rate 大 = 风险高 + 机会少**——它同时反映了高折现率和低（甚至负）增长预期。
-
 **不应该写的：** 不要在这道题用大量篇幅讲流动性，如果子问题明确把流动性单列出来的话。先通读所有子题再分配内容。
+> Growth-Adjusted Cap Rate 属于估值方法题（T9），不属于本题，不要混入。
 
 ---
 
-## T2. Risk Assessment Methods 🟢 Distinction（及格可跳过）
+## T2. Risk Assessment Methods 🟡 Merit加分（老师 mock 反馈：大家普遍漏了关键点）
 
 ### Model Answer (English)
 
