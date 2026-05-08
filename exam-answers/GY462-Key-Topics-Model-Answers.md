@@ -291,19 +291,30 @@ Under deal-by-deal structures, the GP can crystallise promote on successful earl
 
 ### Model Answer (English)
 
-Development financing involves two distinct lending phases and a fundamental choice between simplified and full valuation methods.
+Development financing involves two distinct lending phases, a choice between simplified and full valuation methods, and specific contractual structures for managing construction risk.
 
 **Interim vs Permanent Financing:**
-During construction, the developer draws on an interim (or construction) loan provided by a bridging lender. This loan is typically short-term, interest-only, and carries a higher rate — reflecting the elevated uncertainty during the build phase. Once the property is completed and income-generating, the interim loan is refinanced with a permanent loan (a longer-term mortgage at a lower rate). The key risk in development finance is that construction cost overruns or lease-up failures may prevent the borrower from servicing the permanent loan, leaving the interim lender exposed.
+During construction, the developer draws on an interim (or construction) loan provided by a bridging lender. This loan is typically short-term, interest-only, and carries a higher rate — reflecting elevated uncertainty during the build phase. Once the property is completed and income-generating, the interim loan is refinanced with a permanent loan (a longer-term mortgage at a lower rate). The key risk is that cost overruns or lease-up failures may prevent transition to permanent financing, leaving the interim lender exposed.
 
 **Shortcut Valuation ("Build at 10, Sell at 8") vs Full DCF:**
-The shortcut — producing income at a 10% yield and selling at an 8% yield — gives a quick feasibility screen. Its advantage is speed and simplicity; its weakness is that it ignores timing of cash flows, construction duration uncertainty, and the cost of capital across phases. A full DCF, by contrast, explicitly models each quarter's costs and revenues, applies a risk-appropriate discount rate, and can incorporate stress tests (e.g., extending the construction period). The shortcut is a useful first filter; the full DCF is required for investment decisions.
+The shortcut — producing income at a 10% yield and selling at an 8% yield — gives a quick feasibility screen. Its advantage is speed and simplicity; its weakness is that it ignores the timing of cash flows, construction duration uncertainty, and the cost of capital across phases. A full DCF explicitly models each quarter's costs and revenues, applies a risk-appropriate discount rate, and can incorporate stress tests. The shortcut is a useful first filter; the full DCF is required for investment decisions.
+
+**Development Risk & Contractual Arrangements:** 🟢 Distinction
+The three primary development risks are: (1) cost overrun — construction costs exceed budget; (2) time overrun — delays compound through negative amortisation on the construction loan; (3) contractor default — the builder becomes insolvent mid-project. Three contract types allocate these risks differently:
+
+| Contract | Developer bears | Investor/Funder bears |
+|---------|----------------|----------------------|
+| **Turnkey** | Low — contractor takes fixed all-in price and delivery risk | Minimal — pays a premium for certainty |
+| **Forward Fund** | Construction completion risk | Market/value risk post-completion; funds project from start |
+| **Forward Commitment** | All construction, time and lease-up risk | Only market value risk post-completion |
+
+The Forward Commitment gives developers a committed buyer (improving construction finance access) while investors avoid tying up capital during construction. Contract choice determines who is incentivised to control cost and time overruns.
 
 ---
 
 ### 中文详解
 
-**两个核心知识点：**
+**三个核心知识点：**
 
 **1. 过渡贷款（Interim/Construction Loan）vs 永久贷款（Permanent Loan）**：
 
@@ -312,19 +323,24 @@ The shortcut — producing income at a 10% yield and selling at an 8% yield — 
 | 过渡贷款（Interim Loan） | 建设阶段 | 短期、利率高、按需提款（drawdown） |
 | 永久贷款（Permanent Loan） | 竣工后、稳定经营后 | 长期、利率低、类似普通商业抵押贷款 |
 
-关键风险：建设超支或招租失败 → 无法偿还过渡贷款或无法转换为永久贷款 → 开发商违约。
+关键风险：建设超支或招租失败 → 无法偿还过渡贷款 → 开发商违约。工期延误因**负摊销**而指数级加剧成本。
 
-**2. 快捷估值（Shortcut: "Build at 10, Sell at 8"）vs 完整DCF（Full Evaluation）**：
+**2. 快捷估值（Build at 10, Sell at 8）vs 完整DCF**：
 
-- 快捷法：NOI / 建造成本 = 10%（建造端）；NOI / 售价 = 8%（出售端）→ 利润 ≈ 25%
-  - 优点：快速筛选，不需要复杂建模
-  - 缺点：忽略现金流时序、建设工期不确定性、资本成本的分阶段性
+- 快捷法：NOI / 建造成本 = 10%；NOI / 售价 = 8% → 快速筛选，但忽略时序和工期不确定性
+- 完整DCF：逐季度建模，可做压力测试（延长2季度工期 → IRR 下降多少？）
 
-- 完整DCF：逐季度建模成本和收入，显式折现，可做压力测试（延长工期会怎样？）
-  - 优点：更准确，能量化"如果工期延长2个季度，IRR 下降多少"
-  - 缺点：需要更多假设和数据
+**3. 三种开发合同（Paul & Rico 讲师内容，老师在录音中专门点名）**：
 
-**老师的考试提示**：可能被要求"比较快捷法和完整DCF的优缺点"，或"在什么情况下你会用快捷法而不是完整DCF"——这是典型的 Distinction 层次问题。
+| 合同类型 | 开发商主要风险 | 投资者主要风险 | 开发商优势 |
+|---------|--------------|--------------|---------|
+| Turnkey（交钥匙）| 低（成本+工期风险转给承包商）| 无 | 确定性最高 |
+| Forward Fund（预先融资）| 中（须完工）| 中（市场价值风险）| 用投资者资金建设 |
+| Forward Commitment（预先承购）| 高（建设+出租全部风险）| 低（仅完工后）| 已有买家，获取建设融资更容易 |
+
+⚠️ **合同选择决定了谁有动力控制成本和工期**——这是老师讲座的核心主旨。
+
+**关键术语：** Interim Loan 过渡贷款 / Permanent Loan 永久贷款 / Shortcut Valuation 快捷估值 / Rule of 10 and 7a 十法则 / Turnkey Contract 交钥匙合同 / Forward Fund 预先融资 / Forward Commitment 预先承购 / Cost Overrun 成本超支 / Negative Amortisation 负摊销
 
 ---
 

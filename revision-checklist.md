@@ -16,10 +16,15 @@
 
 > 只想及格：**只看 🔴 标记的内容**，Q2计算题做对，Q1写 IO vs CPM + MBS三类 + 风险排序，就够了。
 
-> ⚠️ **针对60分目标的补充说明（2025年考题复盘）：**
-> 2025年 Q1 共8题（100分）：Q1a-b基础（20分，🔴）、Q1c-e杠杆+DCF（25分，🟡）、Q1f-g GP/LP瀑布（35分，🟡）、Q1h开发合同（20分，🟢）。
-> **只靠🔴拿50分，需要至少4个🟡主题才能稳上60。** 核心🟡优先级：GP/LP瀑布 > DCF Pro Forma > 杠杆公式 > 通胀+ARM。
-> 对于Q2计算，🔴项（CPM/IO/ECB/IRR）已经覆盖70分+，因此Q2方向压力小。
+> ⚠️ **针对60分目标的补充说明（结合2025年考题复盘 + 老师录音）：**
+> 2025年 Q1 共8题：Q1a-b基础（🔴）、Q1c-e杠杆+DCF（🟡）、Q1f-g GP/LP瀑布（🟡）、Q1h开发合同（🟢）。
+> **只靠🔴理论题拿50-55分，需要掌握🟡主题才能稳到60。** 核心🟡优先级：
+> 1. **GP/LP瀑布**（最大单块，2025年35分）
+> 2. **风险评估方法**（T2，老师说 mock 大家都漏了 partitioning + due diligence！）
+> 3. **DCF Pro Forma + Unbundling**（T9，2025年15分）
+> 4. **通胀+GPM+ARM**（T10，老师明说今年"especially likely"）
+> 5. **杠杆公式**（T3）
+> Q2计算：🔴项（CPM/IO/CAM/ECB/IRR）覆盖70分+，压力小于Q1。
 
 ---
 
@@ -58,15 +63,16 @@
   - **Cap Rate大 = 风险高 + 机会少**
   - 资产价值由净营业收入NOI驱动，不要完全依赖地产周期
 
-- [ ] 🟢 **风险评估方法 Risk Assessment Methods**（老师说很多人没答全）
+- [ ] 🟡 **风险评估方法 Risk Assessment Methods**（老师 mock 反馈：大家普遍漏了关键点）→ 见 Key Topics **T2**
+  - ⚠️ **老师录音原话："not many people talked about partitioning or due diligence — make sure these are clear"**
   - **课件（Lec03）三种正式方法**：
-    1. **尽职调查 Due Diligence**：⚠️ 几乎没人提！是定量分析的前提，验证所有输入假设
-    2. **IRR分解/NPV分解 Partitioning**：⚠️ 几乎没人提——区分"运营收益"vs"出售收益"，判断是否过度依赖终值
+    1. **尽职调查 Due Diligence**：⚠️ **几乎没人提！** 是定量分析的前提，先验证所有输入假设的可信度
+    2. **IRR分解/NPV分解 Partitioning**：⚠️ **几乎没人提**——把 IRR 拆成运营收益 vs 终值收益，判断是否过度依赖出售
     3. **敏感性分析 Sensitivity Analysis**：包含三个层次——
        - 压力测试 Stress Testing：固定中心预测，逐个测试单一变量
        - 情景分析 Scenario Analysis：多个宏观状态，所有关键变量同时变化
-       - **模拟/蒙特卡洛 Simulation / Monte Carlo**：⚠️ Mock 里几乎没人提，是高分点——对所有关键变量的概率分布同时模拟，输出 IRR/NPV 的概率分布，比单点情景分析更全面
-  - 结合案例（Copenhagen / Croydon 项目）讲述你做了哪些压力测试
+       - **模拟/蒙特卡洛 Simulation / Monte Carlo**：⚠️ Mock 里几乎没人提——高分点
+  - 结合案例（Copenhagen / Croydon）讲述你做了哪些压力测试、你希望还能做什么
 
 - [ ] 🟡 **杠杆 Leverage**（Lec 4）
   - 税前/税后 IRR（Before/After Tax）
@@ -84,6 +90,7 @@
   - GPM（Graduated Payment Mortgage）：通货膨胀背景下使用，早期还款少
   - ARM（Adjustable Rate Mortgage）：利率随市场调整
   - 🟡 **通货膨胀如何推动 GPM 和 ARM 的使用** → 见 Key Topics 文件 **T10**
+    - ⚠️ **老师录音原话："there is a question, especially in line with potentially inflationary pressures looking at the not-so-far future"** = 今年考题极可能出现！
     - Fisher方程：(1+r_nom) = (1+r_real) × (1+π)；高通胀→高名义利率→CPM月供前置沉重
     - 倾斜问题（Tilt Problem）：实际还款负担集中在早期 → 借款人资格达不到
     - GPM：早期低月供+负摊销 → 匹配收入增长；ARM：利率随通胀调整 → 初始利率低
@@ -104,7 +111,11 @@
 
 - [ ] 🟡 永久贷款 Permanent Loan vs 过渡贷款 Interim Lender（桥接），如何衔接
 - [ ] 🟡 **快捷估值（10法则 / Rule of 10 & 7a）vs 完整折现估值**对比：优缺点各是什么？
-- [ ] 🟢 开发项目关键风险管理（Paul & Rico 提到的文化差异与承包商管理）
+- [ ] 🟢 ⚠️ **开发合同（Paul & Rico 内容，老师录音专门点名）** → 见 Key Topics **T6**
+  - **Turnkey**：承包商承担成本+工期风险；开发商获得最高确定性
+  - **Forward Fund**：投资者先行出资；开发商承担完工风险，投资者承担完工后市场风险
+  - **Forward Commitment**：开发商承担全部建设+出租风险；换取已有买家（利于获取建设融资）
+  - 核心：合同结构决定谁有动力控制成本和工期超支
 
 ### 1.5 抵押贷款支持证券 Mortgage-Backed Securities（MBS）
 
@@ -203,16 +214,31 @@
 
 ---
 
-## 四、答题策略 Exam Technique
+## 四、答题策略 Exam Technique（老师录音原话提炼）
 
-- [ ] **10分钟阅读时间**：通读两道题，规划各子问题顺序和时间分配
-- [ ] **看子问题分值**：分值高的子问题花更多时间；不要在5分题上写2.5页
-- [ ] **跨子问题不重复**：若Q2b专门考流动性，Q2a就少提流动性，换其他角度
-- [ ] **不要只列要点**：每个bullet point后加解释，说清楚它的含义和重要性排序
+- [ ] **10分钟阅读时间**：通读两道题，规划各子问题顺序 — **先搞清楚哪个子问题问哪个角度，避免重复**
+  - 老师举例：Q1a问风险，Q1b专门问流动性/大额/不可分割 → Q1a就不要把这几个风险说完，留给Q1b
+- [ ] **看子问题分值**：分值高的子问题花更多时间；"不要在5分题写2.5页，结果没时间写20分题"
+  - 老师说：最后几题分值高且较难，是拉开区分度的地方，不要放弃
+- [ ] **不要只列要点（"shopping list"）**：每个 bullet point 后加解释，说明含义 + 重要性排序
+  - 老师原话："if you just list 10 names without description, I don't know whether you memorised or understood"
+- [ ] **结合案例**：能引用 Copenhagen（开发项目，季度现金流，压力测试建设工期）和 Croydon（持有型，NOI估算，杠杆IRR，IRR分解）→ **老师明确说 mock 中引用案例的答案更好**
+  - 可以说"在Copenhagen中我们做了X；如果时间允许我还会做Y（如Monte Carlo）"
 - [ ] 理论题：3–5个核心要点，带排序和解释，优于10个裸标题
-- [ ] 计算题：写清每一步的N/I/Y/PV/PMT/FV值；即使答案有误也能拿逻辑分
+- [ ] 计算题：**写出所有中间步骤**：N= ?, I/Y= ?, PV= ?, PMT= ?, FV= ?（"这是最安全的得分策略"）
+  - 老师说：即使最终数字因内存残留等原因有偏差，清晰的逻辑步骤能保留大部分分数
+- [ ] **ECB < 名义利率时，立即承认错误**："I believe I have made a calculation error; logically ECB must exceed the stated rate"（老师原话）
+- [ ] ARM ECB 提前还款的**反直觉情况**：若后期利率很高，提前还款可能 ECB 反而更低 → 不要假设结论，必须计算后再判断
+- [ ] **季度现金流用季度计算**，年化时直接 × 4（老师确认：这是计算器内在逻辑，不用有效年利率转换）
 - [ ] **不要用Excel**（考场不允许），现在就停止用Excel做练习
-- [ ] 答案逻辑和数字矛盾时，写一句"I believe there may be a calculation error; logically this should be higher/lower"
+
+### 老师的评分哲学（录音原话）
+
+> "We don't mark against a distribution. If 30% end up with distinction, so be it. If anything, we try to chop the number of people that fail. We don't want to see you again next year."
+
+> "If I realise the paper was more complicated, I'll adjust the grade accordingly."
+
+**结论：老师不会故意制造失败率，遇到难题保持冷静，能写多少写多少。**
 
 ---
 
