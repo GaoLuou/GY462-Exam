@@ -41,25 +41,25 @@
 
 **Downside Risks:**
 
-1. **Operating cost:** Maintenance, insurance, and management costs may exceed budget, directly compressing NOI even when the property is fully let.
+1. **Operating cost:** maintenance, insurance, management costs exceed budget → NOI decreases even at full occupancy.
 
-2. **Natural disaster:** As a physical asset concentrated at a fixed location, the property is exposed to fire, flood, or other catastrophic events — a risk not easily diversified away unlike financial assets.
+2. **Natural disaster:** physical asset at a fixed location → cannot diversify geographically → concentrated loss exposure; unlike equities, cannot spread across locations.
 
-3. **Vacancy:** The property stands empty with zero rental income, while fixed costs continue. This is the bigger risk compared to leasing because there is no income at all — not even a below-market contract.
+3. **Vacancy:** no tenant → rental income = 0, fixed costs continue → NOI turns negative. Worse than leasing risk: no income at all.
 
-4. **Leasing:** A tenant is in place but either defaults mid-lease or renews at below-market rent. The difference from vacancy is that some cash flow remains, but the investor cannot easily renegotiate a contractually locked rent.
+4. **Leasing:** tenant in place but defaults mid-lease, or renews below market rent → NOI decreases; rent locked by contract → cannot renegotiate upward.
 
-5. **Liquidity:** Large lot size and indivisibility mean the asset cannot be sold quickly or in parts. A forced sale — for example under loan covenant breach — can result in a deeply discounted price.
+5. **Liquidity:** large lot size + indivisible → cannot sell quickly or in parts → forced sale (e.g., loan covenant breach) → sale price decreases sharply.
 
 **Opportunities:**
 
-1. **Operating cost:** Efficient management and cost control directly raise NOI without relying on market conditions. This is the most controllable opportunity.
+1. **Operating cost:** cost control → NOI increases directly, independent of market conditions → most controllable opportunity.
 
-2. **Terminal value:** The resale price at exit is typically the largest single cash flow. However, it is the least controllable — it depends on exit cap rates and market conditions at the time of sale.
+2. **Terminal value:** resale price = largest single cash flow, but depends entirely on exit cap rate and market at time of sale → least controllable.
 
-3. **Rental growth:** Rent reviews and favourable market conditions allow NOI to compound over the holding period, steadily building asset value.
+3. **Rental growth:** rent reviews + market upswing → NOI increases each period → asset value compounds over the holding period.
 
-**Priority:** Operating cost management and rental maximisation should take precedence over relying on terminal value — because a property's sale price is ultimately anchored to the NOI it generates. Investors who bet on market timing rather than NOI growth take on unnecessary risk.
+**Priority:** Operating cost + Rental growth > Terminal value. Resale price is anchored to NOI; relying on market timing adds risk without adding control.
 
 ---
 
@@ -98,19 +98,22 @@
 
 ### Model Answer (English)
 
-The course identifies three main approaches to assessing risk in a real estate investment:
+**1. Due Diligence:**
+Verifies inputs before any quantitative analysis: financial projections, legal title, market conditions, physical condition.
+Without it, IRR and NPV are built on unverified assumptions → conclusions are unreliable regardless of model precision.
+⚠️ Most commonly omitted in exam answers; the course lists it first.
 
-**1. Due Diligence:** The foundation of risk assessment before committing capital. This involves verifying financial projections, reviewing legal title, assessing market conditions, and checking physical condition of the asset. Due diligence establishes whether the investment assumptions are credible in the first place — without it, quantitative analysis rests on unverified inputs.
+**2. Partitioning of IRR/NPV:**
+Splits total IRR into: income return (operating cash flows) vs capital return (terminal value from resale).
+High proportion from terminal value → investment depends heavily on exit cap rate → risk is higher than the headline IRR number suggests.
+If most of the return is back-loaded, any deviation in exit market conditions has a disproportionate impact.
 
-**2. Partitioning of IRR/NPV:** Decomposing the total IRR or NPV into its sources — income return (operating cash flows) versus capital return (terminal value from resale) — reveals whether the investment is overly dependent on resale proceeds. If most of the IRR comes from terminal value rather than operating income, the investment is riskier than the headline number suggests, since resale value is highly uncertain and depends on future cap rates at exit.
+**3. Sensitivity Analysis** — three forms in increasing rigour:
+- *Stress Testing*: one variable changed at a time → worst plausible value → identifies which single variable matters most.
+- *Scenario Analysis*: all correlated variables shift together (e.g., recession scenario) → shows combined impact of a macro event.
+- *Monte Carlo*: probability distributions assigned to each key input → thousands of random draws simultaneously → produces a full IRR/NPV distribution → tells you "probability that IRR falls below X%". ⚠️ Most commonly omitted within sensitivity analysis.
 
-**3. Sensitivity Analysis:** Testing how the investment's IRR or NPV changes as key input variables are altered — rental growth, vacancy rates, exit cap rates, construction timeline. This identifies which variables drive the most risk. It takes three forms of increasing sophistication:
-
-- *Stress Testing*: fix the central projection; move one variable at a time to its worst plausible value.
-- *Scenario Analysis*: construct a small number of complete macro states (e.g., base / optimistic / pessimistic) where all correlated variables shift simultaneously.
-- *Simulation / Monte Carlo*: assign probability distributions to each key input and run thousands of random draws simultaneously, producing a full probability distribution of IRR or NPV outcomes. This is the most rigorous form and was explicitly highlighted by the professor as rarely appearing in student answers despite being examinable.
-
-**Key Insight:** Partitioning is the most commonly overlooked method. An investment with a strong headline IRR but most returns concentrated in terminal value is qualitatively riskier than one generating stable operating income throughout. Monte Carlo is the most commonly overlooked within Sensitivity Analysis.
+**Exam priority:** mention all three methods; within Sensitivity Analysis go stress → scenario → Monte Carlo in order.
 
 ---
 
@@ -141,17 +144,22 @@ The course identifies three main approaches to assessing risk in a real estate i
 
 yE = (yP − LTV × yD) / (1 − LTV)
 
-Positive leverage requires yP > yD. The Break-Even Interest Rate (BEIR) equals the unlevered IRR — borrow below it and equity returns rise; borrow above it and leverage destroys value.
+yP > yD → positive leverage → equity return (yE) > property return (yP).
+yP < yD → negative leverage → yE < yP; leverage destroys value.
+Break-Even Interest Rate (BEIR) = unlevered IRR: borrow below BEIR → yE rises; borrow above → yE falls.
 
 **Effect on Risk:**
 
 RPE = RPD + LR × (RPP − RPD),  where LR = 1/(1 − LTV)
 
-Leverage scales the equity risk premium by the same multiple as it scales return. There is no free lunch: every extra unit of levered return comes with proportionally higher equity risk.
+Higher LTV → LR increases → equity risk premium scales up by the same multiple as equity return.
+Extra levered return = proportionally higher equity risk; no free lunch.
 
 **Effect on Cash Flow:**
 
-Debt service reduces cash flow available to equity in every period. Under IO, the full principal stays outstanding throughout, so cash flow risk persists until exit. Under CPM, the outstanding balance falls each period, progressively reducing the lender's exposure — and the investor's cash flow risk.
+Debt service paid each period → cash flow available to equity decreases.
+IO: principal stays at full amount throughout → cash flow risk persists until exit.
+CPM: outstanding balance falls each period → lender's exposure shrinks → investor's cash flow risk decreases over time.
 
 ---
 
