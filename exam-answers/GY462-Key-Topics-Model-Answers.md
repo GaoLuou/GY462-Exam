@@ -312,26 +312,33 @@ Note: waterfall calculations are not required in the exam — theory only.
 
 ### Model Answer (English)
 
-**Two Loan Phases:**
-During construction: developer draws an interim (construction) loan — interest-only, short-term, rate is higher (no rental income yet, cost uncertainty is high).
-After completion and stabilisation: interim loan is repaid; replaced by a permanent loan — longer term, rate decreases.
+**1. Two-Phase Financing (core — highest exam priority):**
 
-Key risk: cost overrun or lease-up failure → developer cannot repay interim loan on schedule → interim lender's exposure increases → potential default.
+Construction phase: developer draws an interim loan in tranches as work progresses — interest-only, short-term, rate is higher (no income yet, completion risk is high).
+Post-completion: interim loan repaid; replaced by a permanent loan — longer term, rate decreases (stable income, risk lower).
 
-**Shortcut vs Full DCF:**
-Shortcut ("build at 10%, sell at 8%"): ignores cash flow timing and construction duration → overestimates NPV when construction delays occur.
-Full DCF: models each quarter's costs and revenues, applies a risk-adjusted discount rate → more accurate; required for investment decisions.
+Key risk: cost overrun or lease-up failure → developer cannot repay interim loan → lender's exposure increases → potential default. Time delays compound this: unpaid interest adds to the outstanding balance (negative amortisation on the construction loan).
 
-**Development Risk & Contractual Arrangements:** 🟢 Distinction
-The three primary development risks are: (1) cost overrun — construction costs exceed budget; (2) time overrun — delays compound through negative amortisation on the construction loan; (3) contractor default — the builder becomes insolvent mid-project. Three contract types allocate these risks differently:
+**2. Shortcut vs Full DCF Valuation:**
+
+Shortcut ("build at 10%, sell at 8%"): produce income at a 10% yield, sell at an 8% yield → quick feasibility screen. Ignores cash flow timing and construction duration → overstates value when delays occur.
+Full DCF: models each period's costs and revenues explicitly, applies a risk-adjusted discount rate → more accurate; required for actual investment decisions.
+
+The shortcut is a first filter; the full DCF is required once the project looks viable.
+
+**3. How Developers Manage Risk:**
+
+Three primary risks: (1) cost overrun — construction costs exceed budget; (2) time overrun — delays increase interim loan costs; (3) contractor default — builder becomes insolvent mid-project.
+
+Contract choice determines who bears each risk: 🟢 Distinction
 
 | Contract | Developer bears | Investor/Funder bears |
 |---------|----------------|----------------------|
-| **Turnkey** | Low — contractor takes fixed all-in price and delivery risk | Minimal — pays a premium for certainty |
-| **Forward Fund** | Construction completion risk | Market/value risk post-completion; funds project from start |
+| **Turnkey** | Low — contractor takes fixed price and delivery risk | Minimal — pays premium for certainty |
+| **Forward Fund** | Completion risk | Market/value risk; funds project from start |
 | **Forward Commitment** | All construction, time and lease-up risk | Only market value risk post-completion |
 
-The Forward Commitment gives developers a committed buyer (improving construction finance access) while investors avoid tying up capital during construction. Contract choice determines who is incentivised to control cost and time overruns.
+Forward Commitment: developer gets a committed buyer → easier to secure construction finance. Investor avoids tying up capital during construction.
 
 ---
 
