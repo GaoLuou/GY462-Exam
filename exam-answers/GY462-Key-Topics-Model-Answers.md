@@ -486,34 +486,42 @@ Treating ESG as only an ethical issue misses the direct financial channel: ESG p
 
 **Pro Forma Cash Flow Structure:**
 
-Operating cash flows are built from the ground up:
+**Pro Forma — operating cash flow waterfall:**
 
-PGI (Potential Gross Income: full-occupancy rent roll)
-− Vacancy Allowance (realistic vacancy rate applied to PGI)
-+ Other Income (parking, signage, miscellaneous)
-= EGI (Effective Gross Income)
-− Operating Expenses (fixed: taxes, insurance; variable: maintenance, utilities)
-= NOI (Net Operating Income)
-− Capital Improvement Expenditures (tenant improvements, leasing commissions, major repairs)
-= PBTCF (Property Before-Tax Cash Flow)
+```
+  PGI    Potential Gross Income  (full-occupancy rent roll)
+− V      Vacancy Allowance       (never assume 100% occupancy)
++ OI     Other Income            (parking, signage, misc.)
+────────────────────────────────────────────────────────
+= EGI    Effective Gross Income
+− OE     Operating Expenses      (fixed: taxes, insurance;
+                                   variable: maintenance, utilities)
+────────────────────────────────────────────────────────
+= NOI    Net Operating Income
+− CI     Capital Improvement Expenditures  (TIs, leasing commissions,
+                                             major repairs)
+────────────────────────────────────────────────────────
+= PBTCF  Property Before-Tax Cash Flow
+```
 
-The terminal value (reversion) at the end of the holding period is estimated as:
+**Terminal value (reversion):**
 
-**Reversion = NOI_{n+1} / Going-Out Cap Rate**
+Reversion = NOI_{n+1} / Going-Out Cap Rate
 
-Note: it is Year n+1 NOI (the buyer's first year), not Year n. The going-out cap rate is typically set higher than the going-in cap rate, reflecting property ageing and exit-market uncertainty.
+⚠️ Use Year n+1 NOI (the buyer's first year), not Year n.
+Going-out cap rate > going-in cap rate: property ages, exit-market uncertainty increases.
 
-**Risk-Adjusted Discount Rates — Unbundling Cash Flows:**
+**Risk-Adjusted Discount Rates — Unbundling:**
 
-Two cash flow types carry different risk levels:
+| Cash flow type | Risk | Discount rate |
+|---------------|------|---------------|
+| Intra-lease (contracted rent within active lease) | Tenant default only | Lower |
+| Inter-lease / terminal value (re-letting, resale) | Full market uncertainty — future rents and exit cap rates unknown | Higher |
 
-**Intra-lease (contracted rent within active lease):** only tenant default risk → lower discount rate applies.
-**Inter-lease / terminal value (re-letting after expiry, resale):** full market uncertainty — future rents and exit cap rates unknown → higher discount rate applies.
+Single blended rate underprices terminal value risk → valuation overstated.
+Unbundling applies different rates to each type → risk concentration is made explicit.
 
-Single blended discount rate underprices the risk of the terminal value → valuation is overstated.
-Unbundling applies different rates to each type → more accurate valuation, risk concentration is explicit.
-
-Terminal value typically constitutes the majority of total return → investment is more sensitive to exit cap rate assumptions than to annual NOI → partitioning IRR into income vs reversion components quantifies this concentration.
+Terminal value = majority of total return → investment is more sensitive to exit cap rate than to annual NOI → partitioning IRR into income vs reversion components quantifies this.
 
 ---
 
