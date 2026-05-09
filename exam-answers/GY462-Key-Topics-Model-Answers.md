@@ -273,7 +273,7 @@ Principal-agent problem: GP controls the asset but bears little downside → the
 1. Return of capital to LP (first call on all proceeds)
 2. Preferred return to LP (e.g., 9% pa) — GP receives nothing until this hurdle is cleared
 3. Catch-up to GP (GP receives 100% until GP's cumulative share = 20% of total profits distributed so far)
-4. Carried interest split above the hurdle (e.g., 80% LP / 20% GP)
+4. Carried interest: remaining proceeds split 80% LP / 20% GP
 
 **Deal-by-deal:** GP crystallises promote on early winning deals without waiting for losers → GP benefit increases, LP protection decreases.
 
