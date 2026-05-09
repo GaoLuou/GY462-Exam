@@ -312,19 +312,19 @@ Note: waterfall calculations are not required in the exam — theory only.
 
 ### Model Answer (English)
 
-**1. Two-Phase Financing (core — highest exam priority):**
+Real estate development uses two sequential loans:
 
-Construction phase: developer draws an interim loan in tranches as work progresses — interest-only, short-term, rate is higher (no income yet, completion risk is high).
-Post-completion: interim loan repaid; replaced by a permanent loan — longer term, rate decreases (stable income, risk lower).
+- **Construction (interim) loan:** short-term, interest-only, higher rate — reflecting no income yet and elevated completion risk.
+- **Permanent loan:** longer term, lower rate, replaces the interim loan once the project stabilises (reaches target occupancy).
 
-Key risk: cost overrun or lease-up failure → developer cannot repay interim loan → lender's exposure increases → potential default. Time delays compound this: unpaid interest adds to the outstanding balance (negative amortisation on the construction loan).
+The transition is the critical risk point: cost overrun, time overrun, or lease-up failure can prevent the developer from repaying the interim lender, triggering default.
 
-**2. Shortcut vs Full DCF Valuation:**
+Two valuation approaches apply:
 
-Shortcut ("build at 10%, sell at 8%"): produce income at a 10% yield, sell at an 8% yield → quick feasibility screen. Ignores cash flow timing and construction duration → overstates value when delays occur.
-Full DCF: models each period's costs and revenues explicitly, applies a risk-adjusted discount rate → more accurate; required for actual investment decisions.
+- **Shortcut method** (e.g., "build at 10%, sell at 8%"): provides a quick feasibility screen but ignores cash flow timing and tends to overstate value when construction delays occur.
+- **Full DCF:** models each period's costs and revenues with a risk-adjusted discount rate — required for actual investment decisions.
 
-The shortcut is a first filter; the full DCF is required once the project looks viable.
+The shortcut serves as initial screening; full DCF is the standard for final investment commitment.
 
 **3. How Developers Manage Risk:**
 
