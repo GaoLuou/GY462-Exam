@@ -344,33 +344,38 @@ Forward Commitment: developer gets a committed buyer → easier to secure constr
 
 ### 中文详解
 
-**三个核心知识点：**
-
-**1. 过渡贷款（Interim/Construction Loan）vs 永久贷款（Permanent Loan）**：
+**1. 两阶段融资（老师最高频强调——"the interplay between construction loan and permanent loan"）**：
 
 | 贷款类型 | 时机 | 特征 |
 |---------|------|------|
-| 过渡贷款（Interim Loan） | 建设阶段 | 短期、利率高、按需提款（drawdown） |
-| 永久贷款（Permanent Loan） | 竣工后、稳定经营后 | 长期、利率低、类似普通商业抵押贷款 |
+| 过渡贷款（Interim Loan） | 建设阶段 | 短期、纯利息（IO）、利率高、按进度分批提款（drawdown） |
+| 永久贷款（Permanent Loan） | 竣工 + 稳定出租后 | 长期、利率低、类似普通商业抵押贷款 |
 
-关键风险：建设超支或招租失败 → 无法偿还过渡贷款 → 开发商违约。工期延误因**负摊销**而指数级加剧成本。
+关键风险：成本超支或招租失败 → 无法偿还过渡贷款 → 过渡贷款方风险敞口增加 → 潜在违约。
+工期延误会**加剧**这一风险：未付利息累加到贷款余额（负摊销）→ 欠债越拖越多。
 
-**2. 快捷估值（Build at 10, Sell at 8）vs 完整DCF**：
+**2. 快捷估值 vs 完整DCF（老师原话："shortcut as opposed to a fully fledged valuation"）**：
 
-- 快捷法：NOI / 建造成本 = 10%；NOI / 售价 = 8% → 快速筛选，但忽略时序和工期不确定性
-- 完整DCF：逐季度建模，可做压力测试（延长2季度工期 → IRR 下降多少？）
+- **快捷法（Shortcut）**：以 10% 收益率倒算建造成本上限，以 8% 出售 → 快速可行性筛选。缺陷：忽略现金流时序和工期不确定性 → 工期延误时高估 NPV。
+- **完整DCF**：逐季度建模成本和收入，用风险调整折现率 → 更准确；实际投资决策必须用。
 
-**3. 三种开发合同（Paul & Rico 讲师内容，老师在录音中专门点名）**：
+快捷法是初步筛选工具；项目通过筛选后才做完整 DCF。
 
-| 合同类型 | 开发商主要风险 | 投资者主要风险 | 开发商优势 |
-|---------|--------------|--------------|---------|
-| Turnkey（交钥匙）| 低（成本+工期风险转给承包商）| 无 | 确定性最高 |
-| Forward Fund（预先融资）| 中（须完工）| 中（市场价值风险）| 用投资者资金建设 |
-| Forward Commitment（预先承购）| 高（建设+出租全部风险）| 低（仅完工后）| 已有买家，获取建设融资更容易 |
+**3. 开发商如何管理风险（老师原话："how a developer manages risk"）**🟢 Distinction：
 
-⚠️ **合同选择决定了谁有动力控制成本和工期**——这是老师讲座的核心主旨。
+三大开发风险：① 成本超支（cost overrun）② 工期超支（time overrun）③ 承包商违约（contractor default）。
 
-**关键术语：** Interim Loan 过渡贷款 / Permanent Loan 永久贷款 / Shortcut Valuation 快捷估值 / Rule of 10 and 7a 十法则 / Turnkey Contract 交钥匙合同 / Forward Fund 预先融资 / Forward Commitment 预先承购 / Cost Overrun 成本超支 / Negative Amortisation 负摊销
+合同选择决定谁来承担这些风险：
+
+| 合同类型 | 开发商主要风险 | 投资者/融资方主要风险 |
+|---------|--------------|-------------------|
+| Turnkey（交钥匙）| 低——成本+工期风险转给承包商 | 极低——支付溢价换取确定性 |
+| Forward Fund（预先融资）| 须完工 | 市场价值风险；从建设阶段开始提供资金 |
+| Forward Commitment（预先承购）| 承担全部建设、工期和出租风险 | 仅竣工后的市场价值风险 |
+
+Forward Commitment：开发商提前锁定买家 → 更易获得建设融资；投资者不在建设期占用资金。
+
+**关键术语：** Interim Loan 过渡贷款 / Permanent Loan 永久贷款 / Drawdown 分批提款 / Shortcut Valuation 快捷估值 / Turnkey 交钥匙合同 / Forward Fund 预先融资 / Forward Commitment 预先承购 / Cost Overrun 成本超支 / Negative Amortisation 负摊销
 
 ---
 
