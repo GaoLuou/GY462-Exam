@@ -567,26 +567,27 @@ PGI（满租收入）
 
 Fisher equation: (1 + r_nominal) = (1 + r_real) × (1 + π)
 
-High inflation (π↑) → nominal rate rises sharply → CPM nominal monthly payment increases (e.g., doubles when π = 6%, r_real = 4%).
-The nominal payment is fixed throughout the term. In real terms it falls as inflation erodes purchasing power — but real burden is highest in the early years when income is lowest.
-Consequence: many creditworthy borrowers fail the day-1 debt-service qualification test, even though total real repayments over the full term are affordable.
+π↑ → nominal rate rises → CPM monthly payment rises sharply (e.g., doubles at π = 6%, r_real = 4%).
+Payment fixed in nominal terms → real value falls each year.
+Real burden front-loaded: highest in Year 1, lowest at maturity.
+→ Borrower fails Day-1 qualification test (payment-to-income too high), even if affordable over the full term.
 
 **GPM — Solution:**
 
-Early scheduled payments set below interest due → unpaid interest added to balance → balance increases (negative amortisation).
-Payments rise each year at a fixed rate (e.g., 7.5% pa for 5 years) → matches nominal income growth driven by inflation.
-Effect: early real payment decreases → qualification test passed → affordability improves.
-Cost: total interest paid increases; early LTV increases → lender's security decreases.
+Early payment < interest due → unpaid interest capitalised → balance grows (negative amortisation).
+Payment rises each year (e.g., 7.5% pa for 5 years) → tracks nominal income growth.
+→ Day-1 payment lower → qualification test passed.
+Cost: balance grows early → LTV rises → lender's security decreases.
 
 **ARM — Solution:**
 
-Rate resets periodically (e.g., annually) based on market index + margin.
-At origination: rate set below fixed-rate equivalent (teaser rate) → early payment decreases.
-When inflation rises: rate rises → monthly payment increases.
-When inflation falls: rate falls → monthly payment decreases automatically (no refinancing needed).
-Effect: inflation risk transferred from lender to borrower → lender no longer needs to embed a worst-case inflation premium at origination → initial rate lower.
+Rate = market index + margin, resets periodically (e.g., annually).
+At origination: teaser rate < equivalent fixed rate → initial payment lower.
+Inflation rises → rate rises → payment rises. Inflation falls → rate falls → payment falls (no refinancing needed).
+→ Lender avoids embedding worst-case inflation premium upfront → initial rate lower.
+Cost: borrower bears interest rate risk.
 
-Both GPM and ARM target the same problem: GPM smooths the payment profile; ARM avoids locking in a high nominal rate at the outset.
+GPM smooths the payment profile; ARM avoids locking in a high nominal rate at the outset.
 
 ---
 
