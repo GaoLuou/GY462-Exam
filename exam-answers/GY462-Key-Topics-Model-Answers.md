@@ -272,7 +272,7 @@ Principal-agent problem: GP controls the asset but bears little downside → the
 **Waterfall — distribution sequence:**
 1. Return of capital to LP (first call on all proceeds)
 2. Preferred return to LP (e.g., 9% pa) — GP receives nothing until this hurdle is cleared
-3. Catch-up to GP (GP receives until its cumulative share equals the pref level)
+3. Catch-up to GP (GP receives 100% until GP's cumulative share = 20% of total profits distributed so far)
 4. Carried interest split above the hurdle (e.g., 80% LP / 20% GP)
 
 **Deal-by-deal:** GP crystallises promote on early winning deals without waiting for losers → GP benefit increases, LP protection decreases.
@@ -297,7 +297,7 @@ Note: waterfall calculations are not required in the exam — theory only.
 **瀑布（Waterfall）分配顺序**：
 1. 返还本金（Return of Capital）
 2. 优先回报（Preferred Return / Pref）：课件示例为年化 9%（具体数值由基金协议约定，每个基金不同）——LP 达到该收益率前 GP 不参与分配
-3. 补偿条款（Catch-up）：GP 追上之前被延迟的 promote
+3. 补偿条款（Catch-up）：GP 独享 100% 分配，直到 GP 的累计所得 = 已分配总利润的 20%（追平到最终 carry split 比例，与 pref rate 无关）
 4. 超额分配（Carried Interest）：如 20% 归 GP，80% 归 LP
 
 **Deal-by-Deal vs Whole Fund 对比**：
