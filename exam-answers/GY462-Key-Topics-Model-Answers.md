@@ -387,7 +387,11 @@ Forward Commitment：开发商提前锁定买家 → 更易获得建设融资；
 Originator holds loans on balance sheet → capital tied up → new lending capacity decreases → mortgage market grows slowly.
 
 **With Secondary Market:**
-Originator sells loans to GSE or conduit → capital recycled → new lending capacity increases → credit risk transferred away from originator.
+Originator sells loans to GSE or private conduit → capital recycled → new lending capacity increases → prepayment risk transferred to MBS investors (GSEs absorb default/credit risk through their guarantee).
+
+GSEs and conduits use two mechanisms: **Cash programme** — GSE pays cash for the loans, then issues MBS itself. **Swap programme** — GSE exchanges MBS directly for the bank's mortgages, letting the bank sell or hold the MBS. Both recycle capital and scale up the secondary market.
+
+To create predictable cash flows, loans are pooled into **homogeneous** groups — similar in financial terms (rate, maturity, LTV) and structural terms (loan type, property type). Homogeneity reduces variation in prepayment behaviour, making the pool's cash flows predictable enough to price and sell to investors.
 
 **Prepayment risk** is the key concept: when rates fall, borrowers prepay early → investors receive principal back at the worst time (when reinvestment rates are low) → interest income decreases. The three MBS types differ only in who bears this risk:
 
@@ -407,11 +411,18 @@ No calculation questions will be set on MBS.
 
 **考试明确说"不考计算，只考理论"**
 
-**证券化动机（Securitisation）**：银行持有抵押贷款会占用大量资本，通过证券化把贷款卖出去，可以收回资金再放新贷款，扩大信贷规模。
+**证券化动机（Securitisation）**：银行持有抵押贷款会占用大量资本，通过证券化把贷款卖出去，可以回笼资金再放新贷款，扩大信贷规模。转移的核心风险是**提前还款风险（prepayment risk）**，而非信用风险——GSE 通过担保自行吸收了违约/信用风险。
+
+**Homogeneous Pooling（同质化打包）**——老师原话点名的缓解机制：
+贷款打包前须保证同质性，包括：
+- 金融同质（Financial）：利率类型相近、期限相近、LTV 相近
+- 结构同质（Structural）：贷款类型相近、物业类型相近、地理分布类似
+
+同质 → 还款行为相似 → 提前还款模式可预测 → 投资者能对证券定价。若 pool 里混入不同类型贷款，提前还款行为分散，现金流无法预测，证券就卖不出去。
 
 **Cash Programme vs Swap Programme**：
-- Cash（现金方案）：银行把贷款直接卖给 GSE，获得现金
-- Swap（互换方案）：银行把贷款"换"成 MBS 证券，自己再拿去卖给投资者
+- Cash（现金方案）：银行把贷款直接卖给 GSE，获得现金；GSE 再自行发行 MBS
+- Swap（互换方案）：GSE 直接把 MBS 换给银行（银行拿 MBS 再自行出售）
 
 **三类证券的核心区别（必须能背下来）**：
 
