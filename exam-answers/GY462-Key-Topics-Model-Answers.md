@@ -275,9 +275,9 @@ Principal-agent problem: GP controls the asset but bears little downside → the
 3. Catch-up to GP (GP receives 100% until GP's cumulative share = 20% of total profits distributed so far)
 4. Carried interest: remaining proceeds split 80% LP / 20% GP
 
-**Deal-by-deal (US standard):** GP earns promote on each profitable deal as it exits, even if later deals lose money. → Earlier cash to GP; LP at risk of overpaying if total fund underperforms.
+**Deal-by-deal:** GP gets promote per successful deal (US standard) — favours GP, faster cash out.
 
-**Whole-fund (UK standard):** GP earns promote only after the entire fund exceeds the hurdle across all deals combined. → GP waits longer; LP fully protected against loss-making deals offsetting winners.
+**Whole-fund:** GP gets promote only after entire fund clears hurdle (UK standard) — favours LP, GP waits.
 
 Note: waterfall calculations are not required in the exam — theory only.
 
