@@ -567,27 +567,25 @@ PGI（满租收入）
 
 Fisher equation: (1 + r_nominal) = (1 + r_real) × (1 + π)
 
-π↑ → nominal rate rises → CPM monthly payment rises sharply (e.g., doubles at π = 6%, r_real = 4%).
-Payment fixed in nominal terms → real value falls each year.
-Real burden front-loaded: highest in Year 1, lowest at maturity.
-→ Borrower fails Day-1 qualification test (payment-to-income too high), even if affordable over the full term.
+π↑ → nominal rate rises → CPM monthly payment rises sharply (e.g., doubles at π = 6%, r_real = 4%). Payment is fixed in nominal terms but its real value falls each year — so the real burden is front-loaded: highest in Year 1 when income is lowest. Result: borrower fails the Day-1 qualification test, even if the loan is affordable over the full term.
 
-**GPM — Solution:**
+**GPM (Graduated Payment Mortgage) — fixed rate, rising payments:**
 
-Early payment < interest due → unpaid interest capitalised → balance grows (negative amortisation).
-Payment rises each year (e.g., 7.5% pa for 5 years) → tracks nominal income growth.
-→ Day-1 payment lower → qualification test passed.
-Cost: balance grows early → LTV rises → lender's security decreases.
+Early payments are deliberately set low — sometimes below interest due, so unpaid interest is added to the balance (negative amortisation). Payments then rise each year (e.g., 7.5% pa for 5 years), then level off.
 
-**ARM — Solution:**
+Why it works: low early payments match the borrower's currently low nominal income — qualification test passes. Later payments are higher, but so is income (pushed up by inflation).
 
-Rate = market index + margin, resets periodically (e.g., annually).
-At origination: teaser rate < equivalent fixed rate → initial payment lower.
-Inflation rises → rate rises → payment rises. Inflation falls → rate falls → payment falls (no refinancing needed).
-→ Lender avoids embedding worst-case inflation premium upfront → initial rate lower.
-Cost: borrower bears interest rate risk.
+Cost: total interest increases (balance grows during neg-am phase); early LTV rises → lender's collateral cushion weakens.
 
-GPM smooths the payment profile; ARM avoids locking in a high nominal rate at the outset.
+**ARM (Adjustable Rate Mortgage) — standard payments, floating rate:**
+
+Rate resets periodically (e.g., annually) based on a market index + fixed margin. The initial rate is below an equivalent fixed-rate CPM (teaser rate) — because the lender no longer needs to embed worst-case inflation assumptions at origination; if inflation rises, the rate adjusts at the next reset automatically.
+
+If inflation rises: rate rises → payment rises. If inflation falls: rate falls → payment falls (no refinancing needed). Inflation risk transfers from lender to borrower.
+
+**Key difference:**
+- GPM = fixed rate, payment schedule adjusts (low early, higher later)
+- ARM = standard payment formula, interest rate floats with inflation
 
 ---
 
