@@ -102,22 +102,14 @@ Operating cost + Rental growth are most controllable and should take precedence 
 
 ### Model Answer (English)
 
-**1. Due Diligence:**
-Verifies inputs before any quantitative analysis: financial projections, legal title, market conditions, physical condition.
-Without it, IRR and NPV are built on unverified assumptions → conclusions are unreliable regardless of model precision.
-⚠️ Most commonly omitted in exam answers; the course lists it first.
+**1. Due Diligence:** verify inputs (financial projections, legal title, market conditions, physical condition) before quantitative analysis. Without it, IRR rests on unverified assumptions.
 
-**2. Partitioning of IRR/NPV:**
-Splits total IRR into: income return (operating cash flows) vs capital return (terminal value from resale).
-High proportion from terminal value → investment depends heavily on exit cap rate → risk is higher than the headline IRR number suggests.
-If most of the return is back-loaded, any deviation in exit market conditions has a disproportionate impact.
+**2. Partitioning of IRR/NPV:** split IRR into income return (operating cash flows) vs capital return (terminal value). High capital share → investment depends on exit cap rate → risk higher than headline IRR suggests.
 
-**3. Sensitivity Analysis** — three forms in increasing rigour:
-- *Stress Testing*: one variable changed at a time → worst plausible value → identifies which single variable matters most.
-- *Scenario Analysis*: all correlated variables shift together (e.g., recession scenario) → shows combined impact of a macro event.
-- *Monte Carlo*: probability distributions assigned to each key input → thousands of random draws simultaneously → produces a full IRR/NPV distribution → tells you "probability that IRR falls below X%". ⚠️ Most commonly omitted within sensitivity analysis.
-
-**Exam priority:** mention all three methods; within Sensitivity Analysis go stress → scenario → Monte Carlo in order.
+**3. Sensitivity Analysis** — three forms:
+- *Stress testing:* change one variable at a time → identifies which variable matters most.
+- *Scenario analysis:* change correlated variables together (e.g., recession) → shows combined macro impact.
+- *Monte Carlo:* assign probability distributions to each variable → run thousands of simulations → produce a full IRR distribution → tells you "probability IRR falls below X%". ⚠️ Most commonly omitted within sensitivity analysis.
 
 ---
 
