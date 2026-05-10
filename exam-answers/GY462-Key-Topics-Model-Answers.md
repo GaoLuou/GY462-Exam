@@ -109,7 +109,7 @@ Operating cost + Rental growth are most controllable and should take precedence 
 **3. Sensitivity Analysis** — three forms:
 - *Stress testing:* change one variable at a time → identifies which variable matters most.
 - *Scenario analysis:* change correlated variables together (e.g., recession) → shows combined macro impact.
-- *Monte Carlo:* assign probability distributions to each variable → run thousands of simulations → produce a full IRR distribution → tells you "probability IRR falls below X%". ⚠️ Most commonly omitted within sensitivity analysis.
+- *Monte Carlo:* gives each variable a probability range, simulates thousands of times, and produces a full distribution of outcomes. ⚠️ Most commonly omitted within sensitivity analysis.
 
 ---
 
