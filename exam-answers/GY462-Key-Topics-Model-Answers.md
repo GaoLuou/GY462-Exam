@@ -57,9 +57,13 @@
 
 2. **Terminal value:** resale price = largest single cash flow, but depends entirely on exit cap rate and market at time of sale → least controllable.
 
-3. **Rental growth:** rent reviews + market upswing → NOI increases each period → asset value compounds over the holding period.
+3. **Rental growth:** rent reviews reset rents to market level → NOI rises each period → asset value rises directly (Value = NOI ÷ Cap Rate, so every £1 NOI increase = £1/Cap Rate gain in value).
 
-**Priority:** Operating cost + Rental growth > Terminal value. Resale price is anchored to NOI; relying on market timing adds risk without adding control.
+**Priority / Ranking:**
+- **Most controllable → act first:** Operating cost (reduce costs) + Rental growth (active management of rent reviews) — both are within the investor's influence and directly raise NOI.
+- **Least controllable → do not rely on:** Terminal value — depends entirely on exit cap rate and market conditions at time of sale; betting on market timing adds risk without adding control.
+
+Operating cost + Rental growth are most controllable and should take precedence over Terminal value, which depends on market timing.
 
 ---
 
