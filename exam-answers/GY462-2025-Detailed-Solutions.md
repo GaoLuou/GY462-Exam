@@ -91,14 +91,14 @@ Direct real estate is structurally illiquid for four reasons:
 
 Leverage amplifies equity returns through the **WACC identity** (Lecture 3):
 
-$$r_E = r_P + (r_P - r_D) \cdot \frac{D}{E}$$
+r_E = r_P + (r_P − r_D) × (D/E)
 
 **Condition for positive leverage: r_P > r_D (property return exceeds cost of debt).**
 
 When this holds, the spread (r_P − r_D) is positive, and multiplying it by D/E > 0 boosts equity return above the unlevered property return.
 
 **Example (Lecture 3):** Property £100, LTV = 80%, r_P = 12%, r_D = 10%:
-$$r_E = 12\% + (12\% - 10\%) \times \frac{80}{20} = 12\% + 8\% = 20\%$$
+r_E = 12% + (12% − 10%) × (80/20) = 12% + 8% = **20%**
 
 Leverage turns a 12% unlevered return into a 20% equity return. The higher the D/E ratio, the stronger the amplification.
 
@@ -128,7 +128,7 @@ D/E（杠杆率）越高，放大效果越强——无论方向。
 The main cost of leverage beyond explicit interest is **risk — specifically, equity bears the first loss.**
 
 From the WACC formula:
-$$r_E = r_P + (r_P - r_D) \cdot \frac{D}{E}$$
+r_E = r_P + (r_P − r_D) × (D/E)
 
 When r_P turns negative (falling asset values), the formula amplifies losses by exactly the same D/E multiple. Debt holders collect fixed interest regardless of performance; any decline in property value is absorbed entirely by equity first.
 
@@ -385,7 +385,7 @@ The Promote (also called Carried Interest) is the GP's share of profits above th
 ### Standard Answer
 
 **IO monthly payment** (rate = 5.5% p.a., i = 5.5%/12 = 0.4583%):
-$$PMT_{IO} = £750{,}000 \times 0.4583\% = \mathbf{£3{,}437.50/month}$$
+**→ PMT_IO = £750,000 × 0.4583% = £3,437.50/month**
 Last payment = £3,437.50 + £750,000 (balloon repayment) = **£753,437.50**
 
 IO characteristic: balance never falls — £750,000 outstanding throughout the 25-year term.
@@ -410,7 +410,7 @@ IO（Interest Only）纯息贷款：每月只还利息，到期（第300期）�
 
 Calculator: 300 N | 4.9 I/Y | 750,000 +/− PV | 0 FV → **CPT PMT = £4,340.84**
 
-$$\boxed{PMT_{CPM} = £4{,}340.84/month \text{ (fixed for all 25 years)}}$$
+**→ PMT_CPM = £4,340.84/month (fixed for all 25 years)**
 
 Unlike IO, each payment includes both interest and principal repayment, with the principal share growing over time.
 
@@ -459,21 +459,21 @@ Lower risk → lower risk premium → lower stated rate.
 **CAM** (rate = 4.5% p.a., i = 4.5%/12 = **0.375%**, N = 300)
 
 Fixed principal repayment each period:
-$$AMORT_{monthly} = \frac{750{,}000}{300} = £2{,}500$$
+Monthly principal = £750,000 / 300 = **£2,500** (fixed every period)
 
-$$PMT_t = i \cdot BAL_{t-1} + £2{,}500$$
+PMT_t = monthly rate × BAL_(t-1) + £2,500
 
 **Period 1:**
-$$Interest_1 = £750{,}000 \times 0.375\% = £2{,}812.50$$
-$$\boxed{PMT_1 = £2{,}812.50 + £2{,}500 = £5{,}312.50}$$
+Interest_1 = £750,000 × 0.375% = £2,812.50
+**→ PMT_1 = £2,812.50 + £2,500 = £5,312.50**
 
 **Period 12** (11 periods already amortised = £27,500; BAL₁₁ = £722,500):
-$$Interest_{12} = £722{,}500 \times 0.375\% = £2{,}709.38$$
-$$\boxed{PMT_{12} = £2{,}709.38 + £2{,}500 = £5{,}209.38}$$
+Interest_12 = £722,500 × 0.375% = £2,709.38
+**→ PMT_12 = £2,709.38 + £2,500 = £5,209.38**
 
 **Period 300** (299 periods amortised = £747,500; BAL₂₉₉ = £2,500):
-$$Interest_{300} = £2{,}500 \times 0.375\% = £9.38$$
-$$\boxed{PMT_{300} = £9.38 + £2{,}500 = £2{,}509.38}$$
+Interest_300 = £2,500 × 0.375% = £9.38
+**→ PMT_300 = £9.38 + £2,500 = £2,509.38**
 
 Payments decline linearly from £5,312.50 to £2,509.38 as the balance falls.
 
@@ -503,7 +503,7 @@ At any given month, the bank's exposure under CAM < exposure under CPM < exposur
 
 Therefore: **risk_{CAM} < risk_{CPM} < risk_{IO}** → **rate_{CAM} < rate_{CPM} < rate_{IO}**
 
-$$\boxed{4.5\% < 4.9\% < 5.5\%}$$
+**→ 4.5% < 4.9% < 5.5%**
 
 ---
 
@@ -571,7 +571,7 @@ CPM monthly payment = £4,340.84 (rate 4.9%, N = 300).
 
 CF Worksheet: CF0 = −742,500; C01 = 4,340.84 (F01 = 300); CPT IRR × 12:
 
-$$\boxed{ECB_{maturity} \approx 5.006\%}$$
+**→ ECB_maturity ≈ 5.006%**
 
 **Case 2: Repaid after 10 years (month 120)**
 
@@ -580,13 +580,13 @@ Final CF = £4,340.84 + £552,554.93 = £556,895.77
 
 CF0 = −742,500; C01 = 4,340.84 (F01 = 119); C02 = 556,895.77 (F02 = 1):
 
-$$\boxed{ECB_{10yr} \approx 5.043\%}$$
+**→ ECB_10yr ≈ 5.043%**
 
 **Case 3: Repaid after 5 years (month 60)**
 
 BAL₆₀ ≈ **£663,286.58**; Final CF = £667,627.42
 
-$$\boxed{ECB_{5yr} \approx 5.140\%}$$
+**→ ECB_5yr ≈ 5.140%**
 
 | Repayment horizon | ECB |
 |-------------------|-----|
@@ -666,7 +666,7 @@ C04 = 4,365.52 + 552,042.89 = 556,408.41  F04 = 1
 CPT IRR × 12
 ```
 
-$$\boxed{ECB_{ARM} \approx 4.980\%}$$
+**→ ECB_ARM ≈ 4.980%**
 
 **vs CPM held to 10 years (Q2g): 5.043%** — ARM is slightly cheaper (≈6 bps) because the Stage 2 rate dip (4.5%) saves interest cost, partially offset by Stage 3 rising to 5.0%.
 
