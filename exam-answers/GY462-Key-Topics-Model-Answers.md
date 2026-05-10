@@ -140,22 +140,19 @@ Operating cost + Rental growth are most controllable and should take precedence 
 
 yE = (yP − LTV × yD) / (1 − LTV)
 
-yP > yD → positive leverage → equity return (yE) > property return (yP).
-yP < yD → negative leverage → yE < yP; leverage destroys value.
-Break-Even Interest Rate (BEIR) = unlevered IRR: borrow below BEIR → yE rises; borrow above → yE falls.
+- yP > yD → positive leverage → equity return amplified above unlevered IRR.
+- yP < yD → negative leverage → equity return falls below unlevered IRR.
+- Break-even: yP = yD (the BEIR).
 
 **Effect on Risk:**
 
-RPE = RPD + LR × (RPP − RPD),  where LR = 1/(1 − LTV)
+RPE = (RPP − LTV × RPD) / (1 − LTV)
 
-Higher LTV → LR increases → equity risk premium scales up by the same multiple as equity return.
-Extra levered return = proportionally higher equity risk; no free lunch.
+Same structure as the return equation — replacing yields with risk premiums. Higher LTV amplifies both equity return and equity risk proportionally. The extra return is compensation for higher risk; leverage does not create free returns.
 
 **Effect on Cash Flow:**
 
-Debt service paid each period → cash flow available to equity decreases.
-IO: principal stays at full amount throughout → cash flow risk persists until exit.
-CPM: outstanding balance falls each period → lender's exposure shrinks → investor's cash flow risk decreases over time.
+Debt service is paid each period → cash flow available to equity decreases. If asset value falls, equity absorbs the loss first — debt holders collect fixed interest regardless of performance.
 
 ---
 
