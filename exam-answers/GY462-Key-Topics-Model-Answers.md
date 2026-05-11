@@ -558,7 +558,7 @@ PGI（满租收入）
 
 Fisher equation: (1 + r_nominal) = (1 + r_real) × (1 + π)
 
-π↑ → nominal rate rises → CPM monthly payment rises sharply (e.g., doubles at π = 6%, r_real = 4%). Payment is fixed in nominal terms but its real value falls each year — so the real burden is front-loaded: highest in Year 1 when income is lowest. Result: borrower fails the Day-1 qualification test, even if the loan is affordable over the full term.
+π↑ → nominal rate rises → CPM monthly payment set at origination is sharply higher (e.g., doubles at π = 6%, r_real = 4%). Payment is fixed in nominal terms but its real value falls each year — so the real burden is front-loaded: highest in Year 1 when income is lowest. Result: borrower fails the Day-1 qualification test, even if the loan is affordable over the full term.
 
 **GPM (Graduated Payment Mortgage) — fixed rate, rising payments:**
 
