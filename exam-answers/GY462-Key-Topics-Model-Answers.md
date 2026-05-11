@@ -323,7 +323,7 @@ The shortcut serves as initial screening; full DCF is the standard for final inv
 
 Three primary risks: (1) cost overrun — construction costs exceed budget; (2) time overrun — delays increase interim loan costs; (3) contractor default — builder becomes insolvent mid-project.
 
-Contract choice determines who bears each risk: 🟢 Distinction
+Contract structures vary in how much risk the developer keeps versus how much is transferred to the funder. Contract choice determines who bears each risk: 🟢 Distinction
 
 | Contract | Developer bears | Investor/Funder bears |
 |---------|----------------|----------------------|
