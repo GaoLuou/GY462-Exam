@@ -376,25 +376,23 @@ Forward Commitment：开发商提前锁定买家 → 更易获得建设融资；
 
 ### Model Answer (English)
 
-**Without Secondary Market:**
-Originator holds loans on balance sheet → capital tied up → new lending capacity decreases → mortgage market grows slowly.
+**Without secondary market:** banks hold loans on balance sheet → cash is locked up → cannot lend more → mortgage market grows slowly.
 
-**With Secondary Market:**
-Originator sells loans to GSE or private conduit → capital recycled → new lending capacity increases → prepayment risk transferred to MBS investors (GSEs absorb default/credit risk through their guarantee).
+**With secondary market:** banks sell loans to GSEs (e.g., Fannie Mae) → cash recycled → banks can keep lending → mortgage market scales up. Prepayment risk shifts from banks to MBS investors (GSEs absorb default/credit risk through their guarantee).
 
-GSEs and conduits use two mechanisms: **Cash programme** — GSE pays cash for the loans, then issues MBS itself. **Swap programme** — GSE exchanges MBS directly for the bank's mortgages, letting the bank sell or hold the MBS. Both recycle capital and scale up the secondary market.
+Two mechanisms: **Cash programme** — GSE pays cash for the loans, then issues MBS itself. **Swap programme** — GSE exchanges MBS directly for the bank's mortgages, letting the bank sell or hold the MBS.
 
-To create predictable cash flows, loans are pooled into **homogeneous** groups — similar in financial terms (rate, maturity, LTV) and structural terms (loan type, property type). Homogeneity reduces variation in prepayment behaviour, making the pool's cash flows predictable enough to price and sell to investors.
+**Pooling:** loans must be homogeneous — similar in financial terms (rate, maturity, LTV) and structural terms (loan type, property type) — so the pool's cash flows are predictable enough to price and sell to investors.
 
-**Prepayment risk** is the key concept: when rates fall, borrowers prepay early → investors receive principal back at the worst time (when reinvestment rates are low) → interest income decreases. The three MBS types differ only in who bears this risk:
+**Prepayment risk:** when interest rates fall, borrowers refinance early → investors get principal back when reinvestment rates are low → they lose expected interest income. The three MBS types differ in who bears this risk:
 
-| Security | Over-collateralised? | Who bears prepayment risk? |
-|---------|---------------------|---------------------------|
-| **MBB** | Yes | Issuer → investor gets fixed coupon regardless of prepayments |
-| **Pass-Through** | No | Investor → receives actual cash flows pro-rata |
-| **CMO** | Tranched | Split: senior tranche bears least → lower yield; junior tranche bears most → higher yield |
+| Security | Who bears prepayment risk? |
+|---------|---------------------------|
+| **MBB** | Issuer — investors get fixed coupon regardless of prepayments |
+| **Pass-Through** | Investors — receive actual cash flows pro-rata |
+| **CMO** | Split into tranches: senior bears least (lower yield); junior bears most (higher yield) |
 
-CMO allows investors with different risk preferences to self-select: senior investors sacrifice yield for prepayment protection; junior investors accept prepayment risk in exchange for higher yield.
+CMO lets different investors self-select risk: pension funds buy senior for stability; hedge funds buy junior for yield.
 
 No calculation questions will be set on MBS.
 
